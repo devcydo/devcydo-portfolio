@@ -4,12 +4,15 @@
 			faEnvelope, faAddressCard, faFilePdf, faGraduationCap, faAward, faCalendar, faArrowRight, faLaptopCode} from '@fortawesome/free-solid-svg-icons';
 	import { faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 	import { FontAwesomeIcon } from 'fontawesome-svelte';
-
+	//Import lang
+	import en from '../public/lang/en.json'
+	import es from '../public/lang/es.json'
 	//Custom components
 	import SkillAccordion from './components/SkillAccordion.svelte'
 	import ExperienceContent from './components/ExperienceContent.svelte'
 	import SwiperComponent from './components/SwiperComponent.svelte'
 	import ContactCard from './components/ContactCard.svelte'
+	import { onMount } from 'svelte';
 	//General icons
 	library.add(faBars);
 	library.add(faGlobe);
@@ -31,10 +34,54 @@
 	//Brand Icons
 	library.add(faGithubSquare);
 	library.add(faLinkedin);
+	/* Lang */
+	let _lang = "en"
+
+	onMount(()=>{
+		try {
+			let lang = localStorage.getItem("lang")
+			_lang = lang
+			if(!lang) throw "no-data"
+		} catch (error) {
+			localStorage.setItem("lang", "en")
+			_lang = "en"
+		}
+	})
+	
+	let lang = localStorage.getItem("lang")
+	if(lang === "es") lang = es
+	else lang = en
 
 	/* == OFF CANVAS MENU  == */
 	let toggleMenu = ''
 	let tabTarget = 'education'
+
+	let category4 = [
+		lang.skills.category4_options.option1,
+		lang.skills.category4_options.option2,
+	]
+
+	let category5 = [
+		lang.skills.category5_options.option1,
+		lang.skills.category5_options.option2,
+		lang.skills.category5_options.option3,
+		lang.skills.category5_options.option4,
+		lang.skills.category5_options.option5,
+		lang.skills.category5_options.option6
+	]
+
+	function reload() {
+		try {
+			let lang = localStorage.getItem("lang");
+			if (!lang) throw "no-data";
+			if (lang === "en") localStorage.setItem("lang", "es");
+			else localStorage.setItem("lang", "en");
+		} catch (error) {
+			localStorage.setItem("lang", "en");
+		}
+		window.location.reload();
+	}
+
 </script>
 
 <header class="header" id="header">
@@ -51,8 +98,8 @@
 			<div class="dropdown ">
 				<FontAwesomeIcon icon="globe" class="dropdown_logo"/>
 				<div class="dropdown_content">
-					<button>English</button>
-					<button>Spanish</button>
+					<button on:click={reload}>{lang.lang.spanish}</button>
+					<button on:click={reload}>{lang.lang.english}</button>
 				</div>
 			</div>
 
@@ -74,7 +121,7 @@
 						on:click="{() => toggleMenu = ''}" 
 						href="#home" class="nav_link"
 					>
-						<FontAwesomeIcon icon="home"/> Home
+						<FontAwesomeIcon icon="home"/> {lang.menu.home}
 					</a>
 				</li>
 				<li class="nav_item">
@@ -82,7 +129,7 @@
 						on:click="{() => toggleMenu = ''}" 
 						href="#aboutme" class="nav_link"
 					>
-						<FontAwesomeIcon icon="user"/> About me
+						<FontAwesomeIcon icon="user"/> {lang.menu.about_me}
 					</a>
 				</li>
 				<li class="nav_item">
@@ -90,7 +137,7 @@
 						on:click="{() => toggleMenu = ''}" 
 						href="#skills" class="nav_link"
 					>
-						<FontAwesomeIcon icon="laptop-code"/> Skills
+						<FontAwesomeIcon icon="laptop-code"/> {lang.menu.skills}
 					</a>
 				</li>
 				<li class="nav_item">
@@ -98,7 +145,7 @@
 						on:click="{() => toggleMenu = ''}" 
 						href="#experience" class="nav_link"
 					>
-						<FontAwesomeIcon icon="file-alt"/> Experience
+						<FontAwesomeIcon icon="file-alt"/> {lang.menu.experience}
 					</a>
 				</li>
 				<li class="nav_item">
@@ -106,7 +153,7 @@
 						on:click="{() => toggleMenu = ''}" 
 						href="#portfolio" class="nav_link"
 					>
-						<FontAwesomeIcon icon="briefcase"/> Projects
+						<FontAwesomeIcon icon="briefcase"/> {lang.menu.projects}
 					</a>
 				</li>
 				<li class="nav_item">
@@ -114,7 +161,7 @@
 						on:click="{() => toggleMenu = ''}" 
 						href="#contactme" class="nav_link"
 					>
-						<FontAwesomeIcon icon="paper-plane"/> Contact me
+						<FontAwesomeIcon icon="paper-plane"/> {lang.menu.contact_me}
 					</a>
 				</li>
 			</ul>
@@ -128,7 +175,7 @@
 		<div class="home_container container grid">
 			<div class="home_content grid">
 				<div class="home_social">
-					<a href="mailto: devcydo@gmail.com" target="_blank" class="home_social_icon">
+					<a href="mailto: devcydo@raccoonsolutions.net" target="_blank" class="home_social_icon">
 						<FontAwesomeIcon icon='envelope'/>	
 					</a>
 
@@ -147,13 +194,13 @@
 
 				<div class="home_data">
 					<h1 class="home_title">
-						Hi, I am 
-						<span class="home_title_color">Luis Eduardo Martínez Morales</span>
+						{lang.home.greeting}
+						<span class="home_title_color">{lang.home.name}</span>
 					</h1>
-					<h3 class="home_subtitle">Fullstack developer and cybersecurity enthusiast</h3>
+					<h3 class="home_subtitle">{lang.home.description}</h3>
 					
 					<a href="#contactme" class="button button_flex button_home">
-						Contact me &nbsp<FontAwesomeIcon icon="address-card"/>
+						{lang.home.contact} &nbsp<FontAwesomeIcon icon="address-card"/>
 					</a>
 				</div>
 			</div>
@@ -162,42 +209,40 @@
 
 	<!-- -- ABOUT ME -- -->
 	<section class="about section" id="aboutme">
-		<h2 class="section_title">About me</h2>
-		<span class="section_subtitle">My introduction</span>
+		<h2 class="section_title">{lang.about_me.title}</h2>
+		<span class="section_subtitle">{lang.about_me.subtitle}</span>
 
 		<div class="aboutme_container container grid">
 
 			<div class="aboutme_data">
 				<p class="aboutme_description">
-					I am currently a 9th semester student of the Computer Systems Engineering career at Tecnológico Nacional de México, Campus Morelia (also known
-					as Instituto Tecnológico de Morelia) with a specialty in Information Security. I consider myself a responsible, enthusiastic and committed 
-					developer, who likes challenges and learning new things every day.
+					{lang.about_me.description}
 				</p>
 
 				<p class="aboutme_description">
-					I love to code, but also I am into cybersecurity, server configurations and pentesting. 
+					{lang.about_me.description2}
 				</p>
 
 				<div class="aboutme_info">
 					<div>
-						<span class="aboutme_info_title">22</span>
-						<span class="about_info_name">Years <br> old</span>
+						<span class="aboutme_info_title">{lang.about_me.age_description}</span>
+						<span class="about_info_name">{lang.about_me.age_title1} <br> {lang.about_me.age_title2}</span>
 					</div>
 
 					<div>
-						<span class="aboutme_info_title">MX</span>
-						<span class="about_info_name">Nacionality</span>
+						<span class="aboutme_info_title">{lang.about_me.nacionality_description}</span>
+						<span class="about_info_name">{lang.about_me.nacionality_title}</span>
 					</div>
 
 					<div>
-						<span class="aboutme_info_title">Python</span>
-						<span class="about_info_name">In love <br> with</span>
+						<span class="aboutme_info_title">{lang.about_me.inlove_description}</span>
+						<span class="about_info_name">{lang.about_me.inlove_title1} <br> {lang.about_me.inlove_title2}</span>
 					</div>
 				</div>
 
 				<div class="aboutme_buttons">
 					<a href="./pdf/Practica3.pdf" target="_blank" class="button button_flex">
-						View CV &nbsp<FontAwesomeIcon icon="file-pdf"/>
+						{lang.about_me.cv} &nbsp<FontAwesomeIcon icon="file-pdf"/>
 					</a>
 				</div>
 			</div>
@@ -206,40 +251,40 @@
 
 	<!-- -- SKILLS -- -->
 	<section class="skills section" id="skills">
-		<h2 class="section_title">Skills</h2>
-		<span class="section_subtitle">My technical skills and interests</span>
+		<h2 class="section_title">{lang.skills.title}</h2>
+		<span class="section_subtitle">{lang.skills.subtitle}</span>
 
 		<div class="skills_container container grid">
 
 			<SkillAccordion
-				skillName = 'Programming Languages'
+				skillName = {lang.skills.category1}
 				skills = {['Javascript','Python','PHP','SQL','C/C++','C#','Java','Kotlin','Assembly (8086)']}
 				icon = 'code'
 			/>
 
 			<SkillAccordion
-				skillName = 'Development Technologies'
-				skills = {['Laravel','React','React Native','Svelte', 'Node JS','MySQL','MariaDB','SQL Server',
+				skillName = {lang.skills.category2}
+				skills = {['Laravel','React/React Native','Redis','Svelte', 'Node JS','MySQL','MariaDB','SQL Server',
 							'PostgreSQL','Ajax','Bootstrap','UIkit']}
 				icon = 'server'
 			/>
 
 			<SkillAccordion
-				skillName = 'Other Technologies'
-				skills = {['Git','Virtualization','Docker','Windows/Windows Server','Linux','Microsoft Office']}
+				skillName = {lang.skills.category3}
+				skills = {['Git','Docker','Windows/Windows Server','Linux','Microsoft Office', 'Cisco Packet Tracer', 'VmWare Workstation / VmWare Esxi', 'VirtualBox',
+							'XenServer', 'KVM', 'Hyper-V']}
 				icon = 'ellipsis-h'
 			/>
 
 			<SkillAccordion
-				skillName = 'Languages'
-				skills = {['Spanish (First language)','English (Advanced)']}
+				skillName = {lang.skills.category4}
+				skills = {category4}
 				icon = 'language'
 			/>
 
 			<SkillAccordion
-				skillName = 'Personal interests'
-				skills = {['Cybersecurity','Operative Systems','Server configurations', 'Databases', 'Virtualization', 
-							'Containers (Docker / Kubernetes)']}
+				skillName = {lang.skills.category5}
+				skills = {category5}
 				icon = 'eye'
 			/>
 		</div>
@@ -247,8 +292,8 @@
 
 	<!-- -- Experience -- -->
 	<section class="experience section" id="experience">
-		<h2 class="section_title">Experience</h2>
-		<span class="section_subtitle">What I've been doing</span>
+		<h2 class="section_title">{lang.experience.title}</h2>
+		<span class="section_subtitle">{lang.experience.subtitle}</span>
 
 		<div class="experience_container container">
 			<div class="experience_tabs">
@@ -257,7 +302,7 @@
 					class="experience_button button_flex {tabTarget == 'education' ? 'experience_active' : ''}" data-target='#education'	
 				>
 					<FontAwesomeIcon icon="graduation-cap" class="experience_icon"/>
-					Education
+					{lang.experience.tab1}
 				</div>
 
 				<div 
@@ -265,7 +310,7 @@
 					class="experience_button button_flex {tabTarget == 'work' ? 'experience_active' : ''}" data-target="#work"
 				>
 					<FontAwesomeIcon icon="briefcase" class="experience_icon"/>
-					Work
+					{lang.experience.tab2}
 				</div>
 				
 				<div 
@@ -273,7 +318,7 @@
 					class="experience_button button_flex {tabTarget == 'courses' ? 'experience_active' : ''}" data-target="#courses"
 				>
 					<FontAwesomeIcon icon="award" class="experience_icon"/>
-					 Courses
+					{lang.experience.tab3}
 				</div>
 			</div>
 
@@ -283,17 +328,17 @@
 					type = 'education'
 					info = {[
 						{
-							'name':'Computer Systems Engineering',
-							'school': 'Tecnológico Nacional de México, Campus Morelia',
+							'name':	lang.experience.tab1_info.info1_title,
+							'school': lang.experience.tab1_info.info1_description,
 							'desc': '',
-							'date': 'Aug 2017 - Today'
+							'date': lang.experience.tab1_info.info1_date
 						},
 						{
-							'name':'Information Security (Degree specialty)',
-							'school': 'Tecnológico Nacional de México, Campus Morelia',
+							'name':	lang.experience.tab1_info.info2_title,
+							'school': lang.experience.tab1_info.info2_description,
 							'desc': '',
-							'date': 'Aug 2020 - Today'
-						}
+							'date': lang.experience.tab1_info.info2_date
+						},
 					]}
 				/>
 
@@ -302,16 +347,16 @@
 					type = 'work'
 					info = {[
 						{
-							'name':'Fullstack developer',
-							'school': 'Freelancer',
-							'desc': 'I helped to develop a CRM software for a construction company',
-							'date': 'Apr 2021 - Sep 2021'
+							'name':	lang.experience.tab2_info.info1_title,
+							'school': lang.experience.tab2_info.info1_subtitle,
+							'desc': lang.experience.tab2_info.info1_description,
+							'date': lang.experience.tab2_info.info1_date
 						},
 						{
-							'name':'Backend developer',
-							'school': 'INII Inversiones Inmobiliarias',
-							'desc': 'Currently working on a super secret project!',
-							'date': 'Oct 2021 - Today'
+							'name':	lang.experience.tab2_info.info2_title,
+							'school': lang.experience.tab2_info.info2_subtitle,
+							'desc': lang.experience.tab2_info.info2_description,
+							'date': lang.experience.tab2_info.info2_date
 						}
 					]}
 				/>
@@ -321,23 +366,23 @@
 					type = 'courses'
 					info = {[
 						{
-							'name':'Introduction to Cybersecurity',
-							'school': 'Cisco Networking Academy',
+							'name':	lang.experience.tab3_info.info1_title,
+							'school': lang.experience.tab3_info.info1_description,
 							'desc': '',
-							'date': 'Nov 2020 - Dec 2020'
+							'date': lang.experience.tab3_info.info1_date
 						},
 						{
-							'name':'Basic principles of routing and switching',
-							'school': 'Cisco Networking Academy',
+							'name':	lang.experience.tab3_info.info2_title,
+							'school': lang.experience.tab3_info.info2_description,
 							'desc': '',
-							'date': 'Aug 2020 - Feb 2021'
+							'date': lang.experience.tab3_info.info2_date
 						},
 						{
-							'name':'CCNA Routing and Switching: Scaling Networks',
-							'school': 'Cisco Networking Academy',
+							'name':	lang.experience.tab3_info.info3_title,
+							'school': lang.experience.tab3_info.info3_description,
 							'desc': '',
-							'date': 'Aug 2020 - Feb 2021'
-						}
+							'date': lang.experience.tab3_info.info3_date
+						},
 					]}
 				/>
 			</div>
@@ -346,27 +391,27 @@
 
 	<!-- -- PORTFOLIO -- -->
 	<section class="portfolio section" id="portfolio">
-		<h2 class="section_title">Projects</h2>
-		<span class="section_subtitle">Take a look at some of my work!</span>
+		<h2 class="section_title">{lang.projects.title}</h2>
+		<span class="section_subtitle">{lang.projects.subtitle}</span>
 
 		<div class="portfolio_container container">
 			<SwiperComponent
 				slides = {[
 					{
-						'title': 'AQUATA',
-						'description': 'Begin as a school project and turned into a real solution. My team and I developed a CRM Software for a real client that owns a trout farm, he needed a digital tool that helped him to manage the incomes, expenses, sales, ponds and stages of his trouts.',
-						'route': './img/portfolio/blueprint.png',
+						'title': lang.projects.project1.title,
+						'description': lang.projects.project1.description,
+						'route': './img/portfolio/eltepetate.png',
 						'link': ''
 					},
 					{
-						'title': 'Maestría en Ingeniería Administrativa',
-						'description': "Informative website about the master's degree in administrative engineering of the Instituto Tecnológico de Morelia ",
+						'title': lang.projects.project2.title,
+						'description': lang.projects.project2.description,
 						'route': './img/portfolio/mia.jpg',
-						'link': ''
+						'link': 'https://www.morelia.tecnm.mx/mia/'
 					},
 					{
-						'title': 'INII Inversiones Inmobiliarias',
-						'description': 'Actually working on a super secret project that will be anounced soon!',
+						'title': lang.projects.project3.title,
+						'description': lang.projects.project3.description,
 						'route': './img/portfolio/inii.jpg',
 						'link': ''
 					}
@@ -376,29 +421,29 @@
 	</section>
 
 	<section class="contactme section" id="contactme">
-		<h2 class="section_title">Contact me!</h2>
-		<span class="section_subtitle">Get in touch with me by any of these social media</span>
+		<h2 class="section_title">{lang.contact_me.title}</h2>
+		<span class="section_subtitle">{lang.contact_me.subtitle}</span>
 
 		<div class="contactme_container container">
 			<div class="contactme_content grid">
 				<ContactCard
-					title = 'Location'
-					description = 'Morelia, Mich.'
+					title = {lang.contact_me.card1.title}
+					description = {lang.contact_me.card1.description}
 					icon = 'home'
 				/>
 				<ContactCard
-					title = 'Mail'
-					description = 'devcydo@gmail.com'
+					title = {lang.contact_me.card2.title}
+					description = {lang.contact_me.card2.description}
 					icon = 'envelope'
 				/>
 				<ContactCard
-					title = 'LinkedIn'
-					description = 'https://www.linkedin.com/in/devcydo'
+					title = {lang.contact_me.card3.title}
+					description = {lang.contact_me.card3.description}
 					icon = 'linkedin'
 				/>
 				<ContactCard
-					title = 'Github'
-					description = 'https://github.com/devcydo'
+					title = {lang.contact_me.card4.title}
+					description = {lang.contact_me.card4.description}
 					icon = 'github-square'
 				/>
 			</div>
@@ -409,12 +454,12 @@
 	<!-- -- COOL FOOTER -- -->
 	<footer class="footer section">
 		<div class="footer_container bd-grid">
-			<h1 class="footer_title">Luis Eduardo Martinez Morales</h1>
-			<p class="footer_description">Devcydo personal portfolio</p>
-			<p class="footer_description">Developed with Svelte</p>
+			<h1 class="footer_title">{lang.footer.name}</h1>
+			<p class="footer_description">{lang.footer.description1}</p>
+			<p class="footer_description">{lang.footer.description2}</p>
 
 			<div class="footer_social">
-				<a href="mailto: devcydo@gmail.com" class="footer_link">
+				<a href="mailto: devcydo@raccoonsolutions.net" class="footer_link">
 					<FontAwesomeIcon icon="envelope"/>
 				</a>
 				<a href="https://www.linkedin.com/in/devcydo" class="footer_link">

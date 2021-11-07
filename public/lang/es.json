@@ -1,20 +1,133 @@
 {
+    "lang": {
+        "spanish": "Español",
+        "english": "Inglés"
+    },
+    "menu": {
+        "home": "Inicio",
+        "about_me": "Acerca de mi",
+        "skills": "Habilidades",
+        "experience": "Experiencia",
+        "projects": "Proyectos",
+        "contact_me": "Contáctame"
+    },
     "home": {
-        "topic": "Tutorial localizacion svelte",
-        "subtopic": "Intenacionalizacion y localizacion"
+        "greeting": "Hola, yo soy",
+        "name": "Luis Eduardo Martínez Morales",
+        "description": "Desarrollador fullstack y entusiasta de la ciberseguridad",
+        "contact": "Contáctame"
     },
-    "header": {
-        "home": "Home",
-        "contact": "Contact Us",
-        "about": "About"
+    "about_me": {
+        "title": "Acerca de mi",
+        "subtitle": "Introducción",
+        "description": "Actualmente curso el 9no semestre de la carrera de Ingeniería en Sistemas Computacionales en el Tecnológico Nacional de México, Campus Morelia (también conocido como Instituto Tecnológico de Morelia) con especialidad en Seguridad de la Información. Me considero una persona responsable, entusiasta y comprometida, a quien le gustan los retos y aprender nuevas cosas todos los dias.",
+        "description2": "Me encanta programar, la ciberseguridad, administrar servidores y el pentesting.",
+        "age_title1": "Años",
+        "age_title2": "",
+        "age_description": "22",
+        "nacionality_title": "Nacionalidad",
+        "nacionality_description": "MX",
+        "inlove_title1": "Enamorado",
+        "inlove_title2": "con",
+        "inlove_description": "Python",
+        "cv": "Ver CV"
     },
-    "framework": {
-        "languages": "There {n, plural, =0 {are no languages} one {# is one languages} other {# are several languages}} in this tutorial",
-        "rtl": "{n, plural, =0 {No languages are} one {# Only one language is} other {# Several languages are}} written from left to right ",
-        "released_at": "Released {date}"
+    "skills": {
+        "title": "Habilidades",
+        "subtitle": "Habilidades técnicas e intereses",
+        "category1": "Lenguajes de programación",
+        "category2": "Tecnologías de desarrollo",
+        "category3": "Otras tecnologías",
+        "category4": "Idiomas",
+        "category5": "Intereses personales",
+        "category4_options": {
+            "option1": "Español (Idioma nativo)",
+            "option2": "Inglés (Avanzado)"
+        },
+        "category5_options": {
+            "option1": "Ciberseguridad",
+            "option2": "Sistemas operativos",
+            "option3": "Configuración de servidores",
+            "option4": "Bases de datos",
+            "option5": "Virtualización",
+            "option6": "Contenedores (Dockers / Kubernetes)"
+        }
+    },
+    "experience": {
+        "title": "Experiencia",
+        "subtitle": "Qué he hecho",
+        "tab1": "Educación",
+        "tab2": "Trabajo",
+        "tab3": "Cursos",
+        "tab1_info": {
+            "info1_title": "Ingeniería en Sistemas Computacionales",
+            "info1_description": "Tecnológico Nacional de México, Campus Morelia",
+            "info1_date": "Ago 2017 - Hoy",
+            "info2_title": "Seguridad de la información (Especialidad de la carrera)",
+            "info2_description": "Tecnológico Nacional de México, Campus Morelia",
+            "info2_date": "Ago 2020 - Hoy"
+        },
+        "tab2_info": {
+            "info1_title": "Desarrollador Fullstack",
+            "info1_subtitle": "Freelancer",
+            "info1_description": "Ayudé a desarrollar un sistema CRM para una compañia constructora",
+            "info1_date": "Abr 2021 - Sep 2021",
+            "info2_title": "Desarrollador Backend",
+            "info2_subtitle": "INII Inversiones Inmobiliarias",
+            "info2_description": "Trabajando en un proyecto super secreto!",
+            "info2_date": "Oct 2021 - Hoy"
+        },
+        "tab3_info": {
+            "info1_title": "Introduction a la seguridad cibernética",
+            "info1_description": "Cisco Networking Academy",
+            "info1_date": "Nov 2020 - Dic 2020",
+            "info2_title": "CCNA Routing and Switching: Principios básicos de routing y switching",
+            "info2_description": "Cisco Networking Academy",
+            "info2_date": "Ago 2020 - Feb 2021",
+            "info3_title": "CCNA Routing and Switching: Escalamiento de redes",
+            "info3_description": "Cisco Networking Academy",
+            "info3_date": "Ago 2020 - Feb 2021"
+        }
+    },
+    "projects":{
+        "title": "Proyectos",
+        "subtitle": "Explora algunos de mis proyectos",
+        "project1": {
+            "title": "AQUATA",
+            "description": "Comenzó como un proyecto escolar y se convirtió en una solución real. Mi equipo y yo desarrollamos un sistema CRM para un cliente real que es dueño de una granja trutícola, necesitaba una herramienta digital que lo ayudara a administrar los ingresos, gastos, ventas, estanques y etapas de sus truchas."
+        },
+        "project2": {
+            "title": "Maestría en Ingeniería Administrativa",
+            "description": "Página web informativa acerca del posgrado en Ingeniería Administrativa que se ofrece en el Instituto Tecnológico de Morelia."
+        },
+        "project3": {
+            "title": "INII Inversiones Inmobiliarias",
+            "description": "Actualmente trabajando en un proyecto super secreto que será anunciado muy pronto!"
+        }
+    },
+    "contact_me":{
+        "title": "Contáctame",
+        "subtitle": "Pónte en contacto conmigo para recibir un CV más personal",
+        "card1": {
+            "title": "Ubicación",
+            "description": "Morelia, Mich."
+        },
+        "card2": {
+            "title": "Correo",
+            "description": "devcydo@raccoonsolutions.net"
+        },
+        "card3": {
+            "title": "LinkedIn",
+            "description": "https://www.linkedin.com/in/devcydo"
+        },
+        "card4": {
+            "title": "Github",
+            "description": "https://github.com/devcydo"
+        }
     },
     "footer": {
-        "line1": "Companion to a <a href=\"{phraseUrl}\">localise</a> article.",
-        "line2": "Made with <a href=\"{svelteUrl}\">Svelte</a> &amp; <a href=\"{bulmaUrl}\">Materialize</a>."
+        "name": "Luis Eduardo Martínez Morales",
+        "description1": "Portfolio personal de devcydo",
+        "description2": "Desarrollado con Svelte"
     }
 }

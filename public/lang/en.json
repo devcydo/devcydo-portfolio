@@ -1,20 +1,133 @@
 {
-    "home": {
-        "topic": "Svelte Localization Tutorial",
-        "subtopic": "Internationalization and Localization"
+    "lang": {
+        "spanish": "Spanish",
+        "english": "English"
     },
-    "header": {
+    "menu": {
         "home": "Home",
-        "contact": "Contact Us",
-        "about": "About"
+        "about_me": "About Me",
+        "skills": "Skills",
+        "experience": "Experience",
+        "projects": "Projects",
+        "contact_me": "Contact Me"
     },
-    "framework": {
-        "languages": "There {n, plural, =0 {are no languages} one {# is one languages} other {# are several languages}} in this tutorial",
-        "rtl": "{n, plural, =0 {No languages are} one {# Only one language is} other {# Several languages are}} written from left to right ",
-        "released_at": "Released {date}"
+    "home": {
+        "greeting": "Hi, I am",
+        "name": "Luis Eduardo Martínez Morales",
+        "description": "Fullstack developer and cybersecurity enthusiast",
+        "contact": "Contact Me"
+    },
+    "about_me": {
+        "title": "About me",
+        "subtitle": "My introduction",
+        "description": "I am currently a 9th semester student of the Computer Systems Engineering career at Tecnológico Nacional de México, Campus Morelia (also known as Instituto Tecnológico de Morelia) with a specialty in Information Security. I consider myself a responsible, enthusiastic and committed developer, who likes challenges and learning new things every day.",
+        "description2": "I love to code, but also I am into cybersecurity, server configurations and pentesting.",
+        "age_title1": "Years",
+        "age_title2": "old",
+        "age_description": "22",
+        "nacionality_title": "Nacionality",
+        "nacionality_description": "MX",
+        "inlove_title1": "In love",
+        "inlove_title2": "with",
+        "inlove_description": "Python",
+        "cv": "View CV"
+    },
+    "skills": {
+        "title": "Skills",
+        "subtitle": "My technical skills and interests",
+        "category1": "Programming Languages",
+        "category2": "Development Technologies",
+        "category3": "Other Technologies",
+        "category4": "Languages",
+        "category5": "Personal Interests",
+        "category4_options": {
+            "spanish": "Spanish (First language)",
+            "english": "English (Advanced)"
+        },
+        "category5_options": {
+            "option1": "Cybersecurity",
+            "option2": "Operative Systems",
+            "option3": "Server configuration",
+            "option4": "Databases",
+            "option5": "Virtualization",
+            "option6": "Containers (Dockers / Kubernetes)"
+        }
+    },
+    "experience": {
+        "title": "Experience",
+        "subtitle": "What I've done",
+        "tab1": "Education",
+        "tab2": "Work",
+        "tab3": "Courses",
+        "tab1_info": {
+            "info1_title": "Computer Systems Engineering",
+            "info1_description": "Tecnológico Nacional de México, Campus Morelia",
+            "info1_date": "Aug 2017 - Today",
+            "info2_title": "Information Security (Degree Specialty)",
+            "info2_description": "Tecnológico Nacional de México, Campus Morelia",
+            "info2_date": "Aug 2020 - Today"
+        },
+        "tab2_info": {
+            "info1_title": "Fullstack developer",
+            "info1_subtitle": "Freelancer",
+            "info1_description": "I helped to develop a CRM software for a construction company",
+            "info1_date": "Apr 2021 - Sep 2021",
+            "info2_title": "Backend developer",
+            "info2_subtitle": "INII Inversiones Inmobiliarias",
+            "info2_description": "Currently working on a top secret project!",
+            "info2_date": "Oct 2021 - Today"
+        },
+        "tab3_info": {
+            "info1_title": "Introduction to Cybersecurity",
+            "info1_description": "Cisco Networking Academy",
+            "info1_date": "Nov 2020 - Dec 2020",
+            "info2_title": "CCNA Routing and Switching: Basic principles of routing and switching",
+            "info2_description": "Cisco Networking Academy",
+            "info2_date": "Aug 2020 - Feb 2021",
+            "info3_title": "CCNA Routing and Switching: Scaling Networks",
+            "info3_description": "Cisco Networking Academy",
+            "info3_date": "Aug 2020 - Feb 2021"
+        }
+    },
+    "projects":{
+        "title": "Projects",
+        "subtitle": "Take a look at some of my work",
+        "project1": {
+            "title": "AQUATA",
+            "description": "Begin as a school project and turned into a real solution. My team and I developed a CRM Software for a real client that owns a trout farm, he needed a digital tool that helped him to manage the incomes, expenses, sales, ponds and stages of his trouts."
+        },
+        "project2": {
+            "title": "Maestría en Ingeniería Administrativa",
+            "description": "Informative website about the master's degree in administrative engineering of the Instituto Tecnológico de Morelia"
+        },
+        "project3": {
+            "title": "INII Inversiones Inmobiliarias",
+            "description": "Currently working on a super secret project that will be anounced soon!"
+        }
+    },
+    "contact_me":{
+        "title": "Contact Me",
+        "subtitle": "Get in touch with me to get a more personal resume",
+        "card1": {
+            "title": "Location",
+            "description": "Morelia, Mich."
+        },
+        "card2": {
+            "title": "Mail",
+            "description": "devcydo@raccoonsolutions.net"
+        },
+        "card3": {
+            "title": "LinkedIn",
+            "description": "https://www.linkedin.com/in/devcydo"
+        },
+        "card4": {
+            "title": "Github",
+            "description": "https://github.com/devcydo"
+        }
     },
     "footer": {
-        "line1": "Companion to a <a href=\"{phraseUrl}\">localise</a> article.",
-        "line2": "Made with <a href=\"{svelteUrl}\">Svelte</a> &amp; <a href=\"{bulmaUrl}\">Materialize</a>."
+        "name": "Luis Eduardo Martínez Morales",
+        "description1": "Devcydo personal portfolio",
+        "description2": "Developed with Svelte"
     }
 }

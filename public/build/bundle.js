@@ -2253,6 +2253,10 @@ var app = (function () {
     	}
     }
 
+    var lang$1={spanish:"Spanish",english:"English"};var menu$1={home:"Home",about_me:"About Me",skills:"Skills",experience:"Experience",projects:"Projects",contact_me:"Contact Me"};var home$1={greeting:"Hi, I am",name:"Luis Eduardo Martínez Morales",description:"Fullstack developer and cybersecurity enthusiast",contact:"Contact Me"};var about_me$1={title:"About me",subtitle:"My introduction",description:"I am currently a 9th semester student of the Computer Systems Engineering career at Tecnológico Nacional de México, Campus Morelia (also known as Instituto Tecnológico de Morelia) with a specialty in Information Security. I consider myself a responsible, enthusiastic and committed developer, who likes challenges and learning new things every day.",description2:"I love to code, but also I am into cybersecurity, server configurations and pentesting.",age_title1:"Years",age_title2:"old",age_description:"22",nacionality_title:"Nacionality",nacionality_description:"MX",inlove_title1:"In love",inlove_title2:"with",inlove_description:"Python",cv:"View CV"};var skills$1={title:"Skills",subtitle:"My technical skills and interests",category1:"Programming Languages",category2:"Development Technologies",category3:"Other Technologies",category4:"Languages",category5:"Personal Interests",category4_options:{spanish:"Spanish (First language)",english:"English (Advanced)"},category5_options:{option1:"Cybersecurity",option2:"Operative Systems",option3:"Server configuration",option4:"Databases",option5:"Virtualization",option6:"Containers (Dockers / Kubernetes)"}};var experience$1={title:"Experience",subtitle:"What I've done",tab1:"Education",tab2:"Work",tab3:"Courses",tab1_info:{info1_title:"Computer Systems Engineering",info1_description:"Tecnológico Nacional de México, Campus Morelia",info1_date:"Aug 2017 - Today",info2_title:"Information Security (Degree Specialty)",info2_description:"Tecnológico Nacional de México, Campus Morelia",info2_date:"Aug 2020 - Today"},tab2_info:{info1_title:"Fullstack developer",info1_subtitle:"Freelancer",info1_description:"I helped to develop a CRM software for a construction company",info1_date:"Apr 2021 - Sep 2021",info2_title:"Backend developer",info2_subtitle:"INII Inversiones Inmobiliarias",info2_description:"Currently working on a top secret project!",info2_date:"Oct 2021 - Today"},tab3_info:{info1_title:"Introduction to Cybersecurity",info1_description:"Cisco Networking Academy",info1_date:"Nov 2020 - Dec 2020",info2_title:"CCNA Routing and Switching: Basic principles of routing and switching",info2_description:"Cisco Networking Academy",info2_date:"Aug 2020 - Feb 2021",info3_title:"CCNA Routing and Switching: Scaling Networks",info3_description:"Cisco Networking Academy",info3_date:"Aug 2020 - Feb 2021"}};var projects$1={title:"Projects",subtitle:"Take a look at some of my work",project1:{title:"AQUATA",description:"Begin as a school project and turned into a real solution. My team and I developed a CRM Software for a real client that owns a trout farm, he needed a digital tool that helped him to manage the incomes, expenses, sales, ponds and stages of his trouts."},project2:{title:"Maestría en Ingeniería Administrativa",description:"Informative website about the master's degree in administrative engineering of the Instituto Tecnológico de Morelia"},project3:{title:"INII Inversiones Inmobiliarias",description:"Currently working on a super secret project that will be anounced soon!"}};var contact_me$1={title:"Contact Me",subtitle:"Get in touch with me to get a more personal resume",card1:{title:"Location",description:"Morelia, Mich."},card2:{title:"Mail",description:"devcydo@raccoonsolutions.net"},card3:{title:"LinkedIn",description:"https://www.linkedin.com/in/devcydo"},card4:{title:"Github",description:"https://github.com/devcydo"}};var footer$1={name:"Luis Eduardo Martínez Morales",description1:"Devcydo personal portfolio",description2:"Developed with Svelte"};var en = {lang:lang$1,menu:menu$1,home:home$1,about_me:about_me$1,skills:skills$1,experience:experience$1,projects:projects$1,contact_me:contact_me$1,footer:footer$1};
+
+    var lang={spanish:"Español",english:"Inglés"};var menu={home:"Inicio",about_me:"Acerca de mi",skills:"Habilidades",experience:"Experiencia",projects:"Proyectos",contact_me:"Contáctame"};var home={greeting:"Hola, yo soy",name:"Luis Eduardo Martínez Morales",description:"Desarrollador fullstack y entusiasta de la ciberseguridad",contact:"Contáctame"};var about_me={title:"Acerca de mi",subtitle:"Introducción",description:"Actualmente curso el 9no semestre de la carrera de Ingeniería en Sistemas Computacionales en el Tecnológico Nacional de México, Campus Morelia (también conocido como Instituto Tecnológico de Morelia) con especialidad en Seguridad de la Información. Me considero una persona responsable, entusiasta y comprometida, a quien le gustan los retos y aprender nuevas cosas todos los dias.",description2:"Me encanta programar, la ciberseguridad, administrar servidores y el pentesting.",age_title1:"Años",age_title2:"",age_description:"22",nacionality_title:"Nacionalidad",nacionality_description:"MX",inlove_title1:"Enamorado",inlove_title2:"con",inlove_description:"Python",cv:"Ver CV"};var skills={title:"Habilidades",subtitle:"Habilidades técnicas e intereses",category1:"Lenguajes de programación",category2:"Tecnologías de desarrollo",category3:"Otras tecnologías",category4:"Idiomas",category5:"Intereses personales",category4_options:{option1:"Español (Idioma nativo)",option2:"Inglés (Avanzado)"},category5_options:{option1:"Ciberseguridad",option2:"Sistemas operativos",option3:"Configuración de servidores",option4:"Bases de datos",option5:"Virtualización",option6:"Contenedores (Dockers / Kubernetes)"}};var experience={title:"Experiencia",subtitle:"Qué he hecho",tab1:"Educación",tab2:"Trabajo",tab3:"Cursos",tab1_info:{info1_title:"Ingeniería en Sistemas Computacionales",info1_description:"Tecnológico Nacional de México, Campus Morelia",info1_date:"Ago 2017 - Hoy",info2_title:"Seguridad de la información (Especialidad de la carrera)",info2_description:"Tecnológico Nacional de México, Campus Morelia",info2_date:"Ago 2020 - Hoy"},tab2_info:{info1_title:"Desarrollador Fullstack",info1_subtitle:"Freelancer",info1_description:"Ayudé a desarrollar un sistema CRM para una compañia constructora",info1_date:"Abr 2021 - Sep 2021",info2_title:"Desarrollador Backend",info2_subtitle:"INII Inversiones Inmobiliarias",info2_description:"Trabajando en un proyecto super secreto!",info2_date:"Oct 2021 - Hoy"},tab3_info:{info1_title:"Introduction a la seguridad cibernética",info1_description:"Cisco Networking Academy",info1_date:"Nov 2020 - Dic 2020",info2_title:"CCNA Routing and Switching: Principios básicos de routing y switching",info2_description:"Cisco Networking Academy",info2_date:"Ago 2020 - Feb 2021",info3_title:"CCNA Routing and Switching: Escalamiento de redes",info3_description:"Cisco Networking Academy",info3_date:"Ago 2020 - Feb 2021"}};var projects={title:"Proyectos",subtitle:"Explora algunos de mis proyectos",project1:{title:"AQUATA",description:"Comenzó como un proyecto escolar y se convirtió en una solución real. Mi equipo y yo desarrollamos un sistema CRM para un cliente real que es dueño de una granja trutícola, necesitaba una herramienta digital que lo ayudara a administrar los ingresos, gastos, ventas, estanques y etapas de sus truchas."},project2:{title:"Maestría en Ingeniería Administrativa",description:"Página web informativa acerca del posgrado en Ingeniería Administrativa que se ofrece en el Instituto Tecnológico de Morelia."},project3:{title:"INII Inversiones Inmobiliarias",description:"Actualmente trabajando en un proyecto super secreto que será anunciado muy pronto!"}};var contact_me={title:"Contáctame",subtitle:"Pónte en contacto conmigo para recibir un CV más personal",card1:{title:"Ubicación",description:"Morelia, Mich."},card2:{title:"Correo",description:"devcydo@raccoonsolutions.net"},card3:{title:"LinkedIn",description:"https://www.linkedin.com/in/devcydo"},card4:{title:"Github",description:"https://github.com/devcydo"}};var footer={name:"Luis Eduardo Martínez Morales",description1:"Portfolio personal de devcydo",description2:"Desarrollado con Svelte"};var es = {lang:lang,menu:menu,home:home,about_me:about_me,skills:skills,experience:experience,projects:projects,contact_me:contact_me,footer:footer};
+
     /* src\components\SkillAccordion.svelte generated by Svelte v3.44.1 */
     const file$6 = "src\\components\\SkillAccordion.svelte";
 
@@ -10259,8 +10263,12 @@ var app = (function () {
     	let t1;
     	let div1;
     	let button0;
+    	let t2_value = /*lang*/ ctx[0].lang.spanish + "";
+    	let t2;
     	let t3;
     	let button1;
+    	let t4_value = /*lang*/ ctx[0].lang.english + "";
+    	let t4;
     	let t5;
     	let fontawesomeicon2;
     	let t6;
@@ -10275,33 +10283,45 @@ var app = (function () {
     	let a1;
     	let fontawesomeicon4;
     	let t10;
+    	let t11_value = /*lang*/ ctx[0].menu.home + "";
     	let t11;
+    	let t12;
     	let li1;
     	let a2;
     	let fontawesomeicon5;
-    	let t12;
     	let t13;
+    	let t14_value = /*lang*/ ctx[0].menu.about_me + "";
+    	let t14;
+    	let t15;
     	let li2;
     	let a3;
     	let fontawesomeicon6;
-    	let t14;
-    	let t15;
+    	let t16;
+    	let t17_value = /*lang*/ ctx[0].menu.skills + "";
+    	let t17;
+    	let t18;
     	let li3;
     	let a4;
     	let fontawesomeicon7;
-    	let t16;
-    	let t17;
+    	let t19;
+    	let t20_value = /*lang*/ ctx[0].menu.experience + "";
+    	let t20;
+    	let t21;
     	let li4;
     	let a5;
     	let fontawesomeicon8;
-    	let t18;
-    	let t19;
+    	let t22;
+    	let t23_value = /*lang*/ ctx[0].menu.projects + "";
+    	let t23;
+    	let t24;
     	let li5;
     	let a6;
     	let fontawesomeicon9;
-    	let t20;
+    	let t25;
+    	let t26_value = /*lang*/ ctx[0].menu.contact_me + "";
+    	let t26;
     	let div5_class_value;
-    	let t21;
+    	let t27;
     	let main;
     	let section0;
     	let div10;
@@ -10309,149 +10329,211 @@ var app = (function () {
     	let div6;
     	let a7;
     	let fontawesomeicon10;
-    	let t22;
+    	let t28;
     	let a8;
     	let fontawesomeicon11;
-    	let t23;
+    	let t29;
     	let a9;
     	let fontawesomeicon12;
-    	let t24;
+    	let t30;
     	let div7;
     	let img;
     	let img_src_value;
-    	let t25;
+    	let t31;
     	let div8;
     	let h10;
-    	let t26;
-    	let span0;
-    	let t28;
-    	let h3;
-    	let t30;
-    	let a10;
-    	let t31;
-    	let fontawesomeicon13;
+    	let t32_value = /*lang*/ ctx[0].home.greeting + "";
     	let t32;
+    	let t33;
+    	let span0;
+    	let t34_value = /*lang*/ ctx[0].home.name + "";
+    	let t34;
+    	let t35;
+    	let h3;
+    	let t36_value = /*lang*/ ctx[0].home.description + "";
+    	let t36;
+    	let t37;
+    	let a10;
+    	let t38_value = /*lang*/ ctx[0].home.contact + "";
+    	let t38;
+    	let t39;
+    	let fontawesomeicon13;
+    	let t40;
     	let section1;
     	let h20;
-    	let t34;
+    	let t41_value = /*lang*/ ctx[0].about_me.title + "";
+    	let t41;
+    	let t42;
     	let span1;
-    	let t36;
+    	let t43_value = /*lang*/ ctx[0].about_me.subtitle + "";
+    	let t43;
+    	let t44;
     	let div17;
     	let div16;
     	let p0;
-    	let t38;
+    	let t45_value = /*lang*/ ctx[0].about_me.description + "";
+    	let t45;
+    	let t46;
     	let p1;
-    	let t40;
+    	let t47_value = /*lang*/ ctx[0].about_me.description2 + "";
+    	let t47;
+    	let t48;
     	let div14;
     	let div11;
     	let span2;
-    	let t42;
+    	let t49_value = /*lang*/ ctx[0].about_me.age_description + "";
+    	let t49;
+    	let t50;
     	let span3;
-    	let t43;
+    	let t51_value = /*lang*/ ctx[0].about_me.age_title1 + "";
+    	let t51;
+    	let t52;
     	let br0;
-    	let t44;
-    	let t45;
+    	let t53;
+    	let t54_value = /*lang*/ ctx[0].about_me.age_title2 + "";
+    	let t54;
+    	let t55;
     	let div12;
     	let span4;
-    	let t47;
+    	let t56_value = /*lang*/ ctx[0].about_me.nacionality_description + "";
+    	let t56;
+    	let t57;
     	let span5;
-    	let t49;
+    	let t58_value = /*lang*/ ctx[0].about_me.nacionality_title + "";
+    	let t58;
+    	let t59;
     	let div13;
     	let span6;
-    	let t51;
+    	let t60_value = /*lang*/ ctx[0].about_me.inlove_description + "";
+    	let t60;
+    	let t61;
     	let span7;
-    	let t52;
+    	let t62_value = /*lang*/ ctx[0].about_me.inlove_title1 + "";
+    	let t62;
+    	let t63;
     	let br1;
-    	let t53;
-    	let t54;
+    	let t64;
+    	let t65_value = /*lang*/ ctx[0].about_me.inlove_title2 + "";
+    	let t65;
+    	let t66;
     	let div15;
     	let a11;
-    	let t55;
+    	let t67_value = /*lang*/ ctx[0].about_me.cv + "";
+    	let t67;
+    	let t68;
     	let fontawesomeicon14;
-    	let t56;
+    	let t69;
     	let section2;
     	let h21;
-    	let t58;
+    	let t70_value = /*lang*/ ctx[0].skills.title + "";
+    	let t70;
+    	let t71;
     	let span8;
-    	let t60;
+    	let t72_value = /*lang*/ ctx[0].skills.subtitle + "";
+    	let t72;
+    	let t73;
     	let div18;
     	let skillaccordion0;
-    	let t61;
+    	let t74;
     	let skillaccordion1;
-    	let t62;
+    	let t75;
     	let skillaccordion2;
-    	let t63;
+    	let t76;
     	let skillaccordion3;
-    	let t64;
+    	let t77;
     	let skillaccordion4;
-    	let t65;
+    	let t78;
     	let section3;
     	let h22;
-    	let t67;
+    	let t79_value = /*lang*/ ctx[0].experience.title + "";
+    	let t79;
+    	let t80;
     	let span9;
-    	let t69;
+    	let t81_value = /*lang*/ ctx[0].experience.subtitle + "";
+    	let t81;
+    	let t82;
     	let div24;
     	let div22;
     	let div19;
     	let fontawesomeicon15;
-    	let t70;
+    	let t83;
+    	let t84_value = /*lang*/ ctx[0].experience.tab1 + "";
+    	let t84;
     	let div19_class_value;
-    	let t71;
+    	let t85;
     	let div20;
     	let fontawesomeicon16;
-    	let t72;
+    	let t86;
+    	let t87_value = /*lang*/ ctx[0].experience.tab2 + "";
+    	let t87;
     	let div20_class_value;
-    	let t73;
+    	let t88;
     	let div21;
     	let fontawesomeicon17;
-    	let t74;
+    	let t89;
+    	let t90_value = /*lang*/ ctx[0].experience.tab3 + "";
+    	let t90;
     	let div21_class_value;
-    	let t75;
+    	let t91;
     	let div23;
     	let experiencecontent0;
-    	let t76;
+    	let t92;
     	let experiencecontent1;
-    	let t77;
+    	let t93;
     	let experiencecontent2;
-    	let t78;
+    	let t94;
     	let section4;
     	let h23;
-    	let t80;
+    	let t95_value = /*lang*/ ctx[0].projects.title + "";
+    	let t95;
+    	let t96;
     	let span10;
-    	let t82;
+    	let t97_value = /*lang*/ ctx[0].projects.subtitle + "";
+    	let t97;
+    	let t98;
     	let div25;
     	let swipercomponent;
-    	let t83;
+    	let t99;
     	let section5;
     	let h24;
-    	let t85;
+    	let t100_value = /*lang*/ ctx[0].contact_me.title + "";
+    	let t100;
+    	let t101;
     	let span11;
-    	let t87;
+    	let t102_value = /*lang*/ ctx[0].contact_me.subtitle + "";
+    	let t102;
+    	let t103;
     	let div27;
     	let div26;
     	let contactcard0;
-    	let t88;
+    	let t104;
     	let contactcard1;
-    	let t89;
+    	let t105;
     	let contactcard2;
-    	let t90;
+    	let t106;
     	let contactcard3;
-    	let t91;
+    	let t107;
     	let footer;
     	let div29;
     	let h11;
-    	let t93;
+    	let t108_value = /*lang*/ ctx[0].footer.name + "";
+    	let t108;
+    	let t109;
     	let p2;
-    	let t95;
+    	let t110_value = /*lang*/ ctx[0].footer.description1 + "";
+    	let t110;
+    	let t111;
     	let p3;
-    	let t97;
+    	let t112_value = /*lang*/ ctx[0].footer.description2 + "";
+    	let t112;
+    	let t113;
     	let div28;
     	let a12;
     	let fontawesomeicon18;
-    	let t98;
+    	let t114;
     	let a13;
     	let fontawesomeicon19;
-    	let t99;
+    	let t115;
     	let a14;
     	let fontawesomeicon20;
     	let current;
@@ -10520,7 +10602,7 @@ var app = (function () {
 
     	skillaccordion0 = new SkillAccordion({
     			props: {
-    				skillName: "Programming Languages",
+    				skillName: /*lang*/ ctx[0].skills.category1,
     				skills: [
     					'Javascript',
     					'Python',
@@ -10539,11 +10621,11 @@ var app = (function () {
 
     	skillaccordion1 = new SkillAccordion({
     			props: {
-    				skillName: "Development Technologies",
+    				skillName: /*lang*/ ctx[0].skills.category2,
     				skills: [
     					'Laravel',
-    					'React',
-    					'React Native',
+    					'React/React Native',
+    					'Redis',
     					'Svelte',
     					'Node JS',
     					'MySQL',
@@ -10561,14 +10643,19 @@ var app = (function () {
 
     	skillaccordion2 = new SkillAccordion({
     			props: {
-    				skillName: "Other Technologies",
+    				skillName: /*lang*/ ctx[0].skills.category3,
     				skills: [
     					'Git',
-    					'Virtualization',
     					'Docker',
     					'Windows/Windows Server',
     					'Linux',
-    					'Microsoft Office'
+    					'Microsoft Office',
+    					'Cisco Packet Tracer',
+    					'VmWare Workstation / VmWare Esxi',
+    					'VirtualBox',
+    					'XenServer',
+    					'KVM',
+    					'Hyper-V'
     				],
     				icon: "ellipsis-h"
     			},
@@ -10577,8 +10664,8 @@ var app = (function () {
 
     	skillaccordion3 = new SkillAccordion({
     			props: {
-    				skillName: "Languages",
-    				skills: ['Spanish (First language)', 'English (Advanced)'],
+    				skillName: /*lang*/ ctx[0].skills.category4,
+    				skills: /*category4*/ ctx[3],
     				icon: "language"
     			},
     			$$inline: true
@@ -10586,15 +10673,8 @@ var app = (function () {
 
     	skillaccordion4 = new SkillAccordion({
     			props: {
-    				skillName: "Personal interests",
-    				skills: [
-    					'Cybersecurity',
-    					'Operative Systems',
-    					'Server configurations',
-    					'Databases',
-    					'Virtualization',
-    					'Containers (Docker / Kubernetes)'
-    				],
+    				skillName: /*lang*/ ctx[0].skills.category5,
+    				skills: /*category5*/ ctx[4],
     				icon: "eye"
     			},
     			$$inline: true
@@ -10623,20 +10703,20 @@ var app = (function () {
 
     	experiencecontent0 = new ExperienceContent({
     			props: {
-    				tabTarget: /*tabTarget*/ ctx[1],
+    				tabTarget: /*tabTarget*/ ctx[2],
     				type: "education",
     				info: [
     					{
-    						'name': 'Computer Systems Engineering',
-    						'school': 'Tecnológico Nacional de México, Campus Morelia',
+    						'name': /*lang*/ ctx[0].experience.tab1_info.info1_title,
+    						'school': /*lang*/ ctx[0].experience.tab1_info.info1_description,
     						'desc': '',
-    						'date': 'Aug 2017 - Today'
+    						'date': /*lang*/ ctx[0].experience.tab1_info.info1_date
     					},
     					{
-    						'name': 'Information Security (Degree specialty)',
-    						'school': 'Tecnológico Nacional de México, Campus Morelia',
+    						'name': /*lang*/ ctx[0].experience.tab1_info.info2_title,
+    						'school': /*lang*/ ctx[0].experience.tab1_info.info2_description,
     						'desc': '',
-    						'date': 'Aug 2020 - Today'
+    						'date': /*lang*/ ctx[0].experience.tab1_info.info2_date
     					}
     				]
     			},
@@ -10645,20 +10725,20 @@ var app = (function () {
 
     	experiencecontent1 = new ExperienceContent({
     			props: {
-    				tabTarget: /*tabTarget*/ ctx[1],
+    				tabTarget: /*tabTarget*/ ctx[2],
     				type: "work",
     				info: [
     					{
-    						'name': 'Fullstack developer',
-    						'school': 'Freelancer',
-    						'desc': 'I helped to develop a CRM software for a construction company',
-    						'date': 'Apr 2021 - Sep 2021'
+    						'name': /*lang*/ ctx[0].experience.tab2_info.info1_title,
+    						'school': /*lang*/ ctx[0].experience.tab2_info.info1_subtitle,
+    						'desc': /*lang*/ ctx[0].experience.tab2_info.info1_description,
+    						'date': /*lang*/ ctx[0].experience.tab2_info.info1_date
     					},
     					{
-    						'name': 'Backend developer',
-    						'school': 'INII Inversiones Inmobiliarias',
-    						'desc': 'Currently working on a super secret project!',
-    						'date': 'Oct 2021 - Today'
+    						'name': /*lang*/ ctx[0].experience.tab2_info.info2_title,
+    						'school': /*lang*/ ctx[0].experience.tab2_info.info2_subtitle,
+    						'desc': /*lang*/ ctx[0].experience.tab2_info.info2_description,
+    						'date': /*lang*/ ctx[0].experience.tab2_info.info2_date
     					}
     				]
     			},
@@ -10667,26 +10747,26 @@ var app = (function () {
 
     	experiencecontent2 = new ExperienceContent({
     			props: {
-    				tabTarget: /*tabTarget*/ ctx[1],
+    				tabTarget: /*tabTarget*/ ctx[2],
     				type: "courses",
     				info: [
     					{
-    						'name': 'Introduction to Cybersecurity',
-    						'school': 'Cisco Networking Academy',
+    						'name': /*lang*/ ctx[0].experience.tab3_info.info1_title,
+    						'school': /*lang*/ ctx[0].experience.tab3_info.info1_description,
     						'desc': '',
-    						'date': 'Nov 2020 - Dec 2020'
+    						'date': /*lang*/ ctx[0].experience.tab3_info.info1_date
     					},
     					{
-    						'name': 'Basic principles of routing and switching',
-    						'school': 'Cisco Networking Academy',
+    						'name': /*lang*/ ctx[0].experience.tab3_info.info2_title,
+    						'school': /*lang*/ ctx[0].experience.tab3_info.info2_description,
     						'desc': '',
-    						'date': 'Aug 2020 - Feb 2021'
+    						'date': /*lang*/ ctx[0].experience.tab3_info.info2_date
     					},
     					{
-    						'name': 'CCNA Routing and Switching: Scaling Networks',
-    						'school': 'Cisco Networking Academy',
+    						'name': /*lang*/ ctx[0].experience.tab3_info.info3_title,
+    						'school': /*lang*/ ctx[0].experience.tab3_info.info3_description,
     						'desc': '',
-    						'date': 'Aug 2020 - Feb 2021'
+    						'date': /*lang*/ ctx[0].experience.tab3_info.info3_date
     					}
     				]
     			},
@@ -10697,20 +10777,20 @@ var app = (function () {
     			props: {
     				slides: [
     					{
-    						'title': 'AQUATA',
-    						'description': 'Begin as a school project and turned into a real solution. My team and I developed a CRM Software for a real client that owns a trout farm, he needed a digital tool that helped him to manage the incomes, expenses, sales, ponds and stages of his trouts.',
-    						'route': './img/portfolio/blueprint.png',
+    						'title': /*lang*/ ctx[0].projects.project1.title,
+    						'description': /*lang*/ ctx[0].projects.project1.description,
+    						'route': './img/portfolio/eltepetate.png',
     						'link': ''
     					},
     					{
-    						'title': 'Maestría en Ingeniería Administrativa',
-    						'description': "Informative website about the master's degree in administrative engineering of the Instituto Tecnológico de Morelia ",
+    						'title': /*lang*/ ctx[0].projects.project2.title,
+    						'description': /*lang*/ ctx[0].projects.project2.description,
     						'route': './img/portfolio/mia.jpg',
-    						'link': ''
+    						'link': 'https://www.morelia.tecnm.mx/mia/'
     					},
     					{
-    						'title': 'INII Inversiones Inmobiliarias',
-    						'description': 'Actually working on a super secret project that will be anounced soon!',
+    						'title': /*lang*/ ctx[0].projects.project3.title,
+    						'description': /*lang*/ ctx[0].projects.project3.description,
     						'route': './img/portfolio/inii.jpg',
     						'link': ''
     					}
@@ -10721,8 +10801,8 @@ var app = (function () {
 
     	contactcard0 = new ContactCard({
     			props: {
-    				title: "Location",
-    				description: "Morelia, Mich.",
+    				title: /*lang*/ ctx[0].contact_me.card1.title,
+    				description: /*lang*/ ctx[0].contact_me.card1.description,
     				icon: "home"
     			},
     			$$inline: true
@@ -10730,8 +10810,8 @@ var app = (function () {
 
     	contactcard1 = new ContactCard({
     			props: {
-    				title: "Mail",
-    				description: "devcydo@gmail.com",
+    				title: /*lang*/ ctx[0].contact_me.card2.title,
+    				description: /*lang*/ ctx[0].contact_me.card2.description,
     				icon: "envelope"
     			},
     			$$inline: true
@@ -10739,8 +10819,8 @@ var app = (function () {
 
     	contactcard2 = new ContactCard({
     			props: {
-    				title: "LinkedIn",
-    				description: "https://www.linkedin.com/in/devcydo",
+    				title: /*lang*/ ctx[0].contact_me.card3.title,
+    				description: /*lang*/ ctx[0].contact_me.card3.description,
     				icon: "linkedin"
     			},
     			$$inline: true
@@ -10748,8 +10828,8 @@ var app = (function () {
 
     	contactcard3 = new ContactCard({
     			props: {
-    				title: "Github",
-    				description: "https://github.com/devcydo",
+    				title: /*lang*/ ctx[0].contact_me.card4.title,
+    				description: /*lang*/ ctx[0].contact_me.card4.description,
     				icon: "github-square"
     			},
     			$$inline: true
@@ -10783,10 +10863,10 @@ var app = (function () {
     			t1 = space();
     			div1 = element("div");
     			button0 = element("button");
-    			button0.textContent = "English";
+    			t2 = text$1(t2_value);
     			t3 = space();
     			button1 = element("button");
-    			button1.textContent = "Spanish";
+    			t4 = text$1(t4_value);
     			t5 = space();
     			create_component(fontawesomeicon2.$$.fragment);
     			t6 = space();
@@ -10801,33 +10881,39 @@ var app = (function () {
     			li0 = element("li");
     			a1 = element("a");
     			create_component(fontawesomeicon4.$$.fragment);
-    			t10 = text$1(" Home");
-    			t11 = space();
+    			t10 = space();
+    			t11 = text$1(t11_value);
+    			t12 = space();
     			li1 = element("li");
     			a2 = element("a");
     			create_component(fontawesomeicon5.$$.fragment);
-    			t12 = text$1(" About me");
     			t13 = space();
+    			t14 = text$1(t14_value);
+    			t15 = space();
     			li2 = element("li");
     			a3 = element("a");
     			create_component(fontawesomeicon6.$$.fragment);
-    			t14 = text$1(" Skills");
-    			t15 = space();
+    			t16 = space();
+    			t17 = text$1(t17_value);
+    			t18 = space();
     			li3 = element("li");
     			a4 = element("a");
     			create_component(fontawesomeicon7.$$.fragment);
-    			t16 = text$1(" Experience");
-    			t17 = space();
+    			t19 = space();
+    			t20 = text$1(t20_value);
+    			t21 = space();
     			li4 = element("li");
     			a5 = element("a");
     			create_component(fontawesomeicon8.$$.fragment);
-    			t18 = text$1(" Projects");
-    			t19 = space();
+    			t22 = space();
+    			t23 = text$1(t23_value);
+    			t24 = space();
     			li5 = element("li");
     			a6 = element("a");
     			create_component(fontawesomeicon9.$$.fragment);
-    			t20 = text$1(" Contact me");
-    			t21 = space();
+    			t25 = space();
+    			t26 = text$1(t26_value);
+    			t27 = space();
     			main = element("main");
     			section0 = element("section");
     			div10 = element("div");
@@ -10835,390 +10921,400 @@ var app = (function () {
     			div6 = element("div");
     			a7 = element("a");
     			create_component(fontawesomeicon10.$$.fragment);
-    			t22 = space();
+    			t28 = space();
     			a8 = element("a");
     			create_component(fontawesomeicon11.$$.fragment);
-    			t23 = space();
+    			t29 = space();
     			a9 = element("a");
     			create_component(fontawesomeicon12.$$.fragment);
-    			t24 = space();
+    			t30 = space();
     			div7 = element("div");
     			img = element("img");
-    			t25 = space();
+    			t31 = space();
     			div8 = element("div");
     			h10 = element("h1");
-    			t26 = text$1("Hi, I am \n\t\t\t\t\t\t");
+    			t32 = text$1(t32_value);
+    			t33 = space();
     			span0 = element("span");
-    			span0.textContent = "Luis Eduardo Martínez Morales";
-    			t28 = space();
+    			t34 = text$1(t34_value);
+    			t35 = space();
     			h3 = element("h3");
-    			h3.textContent = "Fullstack developer and cybersecurity enthusiast";
-    			t30 = space();
+    			t36 = text$1(t36_value);
+    			t37 = space();
     			a10 = element("a");
-    			t31 = text$1("Contact me  ");
+    			t38 = text$1(t38_value);
+    			t39 = text$1("  ");
     			create_component(fontawesomeicon13.$$.fragment);
-    			t32 = space();
+    			t40 = space();
     			section1 = element("section");
     			h20 = element("h2");
-    			h20.textContent = "About me";
-    			t34 = space();
+    			t41 = text$1(t41_value);
+    			t42 = space();
     			span1 = element("span");
-    			span1.textContent = "My introduction";
-    			t36 = space();
+    			t43 = text$1(t43_value);
+    			t44 = space();
     			div17 = element("div");
     			div16 = element("div");
     			p0 = element("p");
-    			p0.textContent = "I am currently a 9th semester student of the Computer Systems Engineering career at Tecnológico Nacional de México, Campus Morelia (also known\n\t\t\t\t\tas Instituto Tecnológico de Morelia) with a specialty in Information Security. I consider myself a responsible, enthusiastic and committed \n\t\t\t\t\tdeveloper, who likes challenges and learning new things every day.";
-    			t38 = space();
+    			t45 = text$1(t45_value);
+    			t46 = space();
     			p1 = element("p");
-    			p1.textContent = "I love to code, but also I am into cybersecurity, server configurations and pentesting.";
-    			t40 = space();
+    			t47 = text$1(t47_value);
+    			t48 = space();
     			div14 = element("div");
     			div11 = element("div");
     			span2 = element("span");
-    			span2.textContent = "22";
-    			t42 = space();
+    			t49 = text$1(t49_value);
+    			t50 = space();
     			span3 = element("span");
-    			t43 = text$1("Years ");
+    			t51 = text$1(t51_value);
+    			t52 = space();
     			br0 = element("br");
-    			t44 = text$1(" old");
-    			t45 = space();
+    			t53 = space();
+    			t54 = text$1(t54_value);
+    			t55 = space();
     			div12 = element("div");
     			span4 = element("span");
-    			span4.textContent = "MX";
-    			t47 = space();
+    			t56 = text$1(t56_value);
+    			t57 = space();
     			span5 = element("span");
-    			span5.textContent = "Nacionality";
-    			t49 = space();
+    			t58 = text$1(t58_value);
+    			t59 = space();
     			div13 = element("div");
     			span6 = element("span");
-    			span6.textContent = "Python";
-    			t51 = space();
+    			t60 = text$1(t60_value);
+    			t61 = space();
     			span7 = element("span");
-    			t52 = text$1("In love ");
+    			t62 = text$1(t62_value);
+    			t63 = space();
     			br1 = element("br");
-    			t53 = text$1(" with");
-    			t54 = space();
+    			t64 = space();
+    			t65 = text$1(t65_value);
+    			t66 = space();
     			div15 = element("div");
     			a11 = element("a");
-    			t55 = text$1("View CV  ");
+    			t67 = text$1(t67_value);
+    			t68 = text$1("  ");
     			create_component(fontawesomeicon14.$$.fragment);
-    			t56 = space();
+    			t69 = space();
     			section2 = element("section");
     			h21 = element("h2");
-    			h21.textContent = "Skills";
-    			t58 = space();
+    			t70 = text$1(t70_value);
+    			t71 = space();
     			span8 = element("span");
-    			span8.textContent = "My technical skills and interests";
-    			t60 = space();
+    			t72 = text$1(t72_value);
+    			t73 = space();
     			div18 = element("div");
     			create_component(skillaccordion0.$$.fragment);
-    			t61 = space();
+    			t74 = space();
     			create_component(skillaccordion1.$$.fragment);
-    			t62 = space();
+    			t75 = space();
     			create_component(skillaccordion2.$$.fragment);
-    			t63 = space();
+    			t76 = space();
     			create_component(skillaccordion3.$$.fragment);
-    			t64 = space();
+    			t77 = space();
     			create_component(skillaccordion4.$$.fragment);
-    			t65 = space();
+    			t78 = space();
     			section3 = element("section");
     			h22 = element("h2");
-    			h22.textContent = "Experience";
-    			t67 = space();
+    			t79 = text$1(t79_value);
+    			t80 = space();
     			span9 = element("span");
-    			span9.textContent = "What I've been doing";
-    			t69 = space();
+    			t81 = text$1(t81_value);
+    			t82 = space();
     			div24 = element("div");
     			div22 = element("div");
     			div19 = element("div");
     			create_component(fontawesomeicon15.$$.fragment);
-    			t70 = text$1("\n\t\t\t\t\tEducation");
-    			t71 = space();
+    			t83 = space();
+    			t84 = text$1(t84_value);
+    			t85 = space();
     			div20 = element("div");
     			create_component(fontawesomeicon16.$$.fragment);
-    			t72 = text$1("\n\t\t\t\t\tWork");
-    			t73 = space();
+    			t86 = space();
+    			t87 = text$1(t87_value);
+    			t88 = space();
     			div21 = element("div");
     			create_component(fontawesomeicon17.$$.fragment);
-    			t74 = text$1("\n\t\t\t\t\t Courses");
-    			t75 = space();
+    			t89 = space();
+    			t90 = text$1(t90_value);
+    			t91 = space();
     			div23 = element("div");
     			create_component(experiencecontent0.$$.fragment);
-    			t76 = space();
+    			t92 = space();
     			create_component(experiencecontent1.$$.fragment);
-    			t77 = space();
+    			t93 = space();
     			create_component(experiencecontent2.$$.fragment);
-    			t78 = space();
+    			t94 = space();
     			section4 = element("section");
     			h23 = element("h2");
-    			h23.textContent = "Projects";
-    			t80 = space();
+    			t95 = text$1(t95_value);
+    			t96 = space();
     			span10 = element("span");
-    			span10.textContent = "Take a look at some of my work!";
-    			t82 = space();
+    			t97 = text$1(t97_value);
+    			t98 = space();
     			div25 = element("div");
     			create_component(swipercomponent.$$.fragment);
-    			t83 = space();
+    			t99 = space();
     			section5 = element("section");
     			h24 = element("h2");
-    			h24.textContent = "Contact me!";
-    			t85 = space();
+    			t100 = text$1(t100_value);
+    			t101 = space();
     			span11 = element("span");
-    			span11.textContent = "Get in touch with me by any of these social media";
-    			t87 = space();
+    			t102 = text$1(t102_value);
+    			t103 = space();
     			div27 = element("div");
     			div26 = element("div");
     			create_component(contactcard0.$$.fragment);
-    			t88 = space();
+    			t104 = space();
     			create_component(contactcard1.$$.fragment);
-    			t89 = space();
+    			t105 = space();
     			create_component(contactcard2.$$.fragment);
-    			t90 = space();
+    			t106 = space();
     			create_component(contactcard3.$$.fragment);
-    			t91 = space();
+    			t107 = space();
     			footer = element("footer");
     			div29 = element("div");
     			h11 = element("h1");
-    			h11.textContent = "Luis Eduardo Martinez Morales";
-    			t93 = space();
+    			t108 = text$1(t108_value);
+    			t109 = space();
     			p2 = element("p");
-    			p2.textContent = "Devcydo personal portfolio";
-    			t95 = space();
+    			t110 = text$1(t110_value);
+    			t111 = space();
     			p3 = element("p");
-    			p3.textContent = "Developed with Svelte";
-    			t97 = space();
+    			t112 = text$1(t112_value);
+    			t113 = space();
     			div28 = element("div");
     			a12 = element("a");
     			create_component(fontawesomeicon18.$$.fragment);
-    			t98 = space();
+    			t114 = space();
     			a13 = element("a");
     			create_component(fontawesomeicon19.$$.fragment);
-    			t99 = space();
+    			t115 = space();
     			a14 = element("a");
     			create_component(fontawesomeicon20.$$.fragment);
     			attr_dev(div0, "class", "nav_toggle");
     			attr_dev(div0, "id", "nav-toggle");
-    			add_location(div0, file, 41, 2, 1425);
-    			add_location(button0, file, 53, 5, 1752);
-    			add_location(button1, file, 54, 5, 1782);
+    			add_location(div0, file, 88, 2, 2543);
+    			add_location(button0, file, 100, 5, 2870);
+    			add_location(button1, file, 101, 5, 2930);
     			attr_dev(div1, "class", "dropdown_content");
-    			add_location(div1, file, 52, 4, 1716);
+    			add_location(div1, file, 99, 4, 2834);
     			attr_dev(div2, "class", "dropdown ");
-    			add_location(div2, file, 50, 3, 1630);
+    			add_location(div2, file, 97, 3, 2748);
     			attr_dev(a0, "href", "./index.html");
     			attr_dev(a0, "class", "nav_logo");
-    			add_location(a0, file, 59, 3, 1892);
+    			add_location(a0, file, 106, 3, 3070);
     			attr_dev(div3, "class", "right_nav");
-    			add_location(div3, file, 48, 2, 1562);
+    			add_location(div3, file, 95, 2, 2680);
     			attr_dev(div4, "class", "nav_close");
     			attr_dev(div4, "id", "nav-close");
-    			add_location(div4, file, 63, 3, 2030);
+    			add_location(div4, file, 110, 3, 3208);
     			attr_dev(a1, "href", "#home");
     			attr_dev(a1, "class", "nav_link");
-    			add_location(a1, file, 72, 5, 2220);
+    			add_location(a1, file, 119, 5, 3398);
     			attr_dev(li0, "class", "nav_item");
-    			add_location(li0, file, 71, 4, 2193);
+    			add_location(li0, file, 118, 4, 3371);
     			attr_dev(a2, "href", "#aboutme");
     			attr_dev(a2, "class", "nav_link");
-    			add_location(a2, file, 80, 5, 2401);
+    			add_location(a2, file, 127, 5, 3591);
     			attr_dev(li1, "class", "nav_item");
-    			add_location(li1, file, 79, 4, 2374);
+    			add_location(li1, file, 126, 4, 3564);
     			attr_dev(a3, "href", "#skills");
     			attr_dev(a3, "class", "nav_link");
-    			add_location(a3, file, 88, 5, 2590);
+    			add_location(a3, file, 135, 5, 3792);
     			attr_dev(li2, "class", "nav_item");
-    			add_location(li2, file, 87, 4, 2563);
+    			add_location(li2, file, 134, 4, 3765);
     			attr_dev(a4, "href", "#experience");
     			attr_dev(a4, "class", "nav_link");
-    			add_location(a4, file, 96, 5, 2782);
+    			add_location(a4, file, 143, 5, 3996);
     			attr_dev(li3, "class", "nav_item");
-    			add_location(li3, file, 95, 4, 2755);
+    			add_location(li3, file, 142, 4, 3969);
     			attr_dev(a5, "href", "#portfolio");
     			attr_dev(a5, "class", "nav_link");
-    			add_location(a5, file, 104, 5, 2980);
+    			add_location(a5, file, 151, 5, 4206);
     			attr_dev(li4, "class", "nav_item");
-    			add_location(li4, file, 103, 4, 2953);
+    			add_location(li4, file, 150, 4, 4179);
     			attr_dev(a6, "href", "#contactme");
     			attr_dev(a6, "class", "nav_link");
-    			add_location(a6, file, 112, 5, 3176);
+    			add_location(a6, file, 159, 5, 4414);
     			attr_dev(li5, "class", "nav_item");
-    			add_location(li5, file, 111, 4, 3149);
+    			add_location(li5, file, 158, 4, 4387);
     			attr_dev(ul, "class", "nav_list");
-    			add_location(ul, file, 70, 3, 2167);
-    			attr_dev(div5, "class", div5_class_value = "nav_menu " + (/*toggleMenu*/ ctx[0] != '' ? 'show' : ''));
+    			add_location(ul, file, 117, 3, 3345);
+    			attr_dev(div5, "class", div5_class_value = "nav_menu " + (/*toggleMenu*/ ctx[1] != '' ? 'show' : ''));
     			attr_dev(div5, "id", "nav-menu");
-    			add_location(div5, file, 62, 2, 1956);
+    			add_location(div5, file, 109, 2, 3134);
     			attr_dev(nav, "class", "nav bd_grid");
-    			add_location(nav, file, 40, 1, 1397);
+    			add_location(nav, file, 87, 1, 2515);
     			attr_dev(header, "class", "header");
     			attr_dev(header, "id", "header");
-    			add_location(header, file, 39, 0, 1360);
-    			attr_dev(a7, "href", "mailto: devcydo@gmail.com");
+    			add_location(header, file, 86, 0, 2478);
+    			attr_dev(a7, "href", "mailto: devcydo@raccoonsolutions.net");
     			attr_dev(a7, "target", "_blank");
     			attr_dev(a7, "class", "home_social_icon");
-    			add_location(a7, file, 130, 5, 3591);
+    			add_location(a7, file, 177, 5, 4841);
     			attr_dev(a8, "href", "https://www.linkedin.com/in/devcydo");
     			attr_dev(a8, "target", "_blank");
     			attr_dev(a8, "class", "home_social_icon");
-    			add_location(a8, file, 134, 5, 3727);
+    			add_location(a8, file, 181, 5, 4988);
     			attr_dev(a9, "href", "https://github.com/devcydo");
     			attr_dev(a9, "target", "_blank");
     			attr_dev(a9, "class", "home_social_icon");
-    			add_location(a9, file, 138, 5, 3889);
+    			add_location(a9, file, 185, 5, 5150);
     			attr_dev(div6, "class", "home_social");
-    			add_location(div6, file, 129, 4, 3560);
+    			add_location(div6, file, 176, 4, 4810);
     			attr_dev(img, "class", "profile_img");
     			if (!src_url_equal(img.src, img_src_value = "./img/home/me.jpg")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Selfie");
-    			add_location(img, file, 144, 5, 4082);
+    			add_location(img, file, 191, 5, 5343);
     			attr_dev(div7, "class", "home_img");
-    			add_location(div7, file, 143, 4, 4054);
+    			add_location(div7, file, 190, 4, 5315);
     			attr_dev(span0, "class", "home_title_color");
-    			add_location(span0, file, 150, 6, 4236);
+    			add_location(span0, file, 197, 6, 5508);
     			attr_dev(h10, "class", "home_title");
-    			add_location(h10, file, 148, 5, 4190);
+    			add_location(h10, file, 195, 5, 5451);
     			attr_dev(h3, "class", "home_subtitle");
-    			add_location(h3, file, 152, 5, 4320);
+    			add_location(h3, file, 199, 5, 5579);
     			attr_dev(a10, "href", "#contactme");
     			attr_dev(a10, "class", "button button_flex button_home");
-    			add_location(a10, file, 154, 5, 4411);
+    			add_location(a10, file, 201, 5, 5645);
     			attr_dev(div8, "class", "home_data");
-    			add_location(div8, file, 147, 4, 4161);
+    			add_location(div8, file, 194, 4, 5422);
     			attr_dev(div9, "class", "home_content grid");
-    			add_location(div9, file, 128, 3, 3524);
+    			add_location(div9, file, 175, 3, 4774);
     			attr_dev(div10, "class", "home_container container grid");
-    			add_location(div10, file, 127, 2, 3477);
+    			add_location(div10, file, 174, 2, 4727);
     			attr_dev(section0, "class", "home section");
     			attr_dev(section0, "id", "home");
-    			add_location(section0, file, 126, 1, 3434);
+    			add_location(section0, file, 173, 1, 4684);
     			attr_dev(h20, "class", "section_title");
-    			add_location(h20, file, 164, 2, 4659);
+    			add_location(h20, file, 211, 2, 5902);
     			attr_dev(span1, "class", "section_subtitle");
-    			add_location(span1, file, 165, 2, 4701);
+    			add_location(span1, file, 212, 2, 5957);
     			attr_dev(p0, "class", "aboutme_description");
-    			add_location(p0, file, 170, 4, 4840);
+    			add_location(p0, file, 217, 4, 6105);
     			attr_dev(p1, "class", "aboutme_description");
-    			add_location(p1, file, 176, 4, 5251);
+    			add_location(p1, file, 221, 4, 6184);
     			attr_dev(span2, "class", "aboutme_info_title");
-    			add_location(span2, file, 182, 6, 5435);
-    			add_location(br0, file, 183, 42, 5520);
+    			add_location(span2, file, 227, 6, 6308);
+    			add_location(br0, file, 228, 63, 6443);
     			attr_dev(span3, "class", "about_info_name");
-    			add_location(span3, file, 183, 6, 5484);
-    			add_location(div11, file, 181, 5, 5423);
+    			add_location(span3, file, 228, 6, 6386);
+    			add_location(div11, file, 226, 5, 6296);
     			attr_dev(span4, "class", "aboutme_info_title");
-    			add_location(span4, file, 187, 6, 5566);
+    			add_location(span4, file, 232, 6, 6512);
     			attr_dev(span5, "class", "about_info_name");
-    			add_location(span5, file, 188, 6, 5615);
-    			add_location(div12, file, 186, 5, 5554);
+    			add_location(span5, file, 233, 6, 6598);
+    			add_location(div12, file, 231, 5, 6500);
     			attr_dev(span6, "class", "aboutme_info_title");
-    			add_location(span6, file, 192, 6, 5694);
-    			add_location(br1, file, 193, 44, 5785);
+    			add_location(span6, file, 237, 6, 6699);
+    			add_location(br1, file, 238, 66, 6840);
     			attr_dev(span7, "class", "about_info_name");
-    			add_location(span7, file, 193, 6, 5747);
-    			add_location(div13, file, 191, 5, 5682);
+    			add_location(span7, file, 238, 6, 6780);
+    			add_location(div13, file, 236, 5, 6687);
     			attr_dev(div14, "class", "aboutme_info");
-    			add_location(div14, file, 180, 4, 5391);
+    			add_location(div14, file, 225, 4, 6264);
     			attr_dev(a11, "href", "./pdf/Practica3.pdf");
     			attr_dev(a11, "target", "_blank");
     			attr_dev(a11, "class", "button button_flex");
-    			add_location(a11, file, 198, 5, 5865);
+    			add_location(a11, file, 243, 5, 6945);
     			attr_dev(div15, "class", "aboutme_buttons");
-    			add_location(div15, file, 197, 4, 5830);
+    			add_location(div15, file, 242, 4, 6910);
     			attr_dev(div16, "class", "aboutme_data");
-    			add_location(div16, file, 169, 3, 4809);
+    			add_location(div16, file, 216, 3, 6074);
     			attr_dev(div17, "class", "aboutme_container container grid");
-    			add_location(div17, file, 167, 2, 4758);
+    			add_location(div17, file, 214, 2, 6023);
     			attr_dev(section1, "class", "about section");
     			attr_dev(section1, "id", "aboutme");
-    			add_location(section1, file, 163, 1, 4612);
+    			add_location(section1, file, 210, 1, 5855);
     			attr_dev(h21, "class", "section_title");
-    			add_location(h21, file, 208, 2, 6133);
+    			add_location(h21, file, 253, 2, 7224);
     			attr_dev(span8, "class", "section_subtitle");
-    			add_location(span8, file, 209, 2, 6173);
+    			add_location(span8, file, 254, 2, 7277);
     			attr_dev(div18, "class", "skills_container container grid");
-    			add_location(div18, file, 211, 2, 6248);
+    			add_location(div18, file, 256, 2, 7341);
     			attr_dev(section2, "class", "skills section");
     			attr_dev(section2, "id", "skills");
-    			add_location(section2, file, 207, 1, 6086);
+    			add_location(section2, file, 252, 1, 7177);
     			attr_dev(h22, "class", "section_title");
-    			add_location(h22, file, 249, 2, 7380);
+    			add_location(h22, file, 294, 2, 8421);
     			attr_dev(span9, "class", "section_subtitle");
-    			add_location(span9, file, 250, 2, 7424);
+    			add_location(span9, file, 295, 2, 8478);
 
-    			attr_dev(div19, "class", div19_class_value = "experience_button button_flex " + (/*tabTarget*/ ctx[1] == 'education'
+    			attr_dev(div19, "class", div19_class_value = "experience_button button_flex " + (/*tabTarget*/ ctx[2] == 'education'
     			? 'experience_active'
     			: ''));
 
     			attr_dev(div19, "data-target", "#education");
-    			add_location(div19, file, 254, 4, 7568);
+    			add_location(div19, file, 299, 4, 8628);
 
-    			attr_dev(div20, "class", div20_class_value = "experience_button button_flex " + (/*tabTarget*/ ctx[1] == 'work'
+    			attr_dev(div20, "class", div20_class_value = "experience_button button_flex " + (/*tabTarget*/ ctx[2] == 'work'
     			? 'experience_active'
     			: ''));
 
     			attr_dev(div20, "data-target", "#work");
-    			add_location(div20, file, 262, 4, 7852);
+    			add_location(div20, file, 307, 4, 8925);
 
-    			attr_dev(div21, "class", div21_class_value = "experience_button button_flex " + (/*tabTarget*/ ctx[1] == 'courses'
+    			attr_dev(div21, "class", div21_class_value = "experience_button button_flex " + (/*tabTarget*/ ctx[2] == 'courses'
     			? 'experience_active'
     			: ''));
 
     			attr_dev(div21, "data-target", "#courses");
-    			add_location(div21, file, 270, 4, 8114);
+    			add_location(div21, file, 315, 4, 9205);
     			attr_dev(div22, "class", "experience_tabs");
-    			add_location(div22, file, 253, 3, 7534);
+    			add_location(div22, file, 298, 3, 8594);
     			attr_dev(div23, "class", "experience_sections");
-    			add_location(div23, file, 279, 3, 8390);
+    			add_location(div23, file, 324, 3, 9495);
     			attr_dev(div24, "class", "experience_container container");
-    			add_location(div24, file, 252, 2, 7486);
+    			add_location(div24, file, 297, 2, 8546);
     			attr_dev(section3, "class", "experience section");
     			attr_dev(section3, "id", "experience");
-    			add_location(section3, file, 248, 1, 7325);
+    			add_location(section3, file, 293, 1, 8366);
     			attr_dev(h23, "class", "section_title");
-    			add_location(h23, file, 349, 2, 10116);
+    			add_location(h23, file, 393, 2, 11421);
     			attr_dev(span10, "class", "section_subtitle");
-    			add_location(span10, file, 350, 2, 10158);
+    			add_location(span10, file, 394, 2, 11476);
     			attr_dev(div25, "class", "portfolio_container container");
-    			add_location(div25, file, 352, 2, 10231);
+    			add_location(div25, file, 396, 2, 11542);
     			attr_dev(section4, "class", "portfolio section");
     			attr_dev(section4, "id", "portfolio");
-    			add_location(section4, file, 348, 1, 10063);
+    			add_location(section4, file, 392, 1, 11368);
     			attr_dev(h24, "class", "section_title");
-    			add_location(h24, file, 379, 2, 11271);
+    			add_location(h24, file, 423, 2, 12279);
     			attr_dev(span11, "class", "section_subtitle");
-    			add_location(span11, file, 380, 2, 11316);
+    			add_location(span11, file, 424, 2, 12336);
     			attr_dev(div26, "class", "contactme_content grid");
-    			add_location(div26, file, 383, 3, 11454);
+    			add_location(div26, file, 427, 3, 12451);
     			attr_dev(div27, "class", "contactme_container container");
-    			add_location(div27, file, 382, 2, 11407);
+    			add_location(div27, file, 426, 2, 12404);
     			attr_dev(section5, "class", "contactme section");
     			attr_dev(section5, "id", "contactme");
-    			add_location(section5, file, 378, 1, 11218);
+    			add_location(section5, file, 422, 1, 12226);
     			attr_dev(h11, "class", "footer_title");
-    			add_location(h11, file, 412, 3, 12088);
+    			add_location(h11, file, 456, 3, 13207);
     			attr_dev(p2, "class", "footer_description");
-    			add_location(p2, file, 413, 3, 12151);
+    			add_location(p2, file, 457, 3, 13259);
     			attr_dev(p3, "class", "footer_description");
-    			add_location(p3, file, 414, 3, 12215);
-    			attr_dev(a12, "href", "mailto: devcydo@gmail.com");
+    			add_location(p3, file, 458, 3, 13323);
+    			attr_dev(a12, "href", "mailto: devcydo@raccoonsolutions.net");
     			attr_dev(a12, "class", "footer_link");
-    			add_location(a12, file, 417, 4, 12307);
+    			add_location(a12, file, 461, 4, 13420);
     			attr_dev(a13, "href", "https://www.linkedin.com/in/devcydo");
     			attr_dev(a13, "class", "footer_link");
-    			add_location(a13, file, 420, 4, 12417);
+    			add_location(a13, file, 464, 4, 13541);
     			attr_dev(a14, "href", "https://github.com/devcydo");
     			attr_dev(a14, "class", "footer_link");
-    			add_location(a14, file, 423, 4, 12547);
+    			add_location(a14, file, 467, 4, 13671);
     			attr_dev(div28, "class", "footer_social");
-    			add_location(div28, file, 416, 3, 12275);
+    			add_location(div28, file, 460, 3, 13388);
     			attr_dev(div29, "class", "footer_container bd-grid");
-    			add_location(div29, file, 411, 2, 12046);
+    			add_location(div29, file, 455, 2, 13165);
     			attr_dev(footer, "class", "footer section");
-    			add_location(footer, file, 410, 1, 12012);
+    			add_location(footer, file, 454, 1, 13131);
     			attr_dev(main, "class", "main");
     			attr_dev(main, "id", "main");
-    			add_location(main, file, 124, 0, 3382);
+    			add_location(main, file, 171, 0, 4632);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -11235,8 +11331,10 @@ var app = (function () {
     			append_dev(div2, t1);
     			append_dev(div2, div1);
     			append_dev(div1, button0);
+    			append_dev(button0, t2);
     			append_dev(div1, t3);
     			append_dev(div1, button1);
+    			append_dev(button1, t4);
     			append_dev(div3, t5);
     			mount_component(fontawesomeicon2, div3, null);
     			append_dev(div3, t6);
@@ -11251,32 +11349,38 @@ var app = (function () {
     			append_dev(li0, a1);
     			mount_component(fontawesomeicon4, a1, null);
     			append_dev(a1, t10);
-    			append_dev(ul, t11);
+    			append_dev(a1, t11);
+    			append_dev(ul, t12);
     			append_dev(ul, li1);
     			append_dev(li1, a2);
     			mount_component(fontawesomeicon5, a2, null);
-    			append_dev(a2, t12);
-    			append_dev(ul, t13);
+    			append_dev(a2, t13);
+    			append_dev(a2, t14);
+    			append_dev(ul, t15);
     			append_dev(ul, li2);
     			append_dev(li2, a3);
     			mount_component(fontawesomeicon6, a3, null);
-    			append_dev(a3, t14);
-    			append_dev(ul, t15);
+    			append_dev(a3, t16);
+    			append_dev(a3, t17);
+    			append_dev(ul, t18);
     			append_dev(ul, li3);
     			append_dev(li3, a4);
     			mount_component(fontawesomeicon7, a4, null);
-    			append_dev(a4, t16);
-    			append_dev(ul, t17);
+    			append_dev(a4, t19);
+    			append_dev(a4, t20);
+    			append_dev(ul, t21);
     			append_dev(ul, li4);
     			append_dev(li4, a5);
     			mount_component(fontawesomeicon8, a5, null);
-    			append_dev(a5, t18);
-    			append_dev(ul, t19);
+    			append_dev(a5, t22);
+    			append_dev(a5, t23);
+    			append_dev(ul, t24);
     			append_dev(ul, li5);
     			append_dev(li5, a6);
     			mount_component(fontawesomeicon9, a6, null);
-    			append_dev(a6, t20);
-    			insert_dev(target, t21, anchor);
+    			append_dev(a6, t25);
+    			append_dev(a6, t26);
+    			insert_dev(target, t27, anchor);
     			insert_dev(target, main, anchor);
     			append_dev(main, section0);
     			append_dev(section0, div10);
@@ -11284,199 +11388,384 @@ var app = (function () {
     			append_dev(div9, div6);
     			append_dev(div6, a7);
     			mount_component(fontawesomeicon10, a7, null);
-    			append_dev(div6, t22);
+    			append_dev(div6, t28);
     			append_dev(div6, a8);
     			mount_component(fontawesomeicon11, a8, null);
-    			append_dev(div6, t23);
+    			append_dev(div6, t29);
     			append_dev(div6, a9);
     			mount_component(fontawesomeicon12, a9, null);
-    			append_dev(div9, t24);
+    			append_dev(div9, t30);
     			append_dev(div9, div7);
     			append_dev(div7, img);
-    			append_dev(div9, t25);
+    			append_dev(div9, t31);
     			append_dev(div9, div8);
     			append_dev(div8, h10);
-    			append_dev(h10, t26);
+    			append_dev(h10, t32);
+    			append_dev(h10, t33);
     			append_dev(h10, span0);
-    			append_dev(div8, t28);
+    			append_dev(span0, t34);
+    			append_dev(div8, t35);
     			append_dev(div8, h3);
-    			append_dev(div8, t30);
+    			append_dev(h3, t36);
+    			append_dev(div8, t37);
     			append_dev(div8, a10);
-    			append_dev(a10, t31);
+    			append_dev(a10, t38);
+    			append_dev(a10, t39);
     			mount_component(fontawesomeicon13, a10, null);
-    			append_dev(main, t32);
+    			append_dev(main, t40);
     			append_dev(main, section1);
     			append_dev(section1, h20);
-    			append_dev(section1, t34);
+    			append_dev(h20, t41);
+    			append_dev(section1, t42);
     			append_dev(section1, span1);
-    			append_dev(section1, t36);
+    			append_dev(span1, t43);
+    			append_dev(section1, t44);
     			append_dev(section1, div17);
     			append_dev(div17, div16);
     			append_dev(div16, p0);
-    			append_dev(div16, t38);
+    			append_dev(p0, t45);
+    			append_dev(div16, t46);
     			append_dev(div16, p1);
-    			append_dev(div16, t40);
+    			append_dev(p1, t47);
+    			append_dev(div16, t48);
     			append_dev(div16, div14);
     			append_dev(div14, div11);
     			append_dev(div11, span2);
-    			append_dev(div11, t42);
+    			append_dev(span2, t49);
+    			append_dev(div11, t50);
     			append_dev(div11, span3);
-    			append_dev(span3, t43);
+    			append_dev(span3, t51);
+    			append_dev(span3, t52);
     			append_dev(span3, br0);
-    			append_dev(span3, t44);
-    			append_dev(div14, t45);
+    			append_dev(span3, t53);
+    			append_dev(span3, t54);
+    			append_dev(div14, t55);
     			append_dev(div14, div12);
     			append_dev(div12, span4);
-    			append_dev(div12, t47);
+    			append_dev(span4, t56);
+    			append_dev(div12, t57);
     			append_dev(div12, span5);
-    			append_dev(div14, t49);
+    			append_dev(span5, t58);
+    			append_dev(div14, t59);
     			append_dev(div14, div13);
     			append_dev(div13, span6);
-    			append_dev(div13, t51);
+    			append_dev(span6, t60);
+    			append_dev(div13, t61);
     			append_dev(div13, span7);
-    			append_dev(span7, t52);
+    			append_dev(span7, t62);
+    			append_dev(span7, t63);
     			append_dev(span7, br1);
-    			append_dev(span7, t53);
-    			append_dev(div16, t54);
+    			append_dev(span7, t64);
+    			append_dev(span7, t65);
+    			append_dev(div16, t66);
     			append_dev(div16, div15);
     			append_dev(div15, a11);
-    			append_dev(a11, t55);
+    			append_dev(a11, t67);
+    			append_dev(a11, t68);
     			mount_component(fontawesomeicon14, a11, null);
-    			append_dev(main, t56);
+    			append_dev(main, t69);
     			append_dev(main, section2);
     			append_dev(section2, h21);
-    			append_dev(section2, t58);
+    			append_dev(h21, t70);
+    			append_dev(section2, t71);
     			append_dev(section2, span8);
-    			append_dev(section2, t60);
+    			append_dev(span8, t72);
+    			append_dev(section2, t73);
     			append_dev(section2, div18);
     			mount_component(skillaccordion0, div18, null);
-    			append_dev(div18, t61);
+    			append_dev(div18, t74);
     			mount_component(skillaccordion1, div18, null);
-    			append_dev(div18, t62);
+    			append_dev(div18, t75);
     			mount_component(skillaccordion2, div18, null);
-    			append_dev(div18, t63);
+    			append_dev(div18, t76);
     			mount_component(skillaccordion3, div18, null);
-    			append_dev(div18, t64);
+    			append_dev(div18, t77);
     			mount_component(skillaccordion4, div18, null);
-    			append_dev(main, t65);
+    			append_dev(main, t78);
     			append_dev(main, section3);
     			append_dev(section3, h22);
-    			append_dev(section3, t67);
+    			append_dev(h22, t79);
+    			append_dev(section3, t80);
     			append_dev(section3, span9);
-    			append_dev(section3, t69);
+    			append_dev(span9, t81);
+    			append_dev(section3, t82);
     			append_dev(section3, div24);
     			append_dev(div24, div22);
     			append_dev(div22, div19);
     			mount_component(fontawesomeicon15, div19, null);
-    			append_dev(div19, t70);
-    			append_dev(div22, t71);
+    			append_dev(div19, t83);
+    			append_dev(div19, t84);
+    			append_dev(div22, t85);
     			append_dev(div22, div20);
     			mount_component(fontawesomeicon16, div20, null);
-    			append_dev(div20, t72);
-    			append_dev(div22, t73);
+    			append_dev(div20, t86);
+    			append_dev(div20, t87);
+    			append_dev(div22, t88);
     			append_dev(div22, div21);
     			mount_component(fontawesomeicon17, div21, null);
-    			append_dev(div21, t74);
-    			append_dev(div24, t75);
+    			append_dev(div21, t89);
+    			append_dev(div21, t90);
+    			append_dev(div24, t91);
     			append_dev(div24, div23);
     			mount_component(experiencecontent0, div23, null);
-    			append_dev(div23, t76);
+    			append_dev(div23, t92);
     			mount_component(experiencecontent1, div23, null);
-    			append_dev(div23, t77);
+    			append_dev(div23, t93);
     			mount_component(experiencecontent2, div23, null);
-    			append_dev(main, t78);
+    			append_dev(main, t94);
     			append_dev(main, section4);
     			append_dev(section4, h23);
-    			append_dev(section4, t80);
+    			append_dev(h23, t95);
+    			append_dev(section4, t96);
     			append_dev(section4, span10);
-    			append_dev(section4, t82);
+    			append_dev(span10, t97);
+    			append_dev(section4, t98);
     			append_dev(section4, div25);
     			mount_component(swipercomponent, div25, null);
-    			append_dev(main, t83);
+    			append_dev(main, t99);
     			append_dev(main, section5);
     			append_dev(section5, h24);
-    			append_dev(section5, t85);
+    			append_dev(h24, t100);
+    			append_dev(section5, t101);
     			append_dev(section5, span11);
-    			append_dev(section5, t87);
+    			append_dev(span11, t102);
+    			append_dev(section5, t103);
     			append_dev(section5, div27);
     			append_dev(div27, div26);
     			mount_component(contactcard0, div26, null);
-    			append_dev(div26, t88);
+    			append_dev(div26, t104);
     			mount_component(contactcard1, div26, null);
-    			append_dev(div26, t89);
+    			append_dev(div26, t105);
     			mount_component(contactcard2, div26, null);
-    			append_dev(div26, t90);
+    			append_dev(div26, t106);
     			mount_component(contactcard3, div26, null);
-    			append_dev(main, t91);
+    			append_dev(main, t107);
     			append_dev(main, footer);
     			append_dev(footer, div29);
     			append_dev(div29, h11);
-    			append_dev(div29, t93);
+    			append_dev(h11, t108);
+    			append_dev(div29, t109);
     			append_dev(div29, p2);
-    			append_dev(div29, t95);
+    			append_dev(p2, t110);
+    			append_dev(div29, t111);
     			append_dev(div29, p3);
-    			append_dev(div29, t97);
+    			append_dev(p3, t112);
+    			append_dev(div29, t113);
     			append_dev(div29, div28);
     			append_dev(div28, a12);
     			mount_component(fontawesomeicon18, a12, null);
-    			append_dev(div28, t98);
+    			append_dev(div28, t114);
     			append_dev(div28, a13);
     			mount_component(fontawesomeicon19, a13, null);
-    			append_dev(div28, t99);
+    			append_dev(div28, t115);
     			append_dev(div28, a14);
     			mount_component(fontawesomeicon20, a14, null);
     			current = true;
 
     			if (!mounted) {
     				dispose = [
-    					listen_dev(div0, "click", /*click_handler*/ ctx[2], false, false, false),
-    					listen_dev(div4, "click", /*click_handler_1*/ ctx[3], false, false, false),
-    					listen_dev(a1, "click", /*click_handler_2*/ ctx[4], false, false, false),
-    					listen_dev(a2, "click", /*click_handler_3*/ ctx[5], false, false, false),
-    					listen_dev(a3, "click", /*click_handler_4*/ ctx[6], false, false, false),
-    					listen_dev(a4, "click", /*click_handler_5*/ ctx[7], false, false, false),
-    					listen_dev(a5, "click", /*click_handler_6*/ ctx[8], false, false, false),
-    					listen_dev(a6, "click", /*click_handler_7*/ ctx[9], false, false, false),
-    					listen_dev(div19, "click", /*click_handler_8*/ ctx[10], false, false, false),
-    					listen_dev(div20, "click", /*click_handler_9*/ ctx[11], false, false, false),
-    					listen_dev(div21, "click", /*click_handler_10*/ ctx[12], false, false, false)
+    					listen_dev(div0, "click", /*click_handler*/ ctx[5], false, false, false),
+    					listen_dev(button0, "click", reload, false, false, false),
+    					listen_dev(button1, "click", reload, false, false, false),
+    					listen_dev(div4, "click", /*click_handler_1*/ ctx[6], false, false, false),
+    					listen_dev(a1, "click", /*click_handler_2*/ ctx[7], false, false, false),
+    					listen_dev(a2, "click", /*click_handler_3*/ ctx[8], false, false, false),
+    					listen_dev(a3, "click", /*click_handler_4*/ ctx[9], false, false, false),
+    					listen_dev(a4, "click", /*click_handler_5*/ ctx[10], false, false, false),
+    					listen_dev(a5, "click", /*click_handler_6*/ ctx[11], false, false, false),
+    					listen_dev(a6, "click", /*click_handler_7*/ ctx[12], false, false, false),
+    					listen_dev(div19, "click", /*click_handler_8*/ ctx[13], false, false, false),
+    					listen_dev(div20, "click", /*click_handler_9*/ ctx[14], false, false, false),
+    					listen_dev(div21, "click", /*click_handler_10*/ ctx[15], false, false, false)
     				];
 
     				mounted = true;
     			}
     		},
     		p: function update(ctx, [dirty]) {
-    			if (!current || dirty & /*toggleMenu*/ 1 && div5_class_value !== (div5_class_value = "nav_menu " + (/*toggleMenu*/ ctx[0] != '' ? 'show' : ''))) {
+    			if ((!current || dirty & /*lang*/ 1) && t2_value !== (t2_value = /*lang*/ ctx[0].lang.spanish + "")) set_data_dev(t2, t2_value);
+    			if ((!current || dirty & /*lang*/ 1) && t4_value !== (t4_value = /*lang*/ ctx[0].lang.english + "")) set_data_dev(t4, t4_value);
+    			if ((!current || dirty & /*lang*/ 1) && t11_value !== (t11_value = /*lang*/ ctx[0].menu.home + "")) set_data_dev(t11, t11_value);
+    			if ((!current || dirty & /*lang*/ 1) && t14_value !== (t14_value = /*lang*/ ctx[0].menu.about_me + "")) set_data_dev(t14, t14_value);
+    			if ((!current || dirty & /*lang*/ 1) && t17_value !== (t17_value = /*lang*/ ctx[0].menu.skills + "")) set_data_dev(t17, t17_value);
+    			if ((!current || dirty & /*lang*/ 1) && t20_value !== (t20_value = /*lang*/ ctx[0].menu.experience + "")) set_data_dev(t20, t20_value);
+    			if ((!current || dirty & /*lang*/ 1) && t23_value !== (t23_value = /*lang*/ ctx[0].menu.projects + "")) set_data_dev(t23, t23_value);
+    			if ((!current || dirty & /*lang*/ 1) && t26_value !== (t26_value = /*lang*/ ctx[0].menu.contact_me + "")) set_data_dev(t26, t26_value);
+
+    			if (!current || dirty & /*toggleMenu*/ 2 && div5_class_value !== (div5_class_value = "nav_menu " + (/*toggleMenu*/ ctx[1] != '' ? 'show' : ''))) {
     				attr_dev(div5, "class", div5_class_value);
     			}
 
-    			if (!current || dirty & /*tabTarget*/ 2 && div19_class_value !== (div19_class_value = "experience_button button_flex " + (/*tabTarget*/ ctx[1] == 'education'
+    			if ((!current || dirty & /*lang*/ 1) && t32_value !== (t32_value = /*lang*/ ctx[0].home.greeting + "")) set_data_dev(t32, t32_value);
+    			if ((!current || dirty & /*lang*/ 1) && t34_value !== (t34_value = /*lang*/ ctx[0].home.name + "")) set_data_dev(t34, t34_value);
+    			if ((!current || dirty & /*lang*/ 1) && t36_value !== (t36_value = /*lang*/ ctx[0].home.description + "")) set_data_dev(t36, t36_value);
+    			if ((!current || dirty & /*lang*/ 1) && t38_value !== (t38_value = /*lang*/ ctx[0].home.contact + "")) set_data_dev(t38, t38_value);
+    			if ((!current || dirty & /*lang*/ 1) && t41_value !== (t41_value = /*lang*/ ctx[0].about_me.title + "")) set_data_dev(t41, t41_value);
+    			if ((!current || dirty & /*lang*/ 1) && t43_value !== (t43_value = /*lang*/ ctx[0].about_me.subtitle + "")) set_data_dev(t43, t43_value);
+    			if ((!current || dirty & /*lang*/ 1) && t45_value !== (t45_value = /*lang*/ ctx[0].about_me.description + "")) set_data_dev(t45, t45_value);
+    			if ((!current || dirty & /*lang*/ 1) && t47_value !== (t47_value = /*lang*/ ctx[0].about_me.description2 + "")) set_data_dev(t47, t47_value);
+    			if ((!current || dirty & /*lang*/ 1) && t49_value !== (t49_value = /*lang*/ ctx[0].about_me.age_description + "")) set_data_dev(t49, t49_value);
+    			if ((!current || dirty & /*lang*/ 1) && t51_value !== (t51_value = /*lang*/ ctx[0].about_me.age_title1 + "")) set_data_dev(t51, t51_value);
+    			if ((!current || dirty & /*lang*/ 1) && t54_value !== (t54_value = /*lang*/ ctx[0].about_me.age_title2 + "")) set_data_dev(t54, t54_value);
+    			if ((!current || dirty & /*lang*/ 1) && t56_value !== (t56_value = /*lang*/ ctx[0].about_me.nacionality_description + "")) set_data_dev(t56, t56_value);
+    			if ((!current || dirty & /*lang*/ 1) && t58_value !== (t58_value = /*lang*/ ctx[0].about_me.nacionality_title + "")) set_data_dev(t58, t58_value);
+    			if ((!current || dirty & /*lang*/ 1) && t60_value !== (t60_value = /*lang*/ ctx[0].about_me.inlove_description + "")) set_data_dev(t60, t60_value);
+    			if ((!current || dirty & /*lang*/ 1) && t62_value !== (t62_value = /*lang*/ ctx[0].about_me.inlove_title1 + "")) set_data_dev(t62, t62_value);
+    			if ((!current || dirty & /*lang*/ 1) && t65_value !== (t65_value = /*lang*/ ctx[0].about_me.inlove_title2 + "")) set_data_dev(t65, t65_value);
+    			if ((!current || dirty & /*lang*/ 1) && t67_value !== (t67_value = /*lang*/ ctx[0].about_me.cv + "")) set_data_dev(t67, t67_value);
+    			if ((!current || dirty & /*lang*/ 1) && t70_value !== (t70_value = /*lang*/ ctx[0].skills.title + "")) set_data_dev(t70, t70_value);
+    			if ((!current || dirty & /*lang*/ 1) && t72_value !== (t72_value = /*lang*/ ctx[0].skills.subtitle + "")) set_data_dev(t72, t72_value);
+    			const skillaccordion0_changes = {};
+    			if (dirty & /*lang*/ 1) skillaccordion0_changes.skillName = /*lang*/ ctx[0].skills.category1;
+    			skillaccordion0.$set(skillaccordion0_changes);
+    			const skillaccordion1_changes = {};
+    			if (dirty & /*lang*/ 1) skillaccordion1_changes.skillName = /*lang*/ ctx[0].skills.category2;
+    			skillaccordion1.$set(skillaccordion1_changes);
+    			const skillaccordion2_changes = {};
+    			if (dirty & /*lang*/ 1) skillaccordion2_changes.skillName = /*lang*/ ctx[0].skills.category3;
+    			skillaccordion2.$set(skillaccordion2_changes);
+    			const skillaccordion3_changes = {};
+    			if (dirty & /*lang*/ 1) skillaccordion3_changes.skillName = /*lang*/ ctx[0].skills.category4;
+    			skillaccordion3.$set(skillaccordion3_changes);
+    			const skillaccordion4_changes = {};
+    			if (dirty & /*lang*/ 1) skillaccordion4_changes.skillName = /*lang*/ ctx[0].skills.category5;
+    			skillaccordion4.$set(skillaccordion4_changes);
+    			if ((!current || dirty & /*lang*/ 1) && t79_value !== (t79_value = /*lang*/ ctx[0].experience.title + "")) set_data_dev(t79, t79_value);
+    			if ((!current || dirty & /*lang*/ 1) && t81_value !== (t81_value = /*lang*/ ctx[0].experience.subtitle + "")) set_data_dev(t81, t81_value);
+    			if ((!current || dirty & /*lang*/ 1) && t84_value !== (t84_value = /*lang*/ ctx[0].experience.tab1 + "")) set_data_dev(t84, t84_value);
+
+    			if (!current || dirty & /*tabTarget*/ 4 && div19_class_value !== (div19_class_value = "experience_button button_flex " + (/*tabTarget*/ ctx[2] == 'education'
     			? 'experience_active'
     			: ''))) {
     				attr_dev(div19, "class", div19_class_value);
     			}
 
-    			if (!current || dirty & /*tabTarget*/ 2 && div20_class_value !== (div20_class_value = "experience_button button_flex " + (/*tabTarget*/ ctx[1] == 'work'
+    			if ((!current || dirty & /*lang*/ 1) && t87_value !== (t87_value = /*lang*/ ctx[0].experience.tab2 + "")) set_data_dev(t87, t87_value);
+
+    			if (!current || dirty & /*tabTarget*/ 4 && div20_class_value !== (div20_class_value = "experience_button button_flex " + (/*tabTarget*/ ctx[2] == 'work'
     			? 'experience_active'
     			: ''))) {
     				attr_dev(div20, "class", div20_class_value);
     			}
 
-    			if (!current || dirty & /*tabTarget*/ 2 && div21_class_value !== (div21_class_value = "experience_button button_flex " + (/*tabTarget*/ ctx[1] == 'courses'
+    			if ((!current || dirty & /*lang*/ 1) && t90_value !== (t90_value = /*lang*/ ctx[0].experience.tab3 + "")) set_data_dev(t90, t90_value);
+
+    			if (!current || dirty & /*tabTarget*/ 4 && div21_class_value !== (div21_class_value = "experience_button button_flex " + (/*tabTarget*/ ctx[2] == 'courses'
     			? 'experience_active'
     			: ''))) {
     				attr_dev(div21, "class", div21_class_value);
     			}
 
     			const experiencecontent0_changes = {};
-    			if (dirty & /*tabTarget*/ 2) experiencecontent0_changes.tabTarget = /*tabTarget*/ ctx[1];
+    			if (dirty & /*tabTarget*/ 4) experiencecontent0_changes.tabTarget = /*tabTarget*/ ctx[2];
+
+    			if (dirty & /*lang*/ 1) experiencecontent0_changes.info = [
+    				{
+    					'name': /*lang*/ ctx[0].experience.tab1_info.info1_title,
+    					'school': /*lang*/ ctx[0].experience.tab1_info.info1_description,
+    					'desc': '',
+    					'date': /*lang*/ ctx[0].experience.tab1_info.info1_date
+    				},
+    				{
+    					'name': /*lang*/ ctx[0].experience.tab1_info.info2_title,
+    					'school': /*lang*/ ctx[0].experience.tab1_info.info2_description,
+    					'desc': '',
+    					'date': /*lang*/ ctx[0].experience.tab1_info.info2_date
+    				}
+    			];
+
     			experiencecontent0.$set(experiencecontent0_changes);
     			const experiencecontent1_changes = {};
-    			if (dirty & /*tabTarget*/ 2) experiencecontent1_changes.tabTarget = /*tabTarget*/ ctx[1];
+    			if (dirty & /*tabTarget*/ 4) experiencecontent1_changes.tabTarget = /*tabTarget*/ ctx[2];
+
+    			if (dirty & /*lang*/ 1) experiencecontent1_changes.info = [
+    				{
+    					'name': /*lang*/ ctx[0].experience.tab2_info.info1_title,
+    					'school': /*lang*/ ctx[0].experience.tab2_info.info1_subtitle,
+    					'desc': /*lang*/ ctx[0].experience.tab2_info.info1_description,
+    					'date': /*lang*/ ctx[0].experience.tab2_info.info1_date
+    				},
+    				{
+    					'name': /*lang*/ ctx[0].experience.tab2_info.info2_title,
+    					'school': /*lang*/ ctx[0].experience.tab2_info.info2_subtitle,
+    					'desc': /*lang*/ ctx[0].experience.tab2_info.info2_description,
+    					'date': /*lang*/ ctx[0].experience.tab2_info.info2_date
+    				}
+    			];
+
     			experiencecontent1.$set(experiencecontent1_changes);
     			const experiencecontent2_changes = {};
-    			if (dirty & /*tabTarget*/ 2) experiencecontent2_changes.tabTarget = /*tabTarget*/ ctx[1];
+    			if (dirty & /*tabTarget*/ 4) experiencecontent2_changes.tabTarget = /*tabTarget*/ ctx[2];
+
+    			if (dirty & /*lang*/ 1) experiencecontent2_changes.info = [
+    				{
+    					'name': /*lang*/ ctx[0].experience.tab3_info.info1_title,
+    					'school': /*lang*/ ctx[0].experience.tab3_info.info1_description,
+    					'desc': '',
+    					'date': /*lang*/ ctx[0].experience.tab3_info.info1_date
+    				},
+    				{
+    					'name': /*lang*/ ctx[0].experience.tab3_info.info2_title,
+    					'school': /*lang*/ ctx[0].experience.tab3_info.info2_description,
+    					'desc': '',
+    					'date': /*lang*/ ctx[0].experience.tab3_info.info2_date
+    				},
+    				{
+    					'name': /*lang*/ ctx[0].experience.tab3_info.info3_title,
+    					'school': /*lang*/ ctx[0].experience.tab3_info.info3_description,
+    					'desc': '',
+    					'date': /*lang*/ ctx[0].experience.tab3_info.info3_date
+    				}
+    			];
+
     			experiencecontent2.$set(experiencecontent2_changes);
+    			if ((!current || dirty & /*lang*/ 1) && t95_value !== (t95_value = /*lang*/ ctx[0].projects.title + "")) set_data_dev(t95, t95_value);
+    			if ((!current || dirty & /*lang*/ 1) && t97_value !== (t97_value = /*lang*/ ctx[0].projects.subtitle + "")) set_data_dev(t97, t97_value);
+    			const swipercomponent_changes = {};
+
+    			if (dirty & /*lang*/ 1) swipercomponent_changes.slides = [
+    				{
+    					'title': /*lang*/ ctx[0].projects.project1.title,
+    					'description': /*lang*/ ctx[0].projects.project1.description,
+    					'route': './img/portfolio/eltepetate.png',
+    					'link': ''
+    				},
+    				{
+    					'title': /*lang*/ ctx[0].projects.project2.title,
+    					'description': /*lang*/ ctx[0].projects.project2.description,
+    					'route': './img/portfolio/mia.jpg',
+    					'link': 'https://www.morelia.tecnm.mx/mia/'
+    				},
+    				{
+    					'title': /*lang*/ ctx[0].projects.project3.title,
+    					'description': /*lang*/ ctx[0].projects.project3.description,
+    					'route': './img/portfolio/inii.jpg',
+    					'link': ''
+    				}
+    			];
+
+    			swipercomponent.$set(swipercomponent_changes);
+    			if ((!current || dirty & /*lang*/ 1) && t100_value !== (t100_value = /*lang*/ ctx[0].contact_me.title + "")) set_data_dev(t100, t100_value);
+    			if ((!current || dirty & /*lang*/ 1) && t102_value !== (t102_value = /*lang*/ ctx[0].contact_me.subtitle + "")) set_data_dev(t102, t102_value);
+    			const contactcard0_changes = {};
+    			if (dirty & /*lang*/ 1) contactcard0_changes.title = /*lang*/ ctx[0].contact_me.card1.title;
+    			if (dirty & /*lang*/ 1) contactcard0_changes.description = /*lang*/ ctx[0].contact_me.card1.description;
+    			contactcard0.$set(contactcard0_changes);
+    			const contactcard1_changes = {};
+    			if (dirty & /*lang*/ 1) contactcard1_changes.title = /*lang*/ ctx[0].contact_me.card2.title;
+    			if (dirty & /*lang*/ 1) contactcard1_changes.description = /*lang*/ ctx[0].contact_me.card2.description;
+    			contactcard1.$set(contactcard1_changes);
+    			const contactcard2_changes = {};
+    			if (dirty & /*lang*/ 1) contactcard2_changes.title = /*lang*/ ctx[0].contact_me.card3.title;
+    			if (dirty & /*lang*/ 1) contactcard2_changes.description = /*lang*/ ctx[0].contact_me.card3.description;
+    			contactcard2.$set(contactcard2_changes);
+    			const contactcard3_changes = {};
+    			if (dirty & /*lang*/ 1) contactcard3_changes.title = /*lang*/ ctx[0].contact_me.card4.title;
+    			if (dirty & /*lang*/ 1) contactcard3_changes.description = /*lang*/ ctx[0].contact_me.card4.description;
+    			contactcard3.$set(contactcard3_changes);
+    			if ((!current || dirty & /*lang*/ 1) && t108_value !== (t108_value = /*lang*/ ctx[0].footer.name + "")) set_data_dev(t108, t108_value);
+    			if ((!current || dirty & /*lang*/ 1) && t110_value !== (t110_value = /*lang*/ ctx[0].footer.description1 + "")) set_data_dev(t110, t110_value);
+    			if ((!current || dirty & /*lang*/ 1) && t112_value !== (t112_value = /*lang*/ ctx[0].footer.description2 + "")) set_data_dev(t112, t112_value);
     		},
     		i: function intro(local) {
     			if (current) return;
@@ -11565,7 +11854,7 @@ var app = (function () {
     			destroy_component(fontawesomeicon7);
     			destroy_component(fontawesomeicon8);
     			destroy_component(fontawesomeicon9);
-    			if (detaching) detach_dev(t21);
+    			if (detaching) detach_dev(t27);
     			if (detaching) detach_dev(main);
     			destroy_component(fontawesomeicon10);
     			destroy_component(fontawesomeicon11);
@@ -11607,6 +11896,18 @@ var app = (function () {
     	return block;
     }
 
+    function reload() {
+    	try {
+    		let lang = localStorage.getItem("lang");
+    		if (!lang) throw "no-data";
+    		if (lang === "en") localStorage.setItem("lang", "es"); else localStorage.setItem("lang", "en");
+    	} catch(error) {
+    		localStorage.setItem("lang", "en");
+    	}
+
+    	window.location.reload();
+    }
+
     function instance($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('App', slots, []);
@@ -11633,27 +11934,55 @@ var app = (function () {
 
     	library.add(faLinkedin);
 
+    	/* Lang */
+    	let _lang = "en";
+
+    	onMount(() => {
+    		try {
+    			let lang = localStorage.getItem("lang");
+    			_lang = lang;
+    			if (!lang) throw "no-data";
+    		} catch(error) {
+    			localStorage.setItem("lang", "en");
+    			_lang = "en";
+    		}
+    	});
+
+    	let lang = localStorage.getItem("lang");
+    	if (lang === "es") lang = es; else lang = en;
+
     	/* == OFF CANVAS MENU  == */
     	let toggleMenu = '';
 
     	let tabTarget = 'education';
+    	let category4 = [lang.skills.category4_options.option1, lang.skills.category4_options.option2];
+
+    	let category5 = [
+    		lang.skills.category5_options.option1,
+    		lang.skills.category5_options.option2,
+    		lang.skills.category5_options.option3,
+    		lang.skills.category5_options.option4,
+    		lang.skills.category5_options.option5,
+    		lang.skills.category5_options.option6
+    	];
+
     	const writable_props = [];
 
     	Object.keys($$props).forEach(key => {
     		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== '$$' && key !== 'slot') console.warn(`<App> was created with unknown prop '${key}'`);
     	});
 
-    	const click_handler = () => $$invalidate(0, toggleMenu = 'show');
-    	const click_handler_1 = () => $$invalidate(0, toggleMenu = '');
-    	const click_handler_2 = () => $$invalidate(0, toggleMenu = '');
-    	const click_handler_3 = () => $$invalidate(0, toggleMenu = '');
-    	const click_handler_4 = () => $$invalidate(0, toggleMenu = '');
-    	const click_handler_5 = () => $$invalidate(0, toggleMenu = '');
-    	const click_handler_6 = () => $$invalidate(0, toggleMenu = '');
-    	const click_handler_7 = () => $$invalidate(0, toggleMenu = '');
-    	const click_handler_8 = () => $$invalidate(1, tabTarget = 'education');
-    	const click_handler_9 = () => $$invalidate(1, tabTarget = 'work');
-    	const click_handler_10 = () => $$invalidate(1, tabTarget = 'courses');
+    	const click_handler = () => $$invalidate(1, toggleMenu = 'show');
+    	const click_handler_1 = () => $$invalidate(1, toggleMenu = '');
+    	const click_handler_2 = () => $$invalidate(1, toggleMenu = '');
+    	const click_handler_3 = () => $$invalidate(1, toggleMenu = '');
+    	const click_handler_4 = () => $$invalidate(1, toggleMenu = '');
+    	const click_handler_5 = () => $$invalidate(1, toggleMenu = '');
+    	const click_handler_6 = () => $$invalidate(1, toggleMenu = '');
+    	const click_handler_7 = () => $$invalidate(1, toggleMenu = '');
+    	const click_handler_8 = () => $$invalidate(2, tabTarget = 'education');
+    	const click_handler_9 = () => $$invalidate(2, tabTarget = 'work');
+    	const click_handler_10 = () => $$invalidate(2, tabTarget = 'courses');
 
     	$$self.$capture_state = () => ({
     		library,
@@ -11677,17 +12006,29 @@ var app = (function () {
     		faGithubSquare,
     		faLinkedin,
     		FontAwesomeIcon,
+    		en,
+    		es,
     		SkillAccordion,
     		ExperienceContent,
     		SwiperComponent,
     		ContactCard,
+    		onMount,
+    		_lang,
+    		lang,
     		toggleMenu,
-    		tabTarget
+    		tabTarget,
+    		category4,
+    		category5,
+    		reload
     	});
 
     	$$self.$inject_state = $$props => {
-    		if ('toggleMenu' in $$props) $$invalidate(0, toggleMenu = $$props.toggleMenu);
-    		if ('tabTarget' in $$props) $$invalidate(1, tabTarget = $$props.tabTarget);
+    		if ('_lang' in $$props) _lang = $$props._lang;
+    		if ('lang' in $$props) $$invalidate(0, lang = $$props.lang);
+    		if ('toggleMenu' in $$props) $$invalidate(1, toggleMenu = $$props.toggleMenu);
+    		if ('tabTarget' in $$props) $$invalidate(2, tabTarget = $$props.tabTarget);
+    		if ('category4' in $$props) $$invalidate(3, category4 = $$props.category4);
+    		if ('category5' in $$props) $$invalidate(4, category5 = $$props.category5);
     	};
 
     	if ($$props && "$$inject" in $$props) {
@@ -11695,8 +12036,11 @@ var app = (function () {
     	}
 
     	return [
+    		lang,
     		toggleMenu,
     		tabTarget,
+    		category4,
+    		category5,
     		click_handler,
     		click_handler_1,
     		click_handler_2,
