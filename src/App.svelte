@@ -4,6 +4,7 @@
 			faEnvelope, faAddressCard, faFilePdf, faGraduationCap, faAward, faCalendar, faArrowRight, faLaptopCode} from '@fortawesome/free-solid-svg-icons';
 	import { faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 	import { FontAwesomeIcon } from 'fontawesome-svelte';
+
 	//Import lang
 	import en from '../public/lang/en.json'
 	import es from '../public/lang/es.json'
@@ -241,7 +242,7 @@
 				</div>
 
 				<div class="aboutme_buttons">
-					<a href="./pdf/Practica3.pdf" target="_blank" class="button button_flex">
+					<a href="./pdf/LuisEduardo_MartinezMorales_Intern_Letter.pdf" target="_blank" class="button button_flex">
 						{lang.about_me.cv} &nbsp<FontAwesomeIcon icon="file-pdf"/>
 					</a>
 				</div>
@@ -259,6 +260,9 @@
 			<SkillAccordion
 				skillName = {lang.skills.category1}
 				skills = {['Javascript','Python','PHP','SQL','C/C++','C#','Java','Kotlin','Assembly (8086)']}
+				imgs = {['./img/skills/js.png','./img/skills/python.png','./img/skills/php.svg','./img/skills/sql.png',
+						'./img/skills/cplusplus.png','./img/skills/csharp.png','./img/skills/java.png','./img/skills/kotlin.png',
+						'./img/skills/assembly.png']}
 				icon = 'code'
 			/>
 
@@ -266,6 +270,9 @@
 				skillName = {lang.skills.category2}
 				skills = {['Laravel','React/React Native','Redis','Svelte', 'Node JS','MySQL','MariaDB','SQL Server',
 							'PostgreSQL','Ajax','Bootstrap','UIkit']}
+				imgs = {['./img/skills/laravel.png','./img/skills/react.png','./img/skills/redis.svg','./img/skills/svelte.png',
+						'./img/skills/nodejs.png','./img/skills/mysql.png','./img/skills/mariadb.png','./img/skills/sqlserver.png',
+						'./img/skills/postgresql.png','./img/skills/ajax.png', './img/skills/bootstrap.png', './img/skills/uikit.svg']}
 				icon = 'server'
 			/>
 
@@ -273,12 +280,16 @@
 				skillName = {lang.skills.category3}
 				skills = {['Git','Docker','Windows/Windows Server','Linux','Microsoft Office', 'Cisco Packet Tracer', 'VmWare Workstation / VmWare Esxi', 'VirtualBox',
 							'XenServer', 'KVM', 'Hyper-V']}
+				imgs = {['./img/skills/git.png','./img/skills/docker.png','./img/skills/windows.png','./img/skills/linux.png',
+				'./img/skills/office.png','./img/skills/cisco.png','./img/skills/vmware.png','./img/skills/virtualbox.png',
+				'./img/skills/xenserver.png', './img/skills/kvm.png', './img/skills/hyperv.png']}
 				icon = 'ellipsis-h'
 			/>
 
 			<SkillAccordion
 				skillName = {lang.skills.category4}
 				skills = {category4}
+				imgs = {['./img/skills/spanish.png','./img/skills/english.svg']}
 				icon = 'language'
 			/>
 
@@ -401,7 +412,7 @@
 						'title': lang.projects.project1.title,
 						'description': lang.projects.project1.description,
 						'route': './img/portfolio/eltepetate.png',
-						'link': ''
+						'link': 'http://aquata.raccoonsolutions.net'
 					},
 					{
 						'title': lang.projects.project2.title,
@@ -413,7 +424,7 @@
 						'title': lang.projects.project3.title,
 						'description': lang.projects.project3.description,
 						'route': './img/portfolio/inii.jpg',
-						'link': ''
+						'link': 'https://www.facebook.com/IINIIOFICIAL/'
 					}
 				]}
 			/>

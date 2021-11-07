@@ -370,6 +370,13 @@ img{
 
 .skills_title{
     font-size: var(--h2-font-size);
+    display: flex;
+    margin-bottom: var(--mb-50);
+}
+
+.skills_img{
+    width: 25px;
+    margin-right: var(--mb-25);
 }
 
 .skills_subtitle{
@@ -380,12 +387,6 @@ img{
 .skills_arrow{
     margin-left: auto;
     transition: .4s;
-}
-
-.skills_title{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: var(--mb-50);
 }
 
 .skills_name{
@@ -757,6 +758,7 @@ img{
     text-decoration: none;
     display: block;
     cursor: pointer;
+    width: 100%;
 }
   
 .dropdown_content button:hover {

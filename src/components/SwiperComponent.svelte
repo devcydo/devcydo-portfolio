@@ -4,6 +4,11 @@
 	import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 	import { FontAwesomeIcon } from 'fontawesome-svelte';
 
+    //Alerts
+	import {notifications} from '../services/notifications.js'
+	import Toast from './Toast.svelte'
+    
+    //Swiper
     import 'swiper/css'
     import "swiper/css/pagination"
     import "swiper/css/navigation"
@@ -39,7 +44,7 @@
                     <div class="portfolio_data">
                         <h3 class="portfolio_title">{slide.title}</h3>
                         <p class="portfolio_description">{slide.description}</p>
-                        <a href={slide.link} class="button button_flex button_small portfolio_button">
+                        <a href={slide.link} target="_blank" class="button button_flex button_small portfolio_button">
                             Visit
                             <FontAwesomeIcon icon="arrow-right" class="button_icon"/>
                         </a>

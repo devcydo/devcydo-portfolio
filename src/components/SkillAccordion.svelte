@@ -18,6 +18,7 @@
     //Variables received
     export let skillName = ''
     export let skills = []
+    export let imgs = []
     export let icon = ''
 </script>
 
@@ -40,9 +41,12 @@
         </div>
 
         <div class="skills_list grid">
-            {#each skills as skill}
+            {#each skills as skill, i}
                 <div class="skills_data">
                     <div class="skills_title">
+                        {#if imgs.length > 0}
+                            <img src={imgs[i]} alt="" class="skills_img">
+                        {/if}
                         <h3 class="skills_name">{skill}</h3>
                     </div>
                 </div>

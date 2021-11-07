@@ -41,8 +41,8 @@
         "category4": "Languages",
         "category5": "Personal Interests",
         "category4_options": {
-            "spanish": "Spanish (First language)",
-            "english": "English (Advanced)"
+            "option1": "Spanish (First language)",
+            "option2": "English (Advanced)"
         },
         "category5_options": {
             "option1": "Cybersecurity",
