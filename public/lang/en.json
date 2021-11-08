@@ -30,7 +30,8 @@
         "inlove_title1": "In love",
         "inlove_title2": "with",
         "inlove_description": "Python",
-        "cv": "View CV"
+        "cv": "View CV",
+        "cv_route": "./pdf/LuisEduardo_MartinezMorales_Intern_CV_Public.pdf"
     },
     "skills": {
         "title": "Skills",
@@ -41,16 +42,16 @@
         "category4": "Languages",
         "category5": "Personal Interests",
         "category4_options": {
-            "option1": "Spanish (First language)",
+            "option1": "Spanish (Native speaker)",
             "option2": "English (Advanced)"
         },
         "category5_options": {
-            "option1": "Cybersecurity",
-            "option2": "Operative Systems",
-            "option3": "Server configuration",
-            "option4": "Databases",
-            "option5": "Virtualization",
-            "option6": "Containers (Dockers / Kubernetes)"
+            "option1": "Containers (Dockers / Kubernetes)",
+            "option2": "Cybersecurity",
+            "option3": "Databases",
+            "option4": "Operative Systems",
+            "option5": "Server configuration",
+            "option6": "Virtualization"
         }
     },
     "experience": {
@@ -94,20 +95,20 @@
         "subtitle": "Take a look at some of my work",
         "project1": {
             "title": "AQUATA",
-            "description": "Begin as a school project and turned into a real solution. My team and I developed a CRM Software for a real client that owns a trout farm, he needed a digital tool that helped him to manage the incomes, expenses, sales, ponds and stages of his trouts."
+            "description": "Management software for a real client that owns a trout farm, he needed a digital tool that helped him to manage the incomes, expenses, sales, pondsand stages of his trout."
         },
         "project2": {
             "title": "Maestría en Ingeniería Administrativa",
-            "description": "Informative website about the master's degree in administrative engineering of the Instituto Tecnológico de Morelia"
+            "description": "Informative website about administrative engineering master's degree offered by the Instituto Tecnológico de Morelia"
         },
         "project3": {
             "title": "INII Inversiones Inmobiliarias",
-            "description": "Currently working on a super secret project that will be anounced soon!"
+            "description": "Currently working on a top-secret project that will be anounced soon!"
         }
     },
     "contact_me":{
         "title": "Contact Me",
-        "subtitle": "Get in touch with me to get a more personal resume",
+        "subtitle": "Get in touch with me to get full version of my CV",
         "card1": {
             "title": "Location",
             "description": "Morelia, Mich."
@@ -128,6 +129,6 @@
     "footer": {
         "name": "Luis Eduardo Martínez Morales",
         "description1": "Devcydo personal portfolio",
-        "description2": "Developed with Svelte"
+        "description2": "Developed with Svelte / FontAwesome Icons"
     }
 }

@@ -2671,9 +2671,9 @@ var app = (function () {
     	}
     }
 
-    var lang$1={spanish:"Spanish",english:"English"};var menu$1={home:"Home",about_me:"About Me",skills:"Skills",experience:"Experience",projects:"Projects",contact_me:"Contact Me"};var home$1={greeting:"Hi, I am",name:"Luis Eduardo Martínez Morales",description:"Fullstack developer and cybersecurity enthusiast",contact:"Contact Me"};var about_me$1={title:"About me",subtitle:"My introduction",description:"I am currently a 9th semester student of the Computer Systems Engineering career at Tecnológico Nacional de México, Campus Morelia (also known as Instituto Tecnológico de Morelia) with a specialty in Information Security. I consider myself a responsible, enthusiastic and committed developer, who likes challenges and learning new things every day.",description2:"I love to code, but also I am into cybersecurity, server configurations and pentesting.",age_title1:"Years",age_title2:"old",age_description:"22",nacionality_title:"Nacionality",nacionality_description:"MX",inlove_title1:"In love",inlove_title2:"with",inlove_description:"Python",cv:"View CV"};var skills$1={title:"Skills",subtitle:"My technical skills and interests",category1:"Programming Languages",category2:"Development Technologies",category3:"Other Technologies",category4:"Languages",category5:"Personal Interests",category4_options:{option1:"Spanish (First language)",option2:"English (Advanced)"},category5_options:{option1:"Cybersecurity",option2:"Operative Systems",option3:"Server configuration",option4:"Databases",option5:"Virtualization",option6:"Containers (Dockers / Kubernetes)"}};var experience$1={title:"Experience",subtitle:"What I've done",tab1:"Education",tab2:"Work",tab3:"Courses",tab1_info:{info1_title:"Computer Systems Engineering",info1_description:"Tecnológico Nacional de México, Campus Morelia",info1_date:"Aug 2017 - Today",info2_title:"Information Security (Degree Specialty)",info2_description:"Tecnológico Nacional de México, Campus Morelia",info2_date:"Aug 2020 - Today"},tab2_info:{info1_title:"Fullstack developer",info1_subtitle:"Freelancer",info1_description:"I helped to develop a CRM software for a construction company",info1_date:"Apr 2021 - Sep 2021",info2_title:"Backend developer",info2_subtitle:"INII Inversiones Inmobiliarias",info2_description:"Currently working on a top secret project!",info2_date:"Oct 2021 - Today"},tab3_info:{info1_title:"Introduction to Cybersecurity",info1_description:"Cisco Networking Academy",info1_date:"Nov 2020 - Dec 2020",info2_title:"CCNA Routing and Switching: Basic principles of routing and switching",info2_description:"Cisco Networking Academy",info2_date:"Aug 2020 - Feb 2021",info3_title:"CCNA Routing and Switching: Scaling Networks",info3_description:"Cisco Networking Academy",info3_date:"Aug 2020 - Feb 2021"}};var projects$1={title:"Projects",subtitle:"Take a look at some of my work",project1:{title:"AQUATA",description:"Begin as a school project and turned into a real solution. My team and I developed a CRM Software for a real client that owns a trout farm, he needed a digital tool that helped him to manage the incomes, expenses, sales, ponds and stages of his trouts."},project2:{title:"Maestría en Ingeniería Administrativa",description:"Informative website about the master's degree in administrative engineering of the Instituto Tecnológico de Morelia"},project3:{title:"INII Inversiones Inmobiliarias",description:"Currently working on a super secret project that will be anounced soon!"}};var contact_me$1={title:"Contact Me",subtitle:"Get in touch with me to get a more personal resume",card1:{title:"Location",description:"Morelia, Mich."},card2:{title:"Mail",description:"devcydo@raccoonsolutions.net"},card3:{title:"LinkedIn",description:"https://www.linkedin.com/in/devcydo"},card4:{title:"Github",description:"https://github.com/devcydo"}};var footer$1={name:"Luis Eduardo Martínez Morales",description1:"Devcydo personal portfolio",description2:"Developed with Svelte"};var en = {lang:lang$1,menu:menu$1,home:home$1,about_me:about_me$1,skills:skills$1,experience:experience$1,projects:projects$1,contact_me:contact_me$1,footer:footer$1};
+    var lang$1={spanish:"Spanish",english:"English"};var menu$1={home:"Home",about_me:"About Me",skills:"Skills",experience:"Experience",projects:"Projects",contact_me:"Contact Me"};var home$1={greeting:"Hi, I am",name:"Luis Eduardo Martínez Morales",description:"Fullstack developer and cybersecurity enthusiast",contact:"Contact Me"};var about_me$1={title:"About me",subtitle:"My introduction",description:"I am currently a 9th semester student of the Computer Systems Engineering career at Tecnológico Nacional de México, Campus Morelia (also known as Instituto Tecnológico de Morelia) with a specialty in Information Security. I consider myself a responsible, enthusiastic and committed developer, who likes challenges and learning new things every day.",description2:"I love to code, but also I am into cybersecurity, server configurations and pentesting.",age_title1:"Years",age_title2:"old",age_description:"22",nacionality_title:"Nacionality",nacionality_description:"MX",inlove_title1:"In love",inlove_title2:"with",inlove_description:"Python",cv:"View CV",cv_route:"./pdf/LuisEduardo_MartinezMorales_Intern_CV_Public.pdf"};var skills$1={title:"Skills",subtitle:"My technical skills and interests",category1:"Programming Languages",category2:"Development Technologies",category3:"Other Technologies",category4:"Languages",category5:"Personal Interests",category4_options:{option1:"Spanish (Native speaker)",option2:"English (Advanced)"},category5_options:{option1:"Containers (Dockers / Kubernetes)",option2:"Cybersecurity",option3:"Databases",option4:"Operative Systems",option5:"Server configuration",option6:"Virtualization"}};var experience$1={title:"Experience",subtitle:"What I've done",tab1:"Education",tab2:"Work",tab3:"Courses",tab1_info:{info1_title:"Computer Systems Engineering",info1_description:"Tecnológico Nacional de México, Campus Morelia",info1_date:"Aug 2017 - Today",info2_title:"Information Security (Degree Specialty)",info2_description:"Tecnológico Nacional de México, Campus Morelia",info2_date:"Aug 2020 - Today"},tab2_info:{info1_title:"Fullstack developer",info1_subtitle:"Freelancer",info1_description:"I helped to develop a CRM software for a construction company",info1_date:"Apr 2021 - Sep 2021",info2_title:"Backend developer",info2_subtitle:"INII Inversiones Inmobiliarias",info2_description:"Currently working on a top secret project!",info2_date:"Oct 2021 - Today"},tab3_info:{info1_title:"Introduction to Cybersecurity",info1_description:"Cisco Networking Academy",info1_date:"Nov 2020 - Dec 2020",info2_title:"CCNA Routing and Switching: Basic principles of routing and switching",info2_description:"Cisco Networking Academy",info2_date:"Aug 2020 - Feb 2021",info3_title:"CCNA Routing and Switching: Scaling Networks",info3_description:"Cisco Networking Academy",info3_date:"Aug 2020 - Feb 2021"}};var projects$1={title:"Projects",subtitle:"Take a look at some of my work",project1:{title:"AQUATA",description:"Management software for a real client that owns a trout farm, he needed a digital tool that helped him to manage the incomes, expenses, sales, pondsand stages of his trout."},project2:{title:"Maestría en Ingeniería Administrativa",description:"Informative website about administrative engineering master's degree offered by the Instituto Tecnológico de Morelia"},project3:{title:"INII Inversiones Inmobiliarias",description:"Currently working on a top-secret project that will be anounced soon!"}};var contact_me$1={title:"Contact Me",subtitle:"Get in touch with me to get full version of my CV",card1:{title:"Location",description:"Morelia, Mich."},card2:{title:"Mail",description:"devcydo@raccoonsolutions.net"},card3:{title:"LinkedIn",description:"https://www.linkedin.com/in/devcydo"},card4:{title:"Github",description:"https://github.com/devcydo"}};var footer$1={name:"Luis Eduardo Martínez Morales",description1:"Devcydo personal portfolio",description2:"Developed with Svelte / FontAwesome Icons"};var en = {lang:lang$1,menu:menu$1,home:home$1,about_me:about_me$1,skills:skills$1,experience:experience$1,projects:projects$1,contact_me:contact_me$1,footer:footer$1};
 
-    var lang={spanish:"Español",english:"Inglés"};var menu={home:"Inicio",about_me:"Acerca de mi",skills:"Habilidades",experience:"Experiencia",projects:"Proyectos",contact_me:"Contáctame"};var home={greeting:"Hola, yo soy",name:"Luis Eduardo Martínez Morales",description:"Desarrollador fullstack y entusiasta de la ciberseguridad",contact:"Contáctame"};var about_me={title:"Acerca de mi",subtitle:"Introducción",description:"Actualmente curso el 9no semestre de la carrera de Ingeniería en Sistemas Computacionales en el Tecnológico Nacional de México, Campus Morelia (también conocido como Instituto Tecnológico de Morelia) con especialidad en Seguridad de la Información. Me considero una persona responsable, entusiasta y comprometida, a quien le gustan los retos y aprender nuevas cosas todos los dias.",description2:"Me encanta programar, la ciberseguridad, administrar servidores y el pentesting.",age_title1:"Años",age_title2:"",age_description:"22",nacionality_title:"Nacionalidad",nacionality_description:"MX",inlove_title1:"Enamorado",inlove_title2:"con",inlove_description:"Python",cv:"Ver CV"};var skills={title:"Habilidades",subtitle:"Habilidades técnicas e intereses",category1:"Lenguajes de programación",category2:"Tecnologías de desarrollo",category3:"Otras tecnologías",category4:"Idiomas",category5:"Intereses personales",category4_options:{option1:"Español (Idioma nativo)",option2:"Inglés (Avanzado)"},category5_options:{option1:"Ciberseguridad",option2:"Sistemas operativos",option3:"Configuración de servidores",option4:"Bases de datos",option5:"Virtualización",option6:"Contenedores (Dockers / Kubernetes)"}};var experience={title:"Experiencia",subtitle:"Qué he hecho",tab1:"Educación",tab2:"Trabajo",tab3:"Cursos",tab1_info:{info1_title:"Ingeniería en Sistemas Computacionales",info1_description:"Tecnológico Nacional de México, Campus Morelia",info1_date:"Ago 2017 - Hoy",info2_title:"Seguridad de la información (Especialidad de la carrera)",info2_description:"Tecnológico Nacional de México, Campus Morelia",info2_date:"Ago 2020 - Hoy"},tab2_info:{info1_title:"Desarrollador Fullstack",info1_subtitle:"Freelancer",info1_description:"Ayudé a desarrollar un sistema CRM para una compañia constructora",info1_date:"Abr 2021 - Sep 2021",info2_title:"Desarrollador Backend",info2_subtitle:"INII Inversiones Inmobiliarias",info2_description:"Trabajando en un proyecto super secreto!",info2_date:"Oct 2021 - Hoy"},tab3_info:{info1_title:"Introduction a la seguridad cibernética",info1_description:"Cisco Networking Academy",info1_date:"Nov 2020 - Dic 2020",info2_title:"CCNA Routing and Switching: Principios básicos de routing y switching",info2_description:"Cisco Networking Academy",info2_date:"Ago 2020 - Feb 2021",info3_title:"CCNA Routing and Switching: Escalamiento de redes",info3_description:"Cisco Networking Academy",info3_date:"Ago 2020 - Feb 2021"}};var projects={title:"Proyectos",subtitle:"Explora algunos de mis proyectos",project1:{title:"AQUATA",description:"Comenzó como un proyecto escolar y se convirtió en una solución real. Mi equipo y yo desarrollamos un sistema CRM para un cliente real que es dueño de una granja trutícola, necesitaba una herramienta digital que lo ayudara a administrar los ingresos, gastos, ventas, estanques y etapas de sus truchas."},project2:{title:"Maestría en Ingeniería Administrativa",description:"Página web informativa acerca del posgrado en Ingeniería Administrativa que se ofrece en el Instituto Tecnológico de Morelia."},project3:{title:"INII Inversiones Inmobiliarias",description:"Actualmente trabajando en un proyecto super secreto que será anunciado muy pronto!"}};var contact_me={title:"Contáctame",subtitle:"Pónte en contacto conmigo para recibir un CV más completo",card1:{title:"Ubicación",description:"Morelia, Mich."},card2:{title:"Correo",description:"devcydo@raccoonsolutions.net"},card3:{title:"LinkedIn",description:"https://www.linkedin.com/in/devcydo"},card4:{title:"Github",description:"https://github.com/devcydo"}};var footer={name:"Luis Eduardo Martínez Morales",description1:"Portfolio personal de devcydo",description2:"Desarrollado con Svelte"};var es = {lang:lang,menu:menu,home:home,about_me:about_me,skills:skills,experience:experience,projects:projects,contact_me:contact_me,footer:footer};
+    var lang={spanish:"Español",english:"Inglés"};var menu={home:"Inicio",about_me:"Acerca de mi",skills:"Habilidades",experience:"Experiencia",projects:"Proyectos",contact_me:"Contáctame"};var home={greeting:"Hola, yo soy",name:"Luis Eduardo Martínez Morales",description:"Desarrollador fullstack y entusiasta de la ciberseguridad",contact:"Contáctame"};var about_me={title:"Acerca de mi",subtitle:"Introducción",description:"Actualmente curso el 9no semestre de la carrera de Ingeniería en Sistemas Computacionales en el Tecnológico Nacional de México, Campus Morelia (también conocido como Instituto Tecnológico de Morelia) con especialidad en Seguridad de la Información. Me considero una persona responsable, entusiasta y comprometida, a quien le gustan los retos y aprender nuevas cosas todos los dias.",description2:"Me encanta programar, la ciberseguridad, administrar servidores y el pentesting.",age_title1:"Años",age_title2:"",age_description:"22",nacionality_title:"Nacionalidad",nacionality_description:"MX",inlove_title1:"Enamorado",inlove_title2:"con",inlove_description:"Python",cv:"Ver CV",cv_route:"./pdf/LuisEduardo_MartinezMorales_Intern_CV_Public.pdf"};var skills={title:"Habilidades",subtitle:"Habilidades técnicas e intereses",category1:"Lenguajes de programación",category2:"Tecnologías de desarrollo",category3:"Otras tecnologías",category4:"Idiomas",category5:"Intereses personales",category4_options:{option1:"Español (Idioma nativo)",option2:"Inglés (Avanzado)"},category5_options:{option1:"Bases de datos",option2:"Ciberseguridad",option3:"Configuración de servidores",option4:"Contenedores (Dockers / Kubernetes)",option5:"Sistemas operativos",option6:"Virtualización"}};var experience={title:"Experiencia",subtitle:"Qué he hecho",tab1:"Educación",tab2:"Trabajo",tab3:"Cursos",tab1_info:{info1_title:"Ingeniería en Sistemas Computacionales",info1_description:"Tecnológico Nacional de México, Campus Morelia",info1_date:"Ago 2017 - Hoy",info2_title:"Seguridad de la información (Especialidad de la carrera)",info2_description:"Tecnológico Nacional de México, Campus Morelia",info2_date:"Ago 2020 - Hoy"},tab2_info:{info1_title:"Desarrollador Fullstack",info1_subtitle:"Freelancer",info1_description:"Ayudé a desarrollar un sistema CRM para una compañia constructora",info1_date:"Abr 2021 - Sep 2021",info2_title:"Desarrollador Backend",info2_subtitle:"INII Inversiones Inmobiliarias",info2_description:"Trabajando en un proyecto super secreto!",info2_date:"Oct 2021 - Hoy"},tab3_info:{info1_title:"Introduction a la seguridad cibernética",info1_description:"Cisco Networking Academy",info1_date:"Nov 2020 - Dic 2020",info2_title:"CCNA Routing and Switching: Principios básicos de routing y switching",info2_description:"Cisco Networking Academy",info2_date:"Ago 2020 - Feb 2021",info3_title:"CCNA Routing and Switching: Escalamiento de redes",info3_description:"Cisco Networking Academy",info3_date:"Ago 2020 - Feb 2021"}};var projects={title:"Proyectos",subtitle:"Explora algunos de mis proyectos",project1:{title:"AQUATA",description:"Comenzó como un proyecto escolar y se convirtió en una solución real. Mi equipo y yo desarrollamos un sistema CRM para un cliente real que es dueño de una granja trutícola, necesitaba una herramienta digital que lo ayudara a administrar los ingresos, gastos, ventas, estanques y etapas de sus truchas."},project2:{title:"Maestría en Ingeniería Administrativa",description:"Página web informativa acerca del posgrado en Ingeniería Administrativa que se ofrece en el Instituto Tecnológico de Morelia."},project3:{title:"INII Inversiones Inmobiliarias",description:"Actualmente trabajando en un proyecto super secreto que será anunciado muy pronto!"}};var contact_me={title:"Contáctame",subtitle:"Pónte en contacto conmigo para recibir un CV más completo",card1:{title:"Ubicación",description:"Morelia, Mich."},card2:{title:"Correo",description:"devcydo@raccoonsolutions.net"},card3:{title:"LinkedIn",description:"https://www.linkedin.com/in/devcydo"},card4:{title:"Github",description:"https://github.com/devcydo"}};var footer={name:"Luis Eduardo Martínez Morales",description1:"Portfolio personal de devcydo",description2:"Desarrollado con Svelte / FontAwesome Icons"};var es = {lang:lang,menu:menu,home:home,about_me:about_me,skills:skills,experience:experience,projects:projects,contact_me:contact_me,footer:footer};
 
     /* src\components\SkillAccordion.svelte generated by Svelte v3.44.1 */
     const file$7 = "src\\components\\SkillAccordion.svelte";
@@ -11349,8 +11349,8 @@ var app = (function () {
     	let t43_value = /*lang*/ ctx[0].about_me.subtitle + "";
     	let t43;
     	let t44;
+    	let div18;
     	let div17;
-    	let div16;
     	let p0;
     	let t45_value = /*lang*/ ctx[0].about_me.description + "";
     	let t45;
@@ -11403,118 +11403,124 @@ var app = (function () {
     	let t67;
     	let t68;
     	let fontawesomeicon14;
+    	let a11_href_value;
     	let t69;
-    	let section2;
-    	let h21;
-    	let t70_value = /*lang*/ ctx[0].skills.title + "";
+    	let div16;
+    	let span8;
+    	let t70_value = /*lang*/ ctx[0].contact_me.subtitle + "";
     	let t70;
     	let t71;
-    	let span8;
-    	let t72_value = /*lang*/ ctx[0].skills.subtitle + "";
+    	let section2;
+    	let h21;
+    	let t72_value = /*lang*/ ctx[0].skills.title + "";
     	let t72;
     	let t73;
-    	let div18;
-    	let skillaccordion0;
+    	let span9;
+    	let t74_value = /*lang*/ ctx[0].skills.subtitle + "";
     	let t74;
-    	let skillaccordion1;
     	let t75;
-    	let skillaccordion2;
+    	let div19;
+    	let skillaccordion0;
     	let t76;
-    	let skillaccordion3;
+    	let skillaccordion1;
     	let t77;
-    	let skillaccordion4;
+    	let skillaccordion2;
     	let t78;
+    	let skillaccordion3;
+    	let t79;
+    	let skillaccordion4;
+    	let t80;
     	let section3;
     	let h22;
-    	let t79_value = /*lang*/ ctx[0].experience.title + "";
-    	let t79;
-    	let t80;
-    	let span9;
-    	let t81_value = /*lang*/ ctx[0].experience.subtitle + "";
+    	let t81_value = /*lang*/ ctx[0].experience.title + "";
     	let t81;
     	let t82;
-    	let div24;
-    	let div22;
-    	let div19;
-    	let fontawesomeicon15;
+    	let span10;
+    	let t83_value = /*lang*/ ctx[0].experience.subtitle + "";
     	let t83;
-    	let t84_value = /*lang*/ ctx[0].experience.tab1 + "";
     	let t84;
-    	let div19_class_value;
-    	let t85;
-    	let div20;
-    	let fontawesomeicon16;
-    	let t86;
-    	let t87_value = /*lang*/ ctx[0].experience.tab2 + "";
-    	let t87;
-    	let div20_class_value;
-    	let t88;
-    	let div21;
-    	let fontawesomeicon17;
-    	let t89;
-    	let t90_value = /*lang*/ ctx[0].experience.tab3 + "";
-    	let t90;
-    	let div21_class_value;
-    	let t91;
+    	let div25;
     	let div23;
-    	let experiencecontent0;
+    	let div20;
+    	let fontawesomeicon15;
+    	let t85;
+    	let t86_value = /*lang*/ ctx[0].experience.tab1 + "";
+    	let t86;
+    	let div20_class_value;
+    	let t87;
+    	let div21;
+    	let fontawesomeicon16;
+    	let t88;
+    	let t89_value = /*lang*/ ctx[0].experience.tab2 + "";
+    	let t89;
+    	let div21_class_value;
+    	let t90;
+    	let div22;
+    	let fontawesomeicon17;
+    	let t91;
+    	let t92_value = /*lang*/ ctx[0].experience.tab3 + "";
     	let t92;
-    	let experiencecontent1;
+    	let div22_class_value;
     	let t93;
-    	let experiencecontent2;
+    	let div24;
+    	let experiencecontent0;
     	let t94;
+    	let experiencecontent1;
+    	let t95;
+    	let experiencecontent2;
+    	let t96;
     	let section4;
     	let h23;
-    	let t95_value = /*lang*/ ctx[0].projects.title + "";
-    	let t95;
-    	let t96;
-    	let span10;
-    	let t97_value = /*lang*/ ctx[0].projects.subtitle + "";
+    	let t97_value = /*lang*/ ctx[0].projects.title + "";
     	let t97;
     	let t98;
-    	let div25;
-    	let swipercomponent;
+    	let span11;
+    	let t99_value = /*lang*/ ctx[0].projects.subtitle + "";
     	let t99;
+    	let t100;
+    	let div26;
+    	let swipercomponent;
+    	let t101;
     	let section5;
     	let h24;
-    	let t100_value = /*lang*/ ctx[0].contact_me.title + "";
-    	let t100;
-    	let t101;
-    	let span11;
-    	let t102_value = /*lang*/ ctx[0].contact_me.subtitle + "";
+    	let t102_value = /*lang*/ ctx[0].contact_me.title + "";
     	let t102;
     	let t103;
-    	let div27;
-    	let div26;
-    	let contactcard0;
+    	let span12;
+    	let t104_value = /*lang*/ ctx[0].contact_me.subtitle + "";
     	let t104;
-    	let contactcard1;
     	let t105;
-    	let contactcard2;
+    	let div28;
+    	let div27;
+    	let contactcard0;
     	let t106;
-    	let contactcard3;
+    	let contactcard1;
     	let t107;
-    	let footer;
-    	let div29;
-    	let h11;
-    	let t108_value = /*lang*/ ctx[0].footer.name + "";
+    	let contactcard2;
     	let t108;
+    	let contactcard3;
     	let t109;
-    	let p2;
-    	let t110_value = /*lang*/ ctx[0].footer.description1 + "";
+    	let footer;
+    	let div30;
+    	let h11;
+    	let t110_value = /*lang*/ ctx[0].footer.name + "";
     	let t110;
     	let t111;
-    	let p3;
-    	let t112_value = /*lang*/ ctx[0].footer.description2 + "";
+    	let p2;
+    	let t112_value = /*lang*/ ctx[0].footer.description1 + "";
     	let t112;
     	let t113;
-    	let div28;
+    	let p3;
+    	let t114_value = /*lang*/ ctx[0].footer.description2 + "";
+    	let t114;
+    	let t115;
+    	let div29;
     	let a12;
     	let fontawesomeicon18;
-    	let t114;
+    	let t116;
     	let a13;
     	let fontawesomeicon19;
-    	let t115;
+    	let t117;
     	let a14;
     	let fontawesomeicon20;
     	let current;
@@ -11585,26 +11591,26 @@ var app = (function () {
     			props: {
     				skillName: /*lang*/ ctx[0].skills.category1,
     				skills: [
-    					'Javascript',
-    					'Python',
-    					'PHP',
-    					'SQL',
+    					'Assembly (8086)',
     					'C/C++',
     					'C#',
     					'Java',
+    					'JavaScript',
     					'Kotlin',
-    					'Assembly (8086)'
+    					'PHP',
+    					'Python',
+    					'SQL'
     				],
     				imgs: [
-    					'./img/skills/js.png',
-    					'./img/skills/python.png',
-    					'./img/skills/php.svg',
-    					'./img/skills/sql.png',
+    					'./img/skills/assembly.png',
     					'./img/skills/cplusplus.png',
     					'./img/skills/csharp.png',
     					'./img/skills/java.png',
+    					'./img/skills/js.png',
     					'./img/skills/kotlin.png',
-    					'./img/skills/assembly.png'
+    					'./img/skills/php.svg',
+    					'./img/skills/python.png',
+    					'./img/skills/sql.png'
     				],
     				icon: "code"
     			},
@@ -11615,31 +11621,31 @@ var app = (function () {
     			props: {
     				skillName: /*lang*/ ctx[0].skills.category2,
     				skills: [
-    					'Laravel',
-    					'React/React Native',
-    					'Redis',
-    					'Svelte',
-    					'Node JS',
-    					'MySQL',
-    					'MariaDB',
-    					'SQL Server',
-    					'PostgreSQL',
     					'Ajax',
     					'Bootstrap',
+    					'Laravel',
+    					'MariaDB',
+    					'MySQL',
+    					'NodeJS',
+    					'PostgreSQL',
+    					'React/React Native',
+    					'Redis',
+    					'SQL Server',
+    					'Svelte',
     					'UIkit'
     				],
     				imgs: [
-    					'./img/skills/laravel.png',
-    					'./img/skills/react.png',
-    					'./img/skills/redis.svg',
-    					'./img/skills/svelte.png',
-    					'./img/skills/nodejs.png',
-    					'./img/skills/mysql.png',
-    					'./img/skills/mariadb.png',
-    					'./img/skills/sqlserver.png',
-    					'./img/skills/postgresql.png',
     					'./img/skills/ajax.png',
     					'./img/skills/bootstrap.png',
+    					'./img/skills/laravel.png',
+    					'./img/skills/mariadb.png',
+    					'./img/skills/mysql.png',
+    					'./img/skills/nodejs.png',
+    					'./img/skills/postgresql.png',
+    					'./img/skills/react.png',
+    					'./img/skills/redis.svg',
+    					'./img/skills/sqlserver.png',
+    					'./img/skills/svelte.png',
     					'./img/skills/uikit.svg'
     				],
     				icon: "server"
@@ -11651,30 +11657,30 @@ var app = (function () {
     			props: {
     				skillName: /*lang*/ ctx[0].skills.category3,
     				skills: [
-    					'Git',
+    					'Cisco Packet Tracer',
     					'Docker',
-    					'Windows/Windows Server',
+    					'Git',
+    					'Hyper-V',
+    					'KVM',
     					'Linux',
     					'Microsoft Office',
-    					'Cisco Packet Tracer',
-    					'VmWare Workstation / VmWare Esxi',
+    					'TrueNAS',
     					'VirtualBox',
-    					'XenServer',
-    					'KVM',
-    					'Hyper-V'
+    					'VMware Workstation / VMware EsXi',
+    					'Windows / Windows Server'
     				],
     				imgs: [
-    					'./img/skills/git.png',
+    					'./img/skills/cisco.png',
     					'./img/skills/docker.png',
-    					'./img/skills/windows.png',
+    					'./img/skills/git.png',
+    					'./img/skills/hyperv.png',
+    					'./img/skills/kvm.png',
     					'./img/skills/linux.png',
     					'./img/skills/office.png',
-    					'./img/skills/cisco.png',
-    					'./img/skills/vmware.png',
+    					'./img/skills/truenas.png',
     					'./img/skills/virtualbox.png',
-    					'./img/skills/xenserver.png',
-    					'./img/skills/kvm.png',
-    					'./img/skills/hyperv.png'
+    					'./img/skills/vmware.png',
+    					'./img/skills/windows.png'
     				],
     				icon: "ellipsis-h"
     			},
@@ -11973,8 +11979,8 @@ var app = (function () {
     			span1 = element("span");
     			t43 = text$1(t43_value);
     			t44 = space();
+    			div18 = element("div");
     			div17 = element("div");
-    			div16 = element("div");
     			p0 = element("p");
     			t45 = text$1(t45_value);
     			t46 = space();
@@ -12017,100 +12023,104 @@ var app = (function () {
     			t68 = text$1("  ");
     			create_component(fontawesomeicon14.$$.fragment);
     			t69 = space();
-    			section2 = element("section");
-    			h21 = element("h2");
+    			div16 = element("div");
+    			span8 = element("span");
     			t70 = text$1(t70_value);
     			t71 = space();
-    			span8 = element("span");
+    			section2 = element("section");
+    			h21 = element("h2");
     			t72 = text$1(t72_value);
     			t73 = space();
-    			div18 = element("div");
-    			create_component(skillaccordion0.$$.fragment);
-    			t74 = space();
-    			create_component(skillaccordion1.$$.fragment);
+    			span9 = element("span");
+    			t74 = text$1(t74_value);
     			t75 = space();
-    			create_component(skillaccordion2.$$.fragment);
+    			div19 = element("div");
+    			create_component(skillaccordion0.$$.fragment);
     			t76 = space();
-    			create_component(skillaccordion3.$$.fragment);
+    			create_component(skillaccordion1.$$.fragment);
     			t77 = space();
-    			create_component(skillaccordion4.$$.fragment);
+    			create_component(skillaccordion2.$$.fragment);
     			t78 = space();
+    			create_component(skillaccordion3.$$.fragment);
+    			t79 = space();
+    			create_component(skillaccordion4.$$.fragment);
+    			t80 = space();
     			section3 = element("section");
     			h22 = element("h2");
-    			t79 = text$1(t79_value);
-    			t80 = space();
-    			span9 = element("span");
     			t81 = text$1(t81_value);
     			t82 = space();
-    			div24 = element("div");
-    			div22 = element("div");
-    			div19 = element("div");
-    			create_component(fontawesomeicon15.$$.fragment);
-    			t83 = space();
-    			t84 = text$1(t84_value);
-    			t85 = space();
-    			div20 = element("div");
-    			create_component(fontawesomeicon16.$$.fragment);
-    			t86 = space();
-    			t87 = text$1(t87_value);
-    			t88 = space();
-    			div21 = element("div");
-    			create_component(fontawesomeicon17.$$.fragment);
-    			t89 = space();
-    			t90 = text$1(t90_value);
-    			t91 = space();
+    			span10 = element("span");
+    			t83 = text$1(t83_value);
+    			t84 = space();
+    			div25 = element("div");
     			div23 = element("div");
-    			create_component(experiencecontent0.$$.fragment);
-    			t92 = space();
-    			create_component(experiencecontent1.$$.fragment);
+    			div20 = element("div");
+    			create_component(fontawesomeicon15.$$.fragment);
+    			t85 = space();
+    			t86 = text$1(t86_value);
+    			t87 = space();
+    			div21 = element("div");
+    			create_component(fontawesomeicon16.$$.fragment);
+    			t88 = space();
+    			t89 = text$1(t89_value);
+    			t90 = space();
+    			div22 = element("div");
+    			create_component(fontawesomeicon17.$$.fragment);
+    			t91 = space();
+    			t92 = text$1(t92_value);
     			t93 = space();
-    			create_component(experiencecontent2.$$.fragment);
+    			div24 = element("div");
+    			create_component(experiencecontent0.$$.fragment);
     			t94 = space();
+    			create_component(experiencecontent1.$$.fragment);
+    			t95 = space();
+    			create_component(experiencecontent2.$$.fragment);
+    			t96 = space();
     			section4 = element("section");
     			h23 = element("h2");
-    			t95 = text$1(t95_value);
-    			t96 = space();
-    			span10 = element("span");
     			t97 = text$1(t97_value);
     			t98 = space();
-    			div25 = element("div");
+    			span11 = element("span");
+    			t99 = text$1(t99_value);
+    			t100 = space();
+    			div26 = element("div");
     			create_component(swipercomponent.$$.fragment);
-    			t99 = space();
+    			t101 = space();
     			section5 = element("section");
     			h24 = element("h2");
-    			t100 = text$1(t100_value);
-    			t101 = space();
-    			span11 = element("span");
     			t102 = text$1(t102_value);
     			t103 = space();
-    			div27 = element("div");
-    			div26 = element("div");
-    			create_component(contactcard0.$$.fragment);
-    			t104 = space();
-    			create_component(contactcard1.$$.fragment);
+    			span12 = element("span");
+    			t104 = text$1(t104_value);
     			t105 = space();
-    			create_component(contactcard2.$$.fragment);
+    			div28 = element("div");
+    			div27 = element("div");
+    			create_component(contactcard0.$$.fragment);
     			t106 = space();
-    			create_component(contactcard3.$$.fragment);
+    			create_component(contactcard1.$$.fragment);
     			t107 = space();
-    			footer = element("footer");
-    			div29 = element("div");
-    			h11 = element("h1");
-    			t108 = text$1(t108_value);
+    			create_component(contactcard2.$$.fragment);
+    			t108 = space();
+    			create_component(contactcard3.$$.fragment);
     			t109 = space();
-    			p2 = element("p");
+    			footer = element("footer");
+    			div30 = element("div");
+    			h11 = element("h1");
     			t110 = text$1(t110_value);
     			t111 = space();
-    			p3 = element("p");
+    			p2 = element("p");
     			t112 = text$1(t112_value);
     			t113 = space();
-    			div28 = element("div");
+    			p3 = element("p");
+    			t114 = text$1(t114_value);
+    			t115 = space();
+    			div29 = element("div");
     			a12 = element("a");
     			create_component(fontawesomeicon18.$$.fragment);
-    			t114 = space();
+    			t116 = space();
     			a13 = element("a");
     			create_component(fontawesomeicon19.$$.fragment);
-    			t115 = space();
+    			t117 = space();
     			a14 = element("a");
     			create_component(fontawesomeicon20.$$.fragment);
     			attr_dev(div0, "class", "nav_toggle");
@@ -12235,103 +12245,107 @@ var app = (function () {
     			add_location(div13, file, 237, 5, 6688);
     			attr_dev(div14, "class", "aboutme_info");
     			add_location(div14, file, 226, 4, 6265);
-    			attr_dev(a11, "href", "./pdf/LuisEduardo_MartinezMorales_Intern_Letter.pdf");
+    			attr_dev(a11, "href", a11_href_value = /*lang*/ ctx[0].about_me.cv_route);
     			attr_dev(a11, "target", "_blank");
     			attr_dev(a11, "class", "button button_flex");
     			add_location(a11, file, 244, 5, 6946);
     			attr_dev(div15, "class", "aboutme_buttons");
     			add_location(div15, file, 243, 4, 6911);
-    			attr_dev(div16, "class", "aboutme_data");
-    			add_location(div16, file, 217, 3, 6075);
-    			attr_dev(div17, "class", "aboutme_container container grid");
-    			add_location(div17, file, 215, 2, 6024);
+    			attr_dev(span8, "class", "aboutme_button_description");
+    			add_location(span8, file, 249, 5, 7153);
+    			attr_dev(div16, "class", "aboutme_buttons_desc");
+    			add_location(div16, file, 248, 4, 7113);
+    			attr_dev(div17, "class", "aboutme_data");
+    			add_location(div17, file, 217, 3, 6075);
+    			attr_dev(div18, "class", "aboutme_container container grid");
+    			add_location(div18, file, 215, 2, 6024);
     			attr_dev(section1, "class", "about section");
     			attr_dev(section1, "id", "aboutme");
     			add_location(section1, file, 211, 1, 5856);
     			attr_dev(h21, "class", "section_title");
-    			add_location(h21, file, 254, 2, 7257);
-    			attr_dev(span8, "class", "section_subtitle");
-    			add_location(span8, file, 255, 2, 7310);
-    			attr_dev(div18, "class", "skills_container container grid");
-    			add_location(div18, file, 257, 2, 7374);
+    			add_location(h21, file, 257, 2, 7358);
+    			attr_dev(span9, "class", "section_subtitle");
+    			add_location(span9, file, 258, 2, 7411);
+    			attr_dev(div19, "class", "skills_container container grid");
+    			add_location(div19, file, 260, 2, 7475);
     			attr_dev(section2, "class", "skills section");
     			attr_dev(section2, "id", "skills");
-    			add_location(section2, file, 253, 1, 7210);
+    			add_location(section2, file, 256, 1, 7311);
     			attr_dev(h22, "class", "section_title");
-    			add_location(h22, file, 305, 2, 9441);
-    			attr_dev(span9, "class", "section_subtitle");
-    			add_location(span9, file, 306, 2, 9498);
+    			add_location(h22, file, 308, 2, 9553);
+    			attr_dev(span10, "class", "section_subtitle");
+    			add_location(span10, file, 309, 2, 9610);
 
-    			attr_dev(div19, "class", div19_class_value = "experience_button button_flex " + (/*tabTarget*/ ctx[2] == 'education'
+    			attr_dev(div20, "class", div20_class_value = "experience_button button_flex " + (/*tabTarget*/ ctx[2] == 'education'
     			? 'experience_active'
     			: ''));
 
-    			attr_dev(div19, "data-target", "#education");
-    			add_location(div19, file, 310, 4, 9648);
+    			attr_dev(div20, "data-target", "#education");
+    			add_location(div20, file, 313, 4, 9760);
 
-    			attr_dev(div20, "class", div20_class_value = "experience_button button_flex " + (/*tabTarget*/ ctx[2] == 'work'
+    			attr_dev(div21, "class", div21_class_value = "experience_button button_flex " + (/*tabTarget*/ ctx[2] == 'work'
     			? 'experience_active'
     			: ''));
 
-    			attr_dev(div20, "data-target", "#work");
-    			add_location(div20, file, 318, 4, 9945);
+    			attr_dev(div21, "data-target", "#work");
+    			add_location(div21, file, 321, 4, 10057);
 
-    			attr_dev(div21, "class", div21_class_value = "experience_button button_flex " + (/*tabTarget*/ ctx[2] == 'courses'
+    			attr_dev(div22, "class", div22_class_value = "experience_button button_flex " + (/*tabTarget*/ ctx[2] == 'courses'
     			? 'experience_active'
     			: ''));
 
-    			attr_dev(div21, "data-target", "#courses");
-    			add_location(div21, file, 326, 4, 10225);
-    			attr_dev(div22, "class", "experience_tabs");
-    			add_location(div22, file, 309, 3, 9614);
-    			attr_dev(div23, "class", "experience_sections");
-    			add_location(div23, file, 335, 3, 10515);
-    			attr_dev(div24, "class", "experience_container container");
-    			add_location(div24, file, 308, 2, 9566);
+    			attr_dev(div22, "data-target", "#courses");
+    			add_location(div22, file, 329, 4, 10337);
+    			attr_dev(div23, "class", "experience_tabs");
+    			add_location(div23, file, 312, 3, 9726);
+    			attr_dev(div24, "class", "experience_sections");
+    			add_location(div24, file, 338, 3, 10627);
+    			attr_dev(div25, "class", "experience_container container");
+    			add_location(div25, file, 311, 2, 9678);
     			attr_dev(section3, "class", "experience section");
     			attr_dev(section3, "id", "experience");
-    			add_location(section3, file, 304, 1, 9386);
+    			add_location(section3, file, 307, 1, 9498);
     			attr_dev(h23, "class", "section_title");
-    			add_location(h23, file, 404, 2, 12441);
-    			attr_dev(span10, "class", "section_subtitle");
-    			add_location(span10, file, 405, 2, 12496);
-    			attr_dev(div25, "class", "portfolio_container container");
-    			add_location(div25, file, 407, 2, 12562);
+    			add_location(h23, file, 407, 2, 12553);
+    			attr_dev(span11, "class", "section_subtitle");
+    			add_location(span11, file, 408, 2, 12608);
+    			attr_dev(div26, "class", "portfolio_container container");
+    			add_location(div26, file, 410, 2, 12674);
     			attr_dev(section4, "class", "portfolio section");
     			attr_dev(section4, "id", "portfolio");
-    			add_location(section4, file, 403, 1, 12388);
+    			add_location(section4, file, 406, 1, 12500);
     			attr_dev(h24, "class", "section_title");
-    			add_location(h24, file, 434, 2, 13371);
-    			attr_dev(span11, "class", "section_subtitle");
-    			add_location(span11, file, 435, 2, 13428);
-    			attr_dev(div26, "class", "contactme_content grid");
-    			add_location(div26, file, 438, 3, 13543);
-    			attr_dev(div27, "class", "contactme_container container");
-    			add_location(div27, file, 437, 2, 13496);
+    			add_location(h24, file, 437, 2, 13483);
+    			attr_dev(span12, "class", "section_subtitle");
+    			add_location(span12, file, 438, 2, 13540);
+    			attr_dev(div27, "class", "contactme_content grid");
+    			add_location(div27, file, 441, 3, 13655);
+    			attr_dev(div28, "class", "contactme_container container");
+    			add_location(div28, file, 440, 2, 13608);
     			attr_dev(section5, "class", "contactme section");
     			attr_dev(section5, "id", "contactme");
-    			add_location(section5, file, 433, 1, 13318);
+    			add_location(section5, file, 436, 1, 13430);
     			attr_dev(h11, "class", "footer_title");
-    			add_location(h11, file, 467, 3, 14299);
+    			add_location(h11, file, 470, 3, 14411);
     			attr_dev(p2, "class", "footer_description");
-    			add_location(p2, file, 468, 3, 14351);
+    			add_location(p2, file, 471, 3, 14463);
     			attr_dev(p3, "class", "footer_description");
-    			add_location(p3, file, 469, 3, 14415);
+    			add_location(p3, file, 472, 3, 14527);
     			attr_dev(a12, "href", "mailto: devcydo@raccoonsolutions.net");
     			attr_dev(a12, "class", "footer_link");
-    			add_location(a12, file, 472, 4, 14512);
+    			add_location(a12, file, 475, 4, 14624);
     			attr_dev(a13, "href", "https://www.linkedin.com/in/devcydo");
     			attr_dev(a13, "class", "footer_link");
-    			add_location(a13, file, 475, 4, 14633);
+    			add_location(a13, file, 478, 4, 14745);
     			attr_dev(a14, "href", "https://github.com/devcydo");
     			attr_dev(a14, "class", "footer_link");
-    			add_location(a14, file, 478, 4, 14763);
-    			attr_dev(div28, "class", "footer_social");
-    			add_location(div28, file, 471, 3, 14480);
-    			attr_dev(div29, "class", "footer_container bd-grid");
-    			add_location(div29, file, 466, 2, 14257);
+    			add_location(a14, file, 481, 4, 14875);
+    			attr_dev(div29, "class", "footer_social");
+    			add_location(div29, file, 474, 3, 14592);
+    			attr_dev(div30, "class", "footer_container bd-grid");
+    			add_location(div30, file, 469, 2, 14369);
     			attr_dev(footer, "class", "footer section");
-    			add_location(footer, file, 465, 1, 14223);
+    			add_location(footer, file, 468, 1, 14335);
     			attr_dev(main, "class", "main");
     			attr_dev(main, "id", "main");
     			add_location(main, file, 172, 0, 4633);
@@ -12440,15 +12454,15 @@ var app = (function () {
     			append_dev(section1, span1);
     			append_dev(span1, t43);
     			append_dev(section1, t44);
-    			append_dev(section1, div17);
-    			append_dev(div17, div16);
-    			append_dev(div16, p0);
+    			append_dev(section1, div18);
+    			append_dev(div18, div17);
+    			append_dev(div17, p0);
     			append_dev(p0, t45);
-    			append_dev(div16, t46);
-    			append_dev(div16, p1);
+    			append_dev(div17, t46);
+    			append_dev(div17, p1);
     			append_dev(p1, t47);
-    			append_dev(div16, t48);
-    			append_dev(div16, div14);
+    			append_dev(div17, t48);
+    			append_dev(div17, div14);
     			append_dev(div14, div11);
     			append_dev(div11, span2);
     			append_dev(span2, t49);
@@ -12477,108 +12491,112 @@ var app = (function () {
     			append_dev(span7, br1);
     			append_dev(span7, t64);
     			append_dev(span7, t65);
-    			append_dev(div16, t66);
-    			append_dev(div16, div15);
+    			append_dev(div17, t66);
+    			append_dev(div17, div15);
     			append_dev(div15, a11);
     			append_dev(a11, t67);
     			append_dev(a11, t68);
     			mount_component(fontawesomeicon14, a11, null);
-    			append_dev(main, t69);
+    			append_dev(div17, t69);
+    			append_dev(div17, div16);
+    			append_dev(div16, span8);
+    			append_dev(span8, t70);
+    			append_dev(main, t71);
     			append_dev(main, section2);
     			append_dev(section2, h21);
-    			append_dev(h21, t70);
-    			append_dev(section2, t71);
-    			append_dev(section2, span8);
-    			append_dev(span8, t72);
+    			append_dev(h21, t72);
     			append_dev(section2, t73);
-    			append_dev(section2, div18);
-    			mount_component(skillaccordion0, div18, null);
-    			append_dev(div18, t74);
-    			mount_component(skillaccordion1, div18, null);
-    			append_dev(div18, t75);
-    			mount_component(skillaccordion2, div18, null);
-    			append_dev(div18, t76);
-    			mount_component(skillaccordion3, div18, null);
-    			append_dev(div18, t77);
-    			mount_component(skillaccordion4, div18, null);
-    			append_dev(main, t78);
+    			append_dev(section2, span9);
+    			append_dev(span9, t74);
+    			append_dev(section2, t75);
+    			append_dev(section2, div19);
+    			mount_component(skillaccordion0, div19, null);
+    			append_dev(div19, t76);
+    			mount_component(skillaccordion1, div19, null);
+    			append_dev(div19, t77);
+    			mount_component(skillaccordion2, div19, null);
+    			append_dev(div19, t78);
+    			mount_component(skillaccordion3, div19, null);
+    			append_dev(div19, t79);
+    			mount_component(skillaccordion4, div19, null);
+    			append_dev(main, t80);
     			append_dev(main, section3);
     			append_dev(section3, h22);
-    			append_dev(h22, t79);
-    			append_dev(section3, t80);
-    			append_dev(section3, span9);
-    			append_dev(span9, t81);
+    			append_dev(h22, t81);
     			append_dev(section3, t82);
-    			append_dev(section3, div24);
-    			append_dev(div24, div22);
-    			append_dev(div22, div19);
-    			mount_component(fontawesomeicon15, div19, null);
-    			append_dev(div19, t83);
-    			append_dev(div19, t84);
-    			append_dev(div22, t85);
-    			append_dev(div22, div20);
-    			mount_component(fontawesomeicon16, div20, null);
+    			append_dev(section3, span10);
+    			append_dev(span10, t83);
+    			append_dev(section3, t84);
+    			append_dev(section3, div25);
+    			append_dev(div25, div23);
+    			append_dev(div23, div20);
+    			mount_component(fontawesomeicon15, div20, null);
+    			append_dev(div20, t85);
     			append_dev(div20, t86);
-    			append_dev(div20, t87);
-    			append_dev(div22, t88);
-    			append_dev(div22, div21);
-    			mount_component(fontawesomeicon17, div21, null);
+    			append_dev(div23, t87);
+    			append_dev(div23, div21);
+    			mount_component(fontawesomeicon16, div21, null);
+    			append_dev(div21, t88);
     			append_dev(div21, t89);
-    			append_dev(div21, t90);
-    			append_dev(div24, t91);
-    			append_dev(div24, div23);
-    			mount_component(experiencecontent0, div23, null);
-    			append_dev(div23, t92);
-    			mount_component(experiencecontent1, div23, null);
-    			append_dev(div23, t93);
-    			mount_component(experiencecontent2, div23, null);
-    			append_dev(main, t94);
+    			append_dev(div23, t90);
+    			append_dev(div23, div22);
+    			mount_component(fontawesomeicon17, div22, null);
+    			append_dev(div22, t91);
+    			append_dev(div22, t92);
+    			append_dev(div25, t93);
+    			append_dev(div25, div24);
+    			mount_component(experiencecontent0, div24, null);
+    			append_dev(div24, t94);
+    			mount_component(experiencecontent1, div24, null);
+    			append_dev(div24, t95);
+    			mount_component(experiencecontent2, div24, null);
+    			append_dev(main, t96);
     			append_dev(main, section4);
     			append_dev(section4, h23);
-    			append_dev(h23, t95);
-    			append_dev(section4, t96);
-    			append_dev(section4, span10);
-    			append_dev(span10, t97);
+    			append_dev(h23, t97);
     			append_dev(section4, t98);
-    			append_dev(section4, div25);
-    			mount_component(swipercomponent, div25, null);
-    			append_dev(main, t99);
+    			append_dev(section4, span11);
+    			append_dev(span11, t99);
+    			append_dev(section4, t100);
+    			append_dev(section4, div26);
+    			mount_component(swipercomponent, div26, null);
+    			append_dev(main, t101);
     			append_dev(main, section5);
     			append_dev(section5, h24);
-    			append_dev(h24, t100);
-    			append_dev(section5, t101);
-    			append_dev(section5, span11);
-    			append_dev(span11, t102);
+    			append_dev(h24, t102);
     			append_dev(section5, t103);
-    			append_dev(section5, div27);
-    			append_dev(div27, div26);
-    			mount_component(contactcard0, div26, null);
-    			append_dev(div26, t104);
-    			mount_component(contactcard1, div26, null);
-    			append_dev(div26, t105);
-    			mount_component(contactcard2, div26, null);
-    			append_dev(div26, t106);
-    			mount_component(contactcard3, div26, null);
-    			append_dev(main, t107);
+    			append_dev(section5, span12);
+    			append_dev(span12, t104);
+    			append_dev(section5, t105);
+    			append_dev(section5, div28);
+    			append_dev(div28, div27);
+    			mount_component(contactcard0, div27, null);
+    			append_dev(div27, t106);
+    			mount_component(contactcard1, div27, null);
+    			append_dev(div27, t107);
+    			mount_component(contactcard2, div27, null);
+    			append_dev(div27, t108);
+    			mount_component(contactcard3, div27, null);
+    			append_dev(main, t109);
     			append_dev(main, footer);
-    			append_dev(footer, div29);
-    			append_dev(div29, h11);
-    			append_dev(h11, t108);
-    			append_dev(div29, t109);
-    			append_dev(div29, p2);
-    			append_dev(p2, t110);
-    			append_dev(div29, t111);
-    			append_dev(div29, p3);
-    			append_dev(p3, t112);
-    			append_dev(div29, t113);
-    			append_dev(div29, div28);
-    			append_dev(div28, a12);
+    			append_dev(footer, div30);
+    			append_dev(div30, h11);
+    			append_dev(h11, t110);
+    			append_dev(div30, t111);
+    			append_dev(div30, p2);
+    			append_dev(p2, t112);
+    			append_dev(div30, t113);
+    			append_dev(div30, p3);
+    			append_dev(p3, t114);
+    			append_dev(div30, t115);
+    			append_dev(div30, div29);
+    			append_dev(div29, a12);
     			mount_component(fontawesomeicon18, a12, null);
-    			append_dev(div28, t114);
-    			append_dev(div28, a13);
+    			append_dev(div29, t116);
+    			append_dev(div29, a13);
     			mount_component(fontawesomeicon19, a13, null);
-    			append_dev(div28, t115);
-    			append_dev(div28, a14);
+    			append_dev(div29, t117);
+    			append_dev(div29, a14);
     			mount_component(fontawesomeicon20, a14, null);
     			current = true;
 
@@ -12594,9 +12612,9 @@ var app = (function () {
     					listen_dev(a4, "click", /*click_handler_5*/ ctx[10], false, false, false),
     					listen_dev(a5, "click", /*click_handler_6*/ ctx[11], false, false, false),
     					listen_dev(a6, "click", /*click_handler_7*/ ctx[12], false, false, false),
-    					listen_dev(div19, "click", /*click_handler_8*/ ctx[13], false, false, false),
-    					listen_dev(div20, "click", /*click_handler_9*/ ctx[14], false, false, false),
-    					listen_dev(div21, "click", /*click_handler_10*/ ctx[15], false, false, false)
+    					listen_dev(div20, "click", /*click_handler_8*/ ctx[13], false, false, false),
+    					listen_dev(div21, "click", /*click_handler_9*/ ctx[14], false, false, false),
+    					listen_dev(div22, "click", /*click_handler_10*/ ctx[15], false, false, false)
     				];
 
     				mounted = true;
@@ -12633,8 +12651,14 @@ var app = (function () {
     			if ((!current || dirty & /*lang*/ 1) && t62_value !== (t62_value = /*lang*/ ctx[0].about_me.inlove_title1 + "")) set_data_dev(t62, t62_value);
     			if ((!current || dirty & /*lang*/ 1) && t65_value !== (t65_value = /*lang*/ ctx[0].about_me.inlove_title2 + "")) set_data_dev(t65, t65_value);
     			if ((!current || dirty & /*lang*/ 1) && t67_value !== (t67_value = /*lang*/ ctx[0].about_me.cv + "")) set_data_dev(t67, t67_value);
-    			if ((!current || dirty & /*lang*/ 1) && t70_value !== (t70_value = /*lang*/ ctx[0].skills.title + "")) set_data_dev(t70, t70_value);
-    			if ((!current || dirty & /*lang*/ 1) && t72_value !== (t72_value = /*lang*/ ctx[0].skills.subtitle + "")) set_data_dev(t72, t72_value);
+
+    			if (!current || dirty & /*lang*/ 1 && a11_href_value !== (a11_href_value = /*lang*/ ctx[0].about_me.cv_route)) {
+    				attr_dev(a11, "href", a11_href_value);
+    			}
+
+    			if ((!current || dirty & /*lang*/ 1) && t70_value !== (t70_value = /*lang*/ ctx[0].contact_me.subtitle + "")) set_data_dev(t70, t70_value);
+    			if ((!current || dirty & /*lang*/ 1) && t72_value !== (t72_value = /*lang*/ ctx[0].skills.title + "")) set_data_dev(t72, t72_value);
+    			if ((!current || dirty & /*lang*/ 1) && t74_value !== (t74_value = /*lang*/ ctx[0].skills.subtitle + "")) set_data_dev(t74, t74_value);
     			const skillaccordion0_changes = {};
     			if (dirty & /*lang*/ 1) skillaccordion0_changes.skillName = /*lang*/ ctx[0].skills.category1;
     			skillaccordion0.$set(skillaccordion0_changes);
@@ -12650,30 +12674,30 @@ var app = (function () {
     			const skillaccordion4_changes = {};
     			if (dirty & /*lang*/ 1) skillaccordion4_changes.skillName = /*lang*/ ctx[0].skills.category5;
     			skillaccordion4.$set(skillaccordion4_changes);
-    			if ((!current || dirty & /*lang*/ 1) && t79_value !== (t79_value = /*lang*/ ctx[0].experience.title + "")) set_data_dev(t79, t79_value);
-    			if ((!current || dirty & /*lang*/ 1) && t81_value !== (t81_value = /*lang*/ ctx[0].experience.subtitle + "")) set_data_dev(t81, t81_value);
-    			if ((!current || dirty & /*lang*/ 1) && t84_value !== (t84_value = /*lang*/ ctx[0].experience.tab1 + "")) set_data_dev(t84, t84_value);
+    			if ((!current || dirty & /*lang*/ 1) && t81_value !== (t81_value = /*lang*/ ctx[0].experience.title + "")) set_data_dev(t81, t81_value);
+    			if ((!current || dirty & /*lang*/ 1) && t83_value !== (t83_value = /*lang*/ ctx[0].experience.subtitle + "")) set_data_dev(t83, t83_value);
+    			if ((!current || dirty & /*lang*/ 1) && t86_value !== (t86_value = /*lang*/ ctx[0].experience.tab1 + "")) set_data_dev(t86, t86_value);
 
-    			if (!current || dirty & /*tabTarget*/ 4 && div19_class_value !== (div19_class_value = "experience_button button_flex " + (/*tabTarget*/ ctx[2] == 'education'
-    			? 'experience_active'
-    			: ''))) {
-    				attr_dev(div19, "class", div19_class_value);
-    			}
-
-    			if ((!current || dirty & /*lang*/ 1) && t87_value !== (t87_value = /*lang*/ ctx[0].experience.tab2 + "")) set_data_dev(t87, t87_value);
-
-    			if (!current || dirty & /*tabTarget*/ 4 && div20_class_value !== (div20_class_value = "experience_button button_flex " + (/*tabTarget*/ ctx[2] == 'work'
+    			if (!current || dirty & /*tabTarget*/ 4 && div20_class_value !== (div20_class_value = "experience_button button_flex " + (/*tabTarget*/ ctx[2] == 'education'
     			? 'experience_active'
     			: ''))) {
     				attr_dev(div20, "class", div20_class_value);
     			}
 
-    			if ((!current || dirty & /*lang*/ 1) && t90_value !== (t90_value = /*lang*/ ctx[0].experience.tab3 + "")) set_data_dev(t90, t90_value);
+    			if ((!current || dirty & /*lang*/ 1) && t89_value !== (t89_value = /*lang*/ ctx[0].experience.tab2 + "")) set_data_dev(t89, t89_value);
 
-    			if (!current || dirty & /*tabTarget*/ 4 && div21_class_value !== (div21_class_value = "experience_button button_flex " + (/*tabTarget*/ ctx[2] == 'courses'
+    			if (!current || dirty & /*tabTarget*/ 4 && div21_class_value !== (div21_class_value = "experience_button button_flex " + (/*tabTarget*/ ctx[2] == 'work'
     			? 'experience_active'
     			: ''))) {
     				attr_dev(div21, "class", div21_class_value);
+    			}
+
+    			if ((!current || dirty & /*lang*/ 1) && t92_value !== (t92_value = /*lang*/ ctx[0].experience.tab3 + "")) set_data_dev(t92, t92_value);
+
+    			if (!current || dirty & /*tabTarget*/ 4 && div22_class_value !== (div22_class_value = "experience_button button_flex " + (/*tabTarget*/ ctx[2] == 'courses'
+    			? 'experience_active'
+    			: ''))) {
+    				attr_dev(div22, "class", div22_class_value);
     			}
 
     			const experiencecontent0_changes = {};
@@ -12739,8 +12763,8 @@ var app = (function () {
     			];
 
     			experiencecontent2.$set(experiencecontent2_changes);
-    			if ((!current || dirty & /*lang*/ 1) && t95_value !== (t95_value = /*lang*/ ctx[0].projects.title + "")) set_data_dev(t95, t95_value);
-    			if ((!current || dirty & /*lang*/ 1) && t97_value !== (t97_value = /*lang*/ ctx[0].projects.subtitle + "")) set_data_dev(t97, t97_value);
+    			if ((!current || dirty & /*lang*/ 1) && t97_value !== (t97_value = /*lang*/ ctx[0].projects.title + "")) set_data_dev(t97, t97_value);
+    			if ((!current || dirty & /*lang*/ 1) && t99_value !== (t99_value = /*lang*/ ctx[0].projects.subtitle + "")) set_data_dev(t99, t99_value);
     			const swipercomponent_changes = {};
 
     			if (dirty & /*lang*/ 1) swipercomponent_changes.slides = [
@@ -12765,8 +12789,8 @@ var app = (function () {
     			];
 
     			swipercomponent.$set(swipercomponent_changes);
-    			if ((!current || dirty & /*lang*/ 1) && t100_value !== (t100_value = /*lang*/ ctx[0].contact_me.title + "")) set_data_dev(t100, t100_value);
-    			if ((!current || dirty & /*lang*/ 1) && t102_value !== (t102_value = /*lang*/ ctx[0].contact_me.subtitle + "")) set_data_dev(t102, t102_value);
+    			if ((!current || dirty & /*lang*/ 1) && t102_value !== (t102_value = /*lang*/ ctx[0].contact_me.title + "")) set_data_dev(t102, t102_value);
+    			if ((!current || dirty & /*lang*/ 1) && t104_value !== (t104_value = /*lang*/ ctx[0].contact_me.subtitle + "")) set_data_dev(t104, t104_value);
     			const contactcard0_changes = {};
     			if (dirty & /*lang*/ 1) contactcard0_changes.title = /*lang*/ ctx[0].contact_me.card1.title;
     			if (dirty & /*lang*/ 1) contactcard0_changes.description = /*lang*/ ctx[0].contact_me.card1.description;
@@ -12783,9 +12807,9 @@ var app = (function () {
     			if (dirty & /*lang*/ 1) contactcard3_changes.title = /*lang*/ ctx[0].contact_me.card4.title;
     			if (dirty & /*lang*/ 1) contactcard3_changes.description = /*lang*/ ctx[0].contact_me.card4.description;
     			contactcard3.$set(contactcard3_changes);
-    			if ((!current || dirty & /*lang*/ 1) && t108_value !== (t108_value = /*lang*/ ctx[0].footer.name + "")) set_data_dev(t108, t108_value);
-    			if ((!current || dirty & /*lang*/ 1) && t110_value !== (t110_value = /*lang*/ ctx[0].footer.description1 + "")) set_data_dev(t110, t110_value);
-    			if ((!current || dirty & /*lang*/ 1) && t112_value !== (t112_value = /*lang*/ ctx[0].footer.description2 + "")) set_data_dev(t112, t112_value);
+    			if ((!current || dirty & /*lang*/ 1) && t110_value !== (t110_value = /*lang*/ ctx[0].footer.name + "")) set_data_dev(t110, t110_value);
+    			if ((!current || dirty & /*lang*/ 1) && t112_value !== (t112_value = /*lang*/ ctx[0].footer.description1 + "")) set_data_dev(t112, t112_value);
+    			if ((!current || dirty & /*lang*/ 1) && t114_value !== (t114_value = /*lang*/ ctx[0].footer.description2 + "")) set_data_dev(t114, t114_value);
     		},
     		i: function intro(local) {
     			if (current) return;

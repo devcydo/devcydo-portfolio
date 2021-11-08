@@ -4,13 +4,13 @@
     --header-height: 3rem;
 
     /* COLORS THEME */
-    --primary-color: #F58F7C;
+    --primary-color: #93A5EA;
     --secondary-color: hsl(230, 69%, 61%);
-    --primary-color-alt: #F2C4CE;
-    --primary-color-lighter: #F2C4CE;
+    --primary-color-alt: #4F5159;
+    --primary-color-lighter: #2C2B30;
     --title-color: #D6D6D6;
-    --text-color: #6f6f72;
-    --text-color-light: hsl(230, 8%, 65%);
+    --text-color: #7a7c83;
+    --text-color-light: #7a7c83;
     --input-color: hsl(230, 70%, 96%);
     --body-color: #2C2B30;
     --container-color: #222;
@@ -316,7 +316,7 @@ img{
 /* -- ABOUT ME -- */
 .aboutme_description{
     text-align: center;
-    margin-bottom: var(--mb-250);
+    margin-bottom: var(--mb-200);
 }
 
 .aboutme_info{
@@ -343,6 +343,12 @@ img{
 
 .aboutme_buttons{
     display: flex;
+    justify-content: center;
+}
+
+.aboutme_buttons_desc{
+    display: flex;
+    margin-top: var(--mb-75);
     justify-content: center;
 }
 

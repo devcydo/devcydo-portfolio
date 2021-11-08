@@ -30,7 +30,8 @@
         "inlove_title1": "Enamorado",
         "inlove_title2": "con",
         "inlove_description": "Python",
-        "cv": "Ver CV"
+        "cv": "Ver CV",
+        "cv_route": "./pdf/LuisEduardo_MartinezMorales_Intern_CV_Public.pdf"
     },
     "skills": {
         "title": "Habilidades",
@@ -45,12 +46,12 @@
             "option2": "Inglés (Avanzado)"
         },
         "category5_options": {
-            "option1": "Ciberseguridad",
-            "option2": "Sistemas operativos",
+            "option1": "Bases de datos",
+            "option2": "Ciberseguridad",
             "option3": "Configuración de servidores",
-            "option4": "Bases de datos",
-            "option5": "Virtualización",
-            "option6": "Contenedores (Dockers / Kubernetes)"
+            "option4": "Contenedores (Dockers / Kubernetes)",
+            "option5": "Sistemas operativos",
+            "option6": "Virtualización"
         }
     },
     "experience": {
@@ -128,6 +129,6 @@
     "footer": {
         "name": "Luis Eduardo Martínez Morales",
         "description1": "Portfolio personal de devcydo",
-        "description2": "Desarrollado con Svelte"
+        "description2": "Desarrollado con Svelte / FontAwesome Icons"
     }
 }

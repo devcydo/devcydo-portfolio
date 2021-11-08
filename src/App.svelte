@@ -242,9 +242,12 @@
 				</div>
 
 				<div class="aboutme_buttons">
-					<a href="./pdf/LuisEduardo_MartinezMorales_Intern_Letter.pdf" target="_blank" class="button button_flex">
+					<a href={lang.about_me.cv_route} target="_blank" class="button button_flex">
 						{lang.about_me.cv} &nbsp<FontAwesomeIcon icon="file-pdf"/>
 					</a>
+				</div>
+				<div class="aboutme_buttons_desc">
+					<span class="aboutme_button_description">{lang.contact_me.subtitle}</span>
 				</div>
 			</div>
 		</div>                
@@ -259,30 +262,30 @@
 
 			<SkillAccordion
 				skillName = {lang.skills.category1}
-				skills = {['Javascript','Python','PHP','SQL','C/C++','C#','Java','Kotlin','Assembly (8086)']}
-				imgs = {['./img/skills/js.png','./img/skills/python.png','./img/skills/php.svg','./img/skills/sql.png',
-						'./img/skills/cplusplus.png','./img/skills/csharp.png','./img/skills/java.png','./img/skills/kotlin.png',
-						'./img/skills/assembly.png']}
+				skills = {['Assembly (8086)','C/C++','C#','Java','JavaScript','Kotlin','PHP','Python','SQL']}
+				imgs = {['./img/skills/assembly.png','./img/skills/cplusplus.png', './img/skills/csharp.png','./img/skills/java.png',
+						'./img/skills/js.png','./img/skills/kotlin.png','./img/skills/php.svg','./img/skills/python.png',
+						'./img/skills/sql.png']}
 				icon = 'code'
 			/>
 
 			<SkillAccordion
 				skillName = {lang.skills.category2}
-				skills = {['Laravel','React/React Native','Redis','Svelte', 'Node JS','MySQL','MariaDB','SQL Server',
-							'PostgreSQL','Ajax','Bootstrap','UIkit']}
-				imgs = {['./img/skills/laravel.png','./img/skills/react.png','./img/skills/redis.svg','./img/skills/svelte.png',
-						'./img/skills/nodejs.png','./img/skills/mysql.png','./img/skills/mariadb.png','./img/skills/sqlserver.png',
-						'./img/skills/postgresql.png','./img/skills/ajax.png', './img/skills/bootstrap.png', './img/skills/uikit.svg']}
+				skills = {['Ajax', 'Bootstrap', 'Laravel', 'MariaDB', 'MySQL', 'NodeJS', 'PostgreSQL', 'React/React Native', 'Redis', 
+						'SQL Server', 'Svelte', 'UIkit']}
+				imgs = {['./img/skills/ajax.png','./img/skills/bootstrap.png','./img/skills/laravel.png','./img/skills/mariadb.png',
+						'./img/skills/mysql.png','./img/skills/nodejs.png','./img/skills/postgresql.png','./img/skills/react.png',
+						'./img/skills/redis.svg','./img/skills/sqlserver.png', './img/skills/svelte.png', './img/skills/uikit.svg']}
 				icon = 'server'
 			/>
 
 			<SkillAccordion
 				skillName = {lang.skills.category3}
-				skills = {['Git','Docker','Windows/Windows Server','Linux','Microsoft Office', 'Cisco Packet Tracer', 'VmWare Workstation / VmWare Esxi', 'VirtualBox',
-							'XenServer', 'KVM', 'Hyper-V']}
-				imgs = {['./img/skills/git.png','./img/skills/docker.png','./img/skills/windows.png','./img/skills/linux.png',
-				'./img/skills/office.png','./img/skills/cisco.png','./img/skills/vmware.png','./img/skills/virtualbox.png',
-				'./img/skills/xenserver.png', './img/skills/kvm.png', './img/skills/hyperv.png']}
+				skills = {['Cisco Packet Tracer', 'Docker', 'Git', 'Hyper-V', 'KVM', 'Linux', 'Microsoft Office', 'TrueNAS', 'VirtualBox', 
+						'VMware Workstation / VMware EsXi', 'Windows / Windows Server']}
+				imgs = {['./img/skills/cisco.png','./img/skills/docker.png','./img/skills/git.png','./img/skills/hyperv.png',
+				'./img/skills/kvm.png','./img/skills/linux.png','./img/skills/office.png','./img/skills/truenas.png',
+				'./img/skills/virtualbox.png', './img/skills/vmware.png', './img/skills/windows.png']}
 				icon = 'ellipsis-h'
 			/>
 
