@@ -68,7 +68,8 @@
 		lang.skills.category5_options.option3,
 		lang.skills.category5_options.option4,
 		lang.skills.category5_options.option5,
-		lang.skills.category5_options.option6
+		lang.skills.category5_options.option6,
+		lang.skills.category5_options.option7
 	]
 
 	function reload() {
@@ -190,7 +191,7 @@
 				</div>
 
 				<div class="home_img">
-					<img class="profile_img" src="./img/home/me.jpg" alt="Selfie">
+					<img class="profile_img" src="./img/home/me.jpeg" alt="Selfie">
 				</div>
 
 				<div class="home_data">
@@ -237,7 +238,7 @@
 
 					<div>
 						<span class="aboutme_info_title">{lang.about_me.inlove_description}</span>
-						<span class="about_info_name">{lang.about_me.inlove_title1} <br> {lang.about_me.inlove_title2}</span>
+						<span class="about_info_name">{lang.about_me.inlove_title1}</span>
 					</div>
 				</div>
 
@@ -287,6 +288,13 @@
 				'./img/skills/kvm.png','./img/skills/linux.png','./img/skills/office.png','./img/skills/truenas.png',
 				'./img/skills/virtualbox.png', './img/skills/vmware.png', './img/skills/windows.png']}
 				icon = 'ellipsis-h'
+			/>
+
+			<SkillAccordion
+				skillName = {lang.skills.category6}
+				skills = {["Aircrack-ng", "Burpsuite", "John the reaper", "JoomScan", "Lynis", "Metasploit", "Nessus", "Nmap", "OpenVAS", 
+				"WireShark", "Zphisher"]}
+				icon = 'user-secret'
 			/>
 
 			<SkillAccordion
@@ -453,10 +461,15 @@
 				<ContactCard
 					title = {lang.contact_me.card3.title}
 					description = {lang.contact_me.card3.description}
-					icon = 'linkedin'
+					icon = 'envelope'
 				/>
 				<ContactCard
 					title = {lang.contact_me.card4.title}
+					description = {lang.contact_me.card4.description}
+					icon = 'linkedin'
+				/>
+				<ContactCard
+					title = {lang.contact_me.card5.title}
 					description = {lang.contact_me.card4.description}
 					icon = 'github-square'
 				/>

@@ -20,16 +20,15 @@
     "about_me": {
         "title": "About me",
         "subtitle": "My introduction",
-        "description": "I am currently a 9th semester student of the Computer Systems Engineering career at Tecnológico Nacional de México, Campus Morelia (also known as Instituto Tecnológico de Morelia) with a specialty in Information Security. I consider myself a responsible, enthusiastic and committed developer, who likes challenges and learning new things every day.",
-        "description2": "I love to code, but also I am into cybersecurity, server configurations and pentesting.",
+        "description": "I am currently a 9th semester student of the Computer Systems Engineering career at Instituto Tecnológico de Morelia, with a specialty in Information Security. I consider myself as a responsible, enthusiastic, and committed developer, who likes challenges and to learn new things every day.",
+        "description2": "I love to code, but I am also into cybersecurity, server configurations and pentesting. I´m looking fordward to get CEH certification as soon as posible.",
         "age_title1": "Years",
         "age_title2": "old",
         "age_description": "22",
         "nacionality_title": "Nacionality",
         "nacionality_description": "MX",
-        "inlove_title1": "In love",
-        "inlove_title2": "with",
-        "inlove_description": "Python",
+        "inlove_title1": "Hobby",
+        "inlove_description": "Work out",
         "cv": "View CV",
         "cv_route": "./pdf/LuisEduardo_MartinezMorales_Intern_CV_Public.pdf"
     },
@@ -38,9 +37,10 @@
         "subtitle": "My technical skills and interests",
         "category1": "Programming Languages",
         "category2": "Development Technologies",
-        "category3": "Other Technologies",
+        "category3": "Other Technologies and tools",
         "category4": "Languages",
         "category5": "Personal Interests",
+        "category6": "Pentesting tools",
         "category4_options": {
             "option1": "Spanish (Native speaker)",
             "option2": "English (Advanced)"
@@ -49,9 +49,10 @@
             "option1": "Containers (Dockers / Kubernetes)",
             "option2": "Cybersecurity",
             "option3": "Databases",
-            "option4": "Operative Systems",
-            "option5": "Server configuration",
-            "option6": "Virtualization"
+            "option4": "Hardening",
+            "option5": "Operative Systems",
+            "option6": "Server configuration",
+            "option7": "Virtualization"
         }
     },
     "experience": {
@@ -108,7 +109,7 @@
     },
     "contact_me":{
         "title": "Contact Me",
-        "subtitle": "Get in touch with me to get full version of my CV",
+        "subtitle": "Contact me to get full version of my CV",
         "card1": {
             "title": "Location",
             "description": "Morelia, Mich."
@@ -118,10 +119,14 @@
             "description": "devcydo@raccoonsolutions.net"
         },
         "card3": {
+            "title": "Mail",
+            "description": "devcydo@gmail.com"
+        },
+        "card4": {
             "title": "LinkedIn",
             "description": "https://www.linkedin.com/in/devcydo"
         },
-        "card4": {
+        "card5": {
             "title": "Github",
             "description": "https://github.com/devcydo"
         }

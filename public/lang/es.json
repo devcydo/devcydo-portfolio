@@ -27,9 +27,8 @@
         "age_description": "22",
         "nacionality_title": "Nacionalidad",
         "nacionality_description": "MX",
-        "inlove_title1": "Enamorado",
-        "inlove_title2": "con",
-        "inlove_description": "Python",
+        "inlove_title1": "Hobby",
+        "inlove_description": "Ejercitarme",
         "cv": "Ver CV",
         "cv_route": "./pdf/LuisEduardo_MartinezMorales_Intern_CV_Public.pdf"
     },
@@ -38,9 +37,10 @@
         "subtitle": "Habilidades técnicas e intereses",
         "category1": "Lenguajes de programación",
         "category2": "Tecnologías de desarrollo",
-        "category3": "Otras tecnologías",
+        "category3": "Otras tecnologías y herramientas",
         "category4": "Idiomas",
         "category5": "Intereses personales",
+        "category6": "Herramientas de pentest",
         "category4_options": {
             "option1": "Español (Idioma nativo)",
             "option2": "Inglés (Avanzado)"
@@ -50,8 +50,9 @@
             "option2": "Ciberseguridad",
             "option3": "Configuración de servidores",
             "option4": "Contenedores (Dockers / Kubernetes)",
-            "option5": "Sistemas operativos",
-            "option6": "Virtualización"
+            "option5": "Hardening",
+            "option6": "Sistemas operativos",
+            "option7": "Virtualización"
         }
     },
     "experience": {
@@ -118,10 +119,14 @@
             "description": "devcydo@raccoonsolutions.net"
         },
         "card3": {
+            "title": "Correo",
+            "description": "devcydo@gmail.com"
+        },
+        "card4": {
             "title": "LinkedIn",
             "description": "https://www.linkedin.com/in/devcydo"
         },
-        "card4": {
+        "card5": {
             "title": "Github",
             "description": "https://github.com/devcydo"
         }

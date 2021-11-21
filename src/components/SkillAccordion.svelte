@@ -2,7 +2,7 @@
 
     import { library } from '@fortawesome/fontawesome-svg-core';
 	import { faCode, faAngleDown, faServer, faEllipsisH,
-			faLanguage, faEye} from '@fortawesome/free-solid-svg-icons';
+			faLanguage, faEye, faUserSecret} from '@fortawesome/free-solid-svg-icons';
 	import { FontAwesomeIcon } from 'fontawesome-svelte';
 
     library.add(faCode);
@@ -11,6 +11,7 @@
 	library.add(faEllipsisH);
 	library.add(faLanguage);
 	library.add(faEye);
+	library.add(faUserSecret);
 
     //Events variables
     let toggleSkills = 'skills_close'
