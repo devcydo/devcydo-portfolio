@@ -74,9 +74,9 @@
             "info1_subtitle": "Freelancer",
             "info1_description": "I helped to develop a CRM software for a construction company",
             "info1_date": "Apr 2021 - Sep 2021",
-            "info2_title": "Backend developer",
+            "info2_title": "Fullstack developer",
             "info2_subtitle": "INII Inversiones Inmobiliarias",
-            "info2_description": "Currently working on a top secret project!",
+            "info2_description": "Currently working on DIINCO, presentation December 7th!",
             "info2_date": "Oct 2021 - Today"
         },
         "tab3_info": {
@@ -103,8 +103,8 @@
             "description": "Informative website about administrative engineering master's degree offered by the Instituto Tecnológico de Morelia"
         },
         "project3": {
-            "title": "INII Inversiones Inmobiliarias",
-            "description": "Currently working on a top-secret project that will be anounced soon!"
+            "title": "DIINCO",
+            "description": "Currently working on DIINCO. Announcing december 7th!"
         }
     },
     "contact_me":{

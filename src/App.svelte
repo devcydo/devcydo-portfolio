@@ -14,6 +14,12 @@
 	import SwiperComponent from './components/SwiperComponent.svelte'
 	import ContactCard from './components/ContactCard.svelte'
 	import { onMount } from 'svelte';
+	//Modal
+	import ProjectGallery from './components/ProjectGallery.svelte'
+  	import Modal from './components/Modal.svelte';
+	import Popup from './components/Popup.svelte';
+	import { modal } from './components/stores.js';
+
 	//General icons
 	library.add(faBars);
 	library.add(faGlobe);
@@ -85,6 +91,8 @@
 	}
 
 </script>
+
+<Modal show={$modal}>
 
 <header class="header" id="header">
 	<nav class="nav bd_grid">
@@ -435,7 +443,7 @@
 						'title': lang.projects.project3.title,
 						'description': lang.projects.project3.description,
 						'route': './img/portfolio/inii.jpg',
-						'link': 'https://www.facebook.com/IINIIOFICIAL/'
+						'link': 'https://www.facebook.com/Diinco-103458568500925'
 					}
 				]}
 			/>
@@ -499,3 +507,4 @@
 		</div>
 	</footer>
 </main>
+</Modal>
